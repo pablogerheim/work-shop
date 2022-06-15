@@ -1,0 +1,18 @@
+index - routes - controller - servce - repository
+
+
+verifica e cria Json caso n exista
+    try {
+        await readFile(global.fileName);
+        logger.info("API Started!");
+    } catch (err) {
+        const initialJson = {
+            nextId: 1,
+            accounts: []
+        }
+        writeFile(global.fileName, JSON.stringify(initialJson)).then(() => {
+            logger.info("API Started and File Created!");
+        }).catch(err => {
+            logger.error(err);
+        });
+    }

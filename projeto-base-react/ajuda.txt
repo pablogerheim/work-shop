@@ -1,0 +1,21 @@
+pasta 1
+import { EventEmitter } from "fbemitter";
+export default new EventEmitter()
+
+pasta 2 
+importa e estuca 
+    useEffect(() => {
+        async function helperUpdate() {
+            setControle(0)
+            setDados([])
+        }
+        const listner = EventEmitter.addListener('update', helperUpdate)
+        return () => {
+            listner.remove()
+        }
+    }, [])
+
+pasta 3 
+importa e envia 
+        EventEmitter.emit('update',{ text: "update" })
+
