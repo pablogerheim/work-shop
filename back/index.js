@@ -41,7 +41,7 @@ app.use(express.json());
 app.use(cors(corsOptions));
 app.use(express.static("public"));
 app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-
+//http://localhost:3001/doc/
 app.use("/login", publicRoute);
 app.use("/private", checkToken, privateRoute);
 app.use("/logout", async(req, res, next) => {

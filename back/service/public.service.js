@@ -1,4 +1,4 @@
-import baseRepository from "../repository/public.repository"
+import baseRepository from "../repository/public.repository.js"
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcrypt'
 

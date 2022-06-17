@@ -19,3 +19,6 @@ pasta 3
 importa e envia 
         EventEmitter.emit('update',{ text: "update" })
 
+
+
+https://chakra-ui.com/docs/components/overview
