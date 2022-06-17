@@ -19,6 +19,6 @@ pasta 3
 importa e envia 
         EventEmitter.emit('update',{ text: "update" })
 
+concluir a formação css html
 
-
-https://chakra-ui.com/docs/components/overview
+Manter o foco : desenvolver o projeto digitando a maior quantidade de coisas possível – rever aulas de conteúdo básico e fazer o projeto com calma subir o nível no entendimento de cada coisa  e saber replicar tudo caso preciso em texto puro 
