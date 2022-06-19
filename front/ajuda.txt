@@ -2,6 +2,17 @@ pasta 1
 import { EventEmitter } from "fbemitter";
 export default new EventEmitter()
 
+        {
+            "id":1
+            "name"
+            image
+            description
+            url
+            active
+        }
+
+bg-[url(${p.img})]
+
 pasta 2 
 importa e estuca 
     useEffect(() => {
