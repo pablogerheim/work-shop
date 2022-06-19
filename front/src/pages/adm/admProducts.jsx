@@ -1,5 +1,5 @@
-import { Toolbar } from './toolbar'
-import '../css/helper.css'
+import { Toolbar } from '../toolbar'
+import '../../css/helper.css'
 import {v4}  from "uuid";
 
 const arrProducts = [{
@@ -29,7 +29,7 @@ const arrProducts = [{
     autoexplan: true
 }]
 
-function Products() {
+function AdmProducts() {
 
     function card({ name, img, description, url, active, autoexplan }) {
         if (!active) { return }
@@ -54,6 +54,7 @@ function Products() {
     return (
         <>
             <Toolbar />
+            <button> Cadastrar novo produto</button>
             <div className="grid justify-center ">
                 {arrProducts.map(p => card(p)
 
@@ -63,4 +64,4 @@ function Products() {
     )
 }
 
-export { Products }
+export { AdmProducts }
