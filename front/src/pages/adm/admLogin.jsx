@@ -26,7 +26,7 @@ function AdmLogin() {
     return (
         <>
             <Toolbar />
-            <div className='flex items-center justify-center pt-2'>
+            <div className='login flex items-center justify-center pt-2'>
                 <form className='form p-4 grid gap-2' >
                     <h2 className='self-center justify-center' >Login ADM</h2>
                     <label>

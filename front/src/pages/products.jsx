@@ -54,7 +54,7 @@ function Products() {
     return (
         <>
             <Toolbar />
-            <div className="grid justify-center ">
+            <div className="product grid justify-center ">
                 {arrProducts.map(p => card(p)
 
                 )}

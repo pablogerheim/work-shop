@@ -28,7 +28,8 @@ function App() {
           <Route path="/sub" element={<Login />}> </Route>
           <Route path="/adm/login" element={<AdmLogin />}></Route>
           <Route path="/adm/product" element={user ? <AdmProducts /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/" element={<Navigate to={'/home'} />} />
+          <Route path="/adm" element={<Navigate to={'/adm/login'} />} />
+          <Route path="/*" element={<Navigate to={'/home'} />} />
         </Routes>
       </Router>
     </ChakraProvider>
