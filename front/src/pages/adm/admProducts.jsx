@@ -55,7 +55,7 @@ function AdmProducts() {
         <>
             <Toolbar />
             <button> Cadastrar novo produto</button>
-            <div className="grid justify-center ">
+            <div className="product grid justify-center ">
                 {arrProducts.map(p => card(p)
 
                 )}

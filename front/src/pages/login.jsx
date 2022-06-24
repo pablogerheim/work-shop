@@ -26,7 +26,8 @@ function Login() {
     return (
         <>
             <Toolbar />
-            <div className='login flex items-center justify-center pt-2'>
+            <div className='flex justify-center'>
+            <div className='login flex justify-center pt-2 '>
                 <form className='form p-4 grid gap-2' >
                     <h2 className='self-center justify-center' >Será um enorme prazer te conhecer!</h2>
                     <label>
@@ -58,6 +59,7 @@ function Login() {
                         Submit
                     </Button>
                 </form>
+            </div>
             </div>
         </>
     )
