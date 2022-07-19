@@ -1,8 +1,9 @@
-import { Toolbar } from './toolbar'
+import { Toolbar } from './components/toolbar'
 import '../css/helper.css'
 import { Input } from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
 import { useState } from 'react'
+import { Footer } from './components/footer'
 
 function Login() {
 
@@ -61,6 +62,7 @@ function Login() {
                 </form>
             </div>
             </div>
+            <Footer/>
         </>
     )
 }

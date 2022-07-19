@@ -1,4 +1,5 @@
-import { Toolbar } from './toolbar'
+import { Footer } from './components/footer'
+import { Toolbar } from './components/toolbar'
 
 
 function Contact() {
@@ -10,6 +11,7 @@ function Contact() {
                 <p className=' flex flex-col justify-center m-5 items-center'>
                     Informações para contado  </p>
             </div>
+            <Footer/>
         </>
     )
 }

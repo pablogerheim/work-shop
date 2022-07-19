@@ -4,7 +4,7 @@ import { v4 as uuidv4 } from 'uuid';
 import { FaGalacticSenate } from "react-icons/fa";
 import ClipLoader from "react-spinners/ClipLoader";
 import { css } from '@emotion/react'
-import { Toolbar } from '../pages/toolbar'
+import { Toolbar } from '../pages/components/toolbar'
 
 const cssSpiner = css`margin-top:10px `;
 

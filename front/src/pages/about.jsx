@@ -1,4 +1,5 @@
-import { Toolbar} from './toolbar'
+import { Footer } from './components/footer'
+import { Toolbar} from './components/toolbar'
 
 function About() {
 
@@ -11,6 +12,7 @@ function About() {
             <p className=' flex flex-col justify-center m-5 items-center'>
                 Sobre nós texto </p>
         </div>
+        <Footer/>
         </>
     )
 }

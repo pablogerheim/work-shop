@@ -33,6 +33,11 @@
 
 .home {
     background-color: rgb(250, 250, 250);
+    min-height: calc(100vh - 2*80.70px)
+}
+
+.App{
+    min-height: calc(100vh - 2*90.70px);
 }
 
  @media screen and (min-width: 800px) {

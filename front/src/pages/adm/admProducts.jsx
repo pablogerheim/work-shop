@@ -1,4 +1,4 @@
-import { Toolbar } from '../toolbar'
+import { Toolbar } from '../components/toolbar'
 import '../../css/helper.css'
 import {v4}  from "uuid";
 

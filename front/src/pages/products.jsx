@@ -1,6 +1,7 @@
-import { Toolbar } from './toolbar'
+import { Toolbar } from './components/toolbar'
 import '../css/helper.css'
 import {v4}  from "uuid";
+import { Footer } from './components/footer';
 
 const arrProducts = [{
     id: 1,
@@ -59,6 +60,7 @@ function Products() {
 
                 )}
             </div>
+            <Footer/>
         </>
     )
 }
