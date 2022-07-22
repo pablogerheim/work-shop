@@ -1,9 +1,9 @@
-import { Toolbar } from './components/toolbar'
-import '../css/helper.css'
+import { Toolbar } from '../../components/public/toolbar'
+import { Footer } from '../../components/public/footer'
 import { Input } from '@chakra-ui/react'
 import { Button } from '@chakra-ui/react'
 import { useState } from 'react'
-import { Footer } from './components/footer'
+import '../../css/helper.css'
 
 function Login() {
 

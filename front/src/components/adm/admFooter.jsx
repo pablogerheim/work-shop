@@ -2,7 +2,7 @@ import '../../css/helper.css'
 import { Input } from '@chakra-ui/react'
 import { useState } from 'react'
 
-function Footer() {
+function AdmFooter() {
     const [email, setEmail] = useState('')
     const handleEmailChange = (e) => setEmail(e.target.value)
     
@@ -33,5 +33,5 @@ function Footer() {
     
 }
 
-export { Footer }
+export { AdmFooter }
  

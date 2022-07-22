@@ -1,6 +1,6 @@
-import { Toolbar } from './components/toolbar'
-import '../css/helper.css'
-import { Footer } from './components/footer'
+import { Toolbar } from '../../components/public/toolbar'
+import { Footer } from '../../components/public/footer'
+import '../../css/helper.css'
 
 function Home() {
 

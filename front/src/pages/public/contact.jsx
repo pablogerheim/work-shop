@@ -1,5 +1,5 @@
-import { Footer } from './components/footer'
-import { Toolbar } from './components/toolbar'
+import { Toolbar } from '../../components/public/toolbar'
+import { Footer } from '../../components/public/footer'
 
 
 function Contact() {

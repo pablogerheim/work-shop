@@ -1,4 +1,5 @@
-import { Toolbar } from '../components/toolbar'
+import { AdmToolbar } from '../../components/adm/admToolbar'
+import { AdmFooter } from '../../components/adm/admFooter'
 import '../../css/helper.css'
 import {v4}  from "uuid";
 
@@ -53,13 +54,14 @@ function AdmProducts() {
 
     return (
         <>
-            <Toolbar />
+            <AdmToolbar />
             <button> Cadastrar novo produto</button>
             <div className="product grid justify-center ">
                 {arrProducts.map(p => card(p)
 
                 )}
             </div>
+            <AdmFooter/>
         </>
     )
 }

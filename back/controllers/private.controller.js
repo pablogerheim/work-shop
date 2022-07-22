@@ -1,8 +1,8 @@
 import privateService from "../service/private.service.js";
 
-async function getMonth(req, res, next) {
+async function getProduct(req, res, next) {
     try {
-        const data = await privateService.historyMonth(req.params.anoMes)
+        const data = await privateService.getProduct(req.params.id)
         res.status(200).send(data);
         logger.info(`GET /Ano-Month - a lot of information`);
     } catch (err) {
@@ -50,7 +50,7 @@ async function updateSpend(req, res, next) {
 }
 
 export default {
-    getMonth,
+    getProduct,
     deleteSpend,
     createSpend,
     updateSpend

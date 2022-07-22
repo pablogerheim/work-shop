@@ -1,7 +1,7 @@
-import { Toolbar } from './components/toolbar'
-import '../css/helper.css'
+import { Toolbar } from '../../components/public/toolbar'
+import { Footer } from '../../components/public/footer'
+import '../../css/helper.css'
 import {v4}  from "uuid";
-import { Footer } from './components/footer';
 
 const arrProducts = [{
     id: 1,

@@ -1,3 +1,5 @@
+FRONT
+
 pasta 1
 import { EventEmitter } from "fbemitter";
 export default new EventEmitter()
@@ -35,3 +37,17 @@ concluir a formação css html
 Manter o foco : desenvolver o projeto digitando a maior quantidade de coisas possível – rever aulas de conteúdo básico e fazer o projeto com calma subir o nível no entendimento de cada coisa  e saber replicar tudo caso preciso em texto puro 
 
 menu em haburguer
+criar cabecalho mais util para area administrativa 
+onde todas as abas são possiveis fazer aalteraçoes 
+o test "sobre nós" pode ficar armasenado no back tbm e alterado pelo propio saite
+
+back
+
+CREATE TABLE emails (  
+    email_id SERIAL PRIMARY KEY,
+    email VARCHAR NOT NULL,
+    name VARCHAR NOT NULL
+)
+
+
+mailChamp - Market123@

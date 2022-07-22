@@ -3,7 +3,7 @@ import sessaoController from "../controllers/private.controller.js";
 
 const router = express.Router();
 
-router.get("/month/:id/:anoMes", sessaoController.getMonth);
+router.get("/month/:id/:anoMes", sessaoController.getProduct);
 router.delete("/:id", sessaoController.deleteSpend)
 router.post("/", sessaoController.createSpend)
 router.put("/", sessaoController.updateSpend)
