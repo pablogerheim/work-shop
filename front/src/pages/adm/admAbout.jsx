@@ -4,8 +4,7 @@ import { about } from '../../data/publicData'
 import { useState, useEffect } from 'react'
 
 
-
-function About() {
+function admAbout() {
     const [aboutText, setAbout] = useState('Loading...')
 
     useEffect(() => {
@@ -30,4 +29,4 @@ function About() {
     )
 }
 
-export { About }
+export { admAbout }

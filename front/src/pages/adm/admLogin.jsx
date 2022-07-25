@@ -8,14 +8,14 @@ import { useState } from 'react'
 function AdmLogin() {
 
     const [name, setName] = useState('')
-    const [passwor, setPasswor] = useState('')
+    const [password, setPassword] = useState('')
     const [err, setErr] = useState(false)
 
     const handleNameChange = (e) => setName(e.target.value)
-    const handlePassworChange = (e) => setPasswor(e.target.value)
+    const handlePasswordChange = (e) => setPassword(e.target.value)
 
     function submit() {
-        if (name === '' || passwor === '') { setErr(true) }
+        if (name === '' || password === '') { setErr(true) }
         else {
             setErr(false)
             //chama o back e Login
@@ -27,27 +27,27 @@ function AdmLogin() {
     return (
         <>
             <AdmToolbar />
-            <div className='flex justify-center'>
+            <div className='screen flex justify-center'>
                 <div className='login flex justify-center pt-2 '>
                     <form className='form p-4 grid gap-2' >
                         <h2 className='self-center justify-center' >Login ADM</h2>
                         <label>
-                            Use Name
+                            Nome
                             <Input
-                                placeholder=' Nome'
+                                placeholder='Nome'
                                 required
                                 type='text'
                                 value={name}
                                 onChange={handleNameChange} />
                         </label>
                         <label>
-                            Passwor
+                            Senha
                             <Input
-                                placeholder=' Passwor'
+                                placeholder='Senha'
                                 required
-                                type='Passwor'
-                                value={passwor}
-                                onChange={handlePassworChange} />
+                                type='Password'
+                                value={password}
+                                onChange={handlePasswordChange} />
 
                         </label>
                         {err ? erro : ''}

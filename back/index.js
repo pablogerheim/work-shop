@@ -3,7 +3,7 @@ import winston from "winston";
 import publicRoute from "./routes/public.routes.js"
 import emailRoute from "./routes/email.routes.js"
 import privateRoute from "./routes/private.routes.js"
-import productRoute from "./routes/product.routes.js"
+import hostInfoRoute from "./routes/hostInfo.routes.js"
 import { promises } from "fs";
 import cors from "cors";
 import swaggerUi from "swagger-ui-express";
@@ -45,9 +45,9 @@ app.use(express.static("public"));
 app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 //http://localhost:3001/doc/
 
+app.use("/", hostInfoRoute)
 app.use("/email", emailRoute)
 app.use("/login", publicRoute)
-    //app.use("/home", homeProduct)
 app.use("/private", checkToken, privateRoute);
 app.use("/logout", async(req, res, next) => {
     const authHeader = req.headers["authorization"];

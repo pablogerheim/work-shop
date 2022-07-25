@@ -11,9 +11,10 @@ import { ChakraProvider } from '@chakra-ui/react'
 import { useEffect, useState } from "react";
 import {AdmLogin} from './pages/adm/admLogin'
 import { AdmProducts } from './pages/adm/admProducts'
+import { AdmCreateUpdate } from "./pages/adm/admCreateUpdate";
 
 function App() {
-  const [user, setUser] = useState(false);
+  const [user, setUser] = useState(true);
 
   useEffect(() => { setUser(true)},[])
 
@@ -29,6 +30,7 @@ function App() {
           <Route path="/sub" element={<Login />}> </Route>
           <Route path="/adm/login" element={<AdmLogin />}></Route>
           <Route path="/adm/products" element={user ? <AdmProducts /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/CreateUpdade" element={user ? <AdmCreateUpdate /> : <Navigate to={'/adm/login'} />}></Route>
           <Route path="/adm" element={<Navigate to={'/adm/login'} />} />
           <Route path="/*" element={<Navigate to={'/home'} />} />
         </Routes>

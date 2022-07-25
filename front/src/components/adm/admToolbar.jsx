@@ -18,9 +18,10 @@ function AdmToolbar() {
                         <img src={imgMenu} alt="menu img" className='h-4 w-4' onClick={() => togleStateMenu(false)} />
                     </button>
                     <a href='/adm/home' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2' > Home </a>
-                    <a href='/about' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Sobre nós </a>
-                    <a href='/contact' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Contado </a>
-                    <a href='/adm/products' className='flex self-center text-xs text-gray-600 pr-2'> Produtos </a>
+                    <a href='/adm/about' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Sobre nós </a>
+                    <a href='/adm/contact' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Contado </a>
+                    <a href='/adm/products' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Produtos </a>
+                    <a href='/adm/CreateUpdade' className='flex self-center text-xs text-gray-600 pr-2'> CreateUpdade </a>
                 </div>)
         }
         else {

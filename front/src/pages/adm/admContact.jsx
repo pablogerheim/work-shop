@@ -4,7 +4,7 @@ import { contact } from '../../data/publicData'
 import { useEffect, useState } from 'react'
 
 
-function Contact() {
+function admContact() {
     const [contactData, setContactData] = useState('Loading...')
 
     useEffect(() => {
@@ -38,4 +38,4 @@ function Contact() {
     )
 }
 
-export { Contact }
+export { admContact }

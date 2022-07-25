@@ -10,7 +10,7 @@ function Footer() {
     const handleNomeChange = (e) => setNome(e.target.value)
 
     function handleSubmit() {
-        apiEmail.post('/', {name, email})
+        apiEmail.post('/', { name, email })
         console.log(email)
         setNome('')
         setEmail('')
@@ -18,31 +18,33 @@ function Footer() {
 
     return (
         <div className="footer bg-slate-800 flex justify-around h-20">
-            <button onClick={() => handleSubmit()} className='text-slate-100 p-4'>
-                Enviar
-            </button>
-            <div className='flex gap-3 mr-2 '>
-                <label className='text-slate-100'>
-                    Nome
-                    <Input
-                        className='text-slate-100'
-                        placeholder=' Nome'
-                        required
-                        type='text'
-                        value={name}
-                        onChange={handleNomeChange} />
-                </label>
-                <label className='text-slate-100'>
-                    Email 
-                    <Input
-                        className='text-slate-100'
-                        placeholder=' Email'
-                        required
-                        type='email'
-                        value={email}
-                        onChange={handleEmailChange} />
-                </label>
-            </div>
+            <form onSubmit={() => handleSubmit()} className='flex align-middle'>
+                <button type='submit' className='submit text-slate-100 p-2 bg-slate-700 rounded m-2'>
+                    Enviar
+                </button>
+                <div className='flex gap-3 mr-2 '>
+                    <label className='text-slate-100'>
+                        Nome
+                        <Input
+                            className='text-slate-100'
+                            placeholder=' Nome'
+                            required
+                            type='text'
+                            value={name}
+                            onChange={handleNomeChange} />
+                    </label>
+                    <label className='text-slate-100'>
+                        Email
+                        <Input
+                            className='text-slate-100'
+                            placeholder=' Email'
+                            required
+                            type='email'
+                            value={email}
+                            onChange={handleEmailChange} />
+                    </label>
+                </div>
+            </form>
         </div>
     )
 

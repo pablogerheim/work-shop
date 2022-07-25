@@ -7,7 +7,7 @@ function Home() {
     return (
         <>
             <Toolbar />
-            <div className='home' >
+            <div className='screen home' >
                 <div className='flex justify-evenly z-10'>
                 <h2 className='pt-2 pl-2 z-10'>Arte </h2>
                 </div>
