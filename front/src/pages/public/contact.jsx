@@ -5,10 +5,10 @@ import { useEffect, useState } from 'react'
 
 
 function Contact() {
-    const [contactData, setContactData] = useState('Loading...')
+    const [contactData, setContactData] = useState(null)
 
     useEffect(() => {
-        if (contactData === "Loading...") {
+        if (contactData === null) {
             getContactData()
         }
     })
@@ -17,21 +17,19 @@ function Contact() {
         setContactData(await contact())
     }
 
-    function printContactData() {
-        console.log(contactData)
-        if (typeof contactData === 'object') {
-            return Object.values(contactData).map((v, i) => <p key={i} className=' flex flex-col justify-center m-5 items-center'>
-                {v}</p>)
-        }
-    }
-
     return (
         <>
             <Toolbar />
             <div className="screen">
-                <h1 className=' flex flex-col justify-center m-5 items-center'>
-                    Informações para contado  </h1>
-                {printContactData()}
+                <h1 className=' flex flex-col justify-center p-5 items-center'>
+                    Informações para contato  </h1>
+                {contactData ?
+                    <div>
+                        <p className=' flex flex-col justify-center m-5 items-center'> {contactData.name}</p>
+                        <p className=' flex flex-col justify-center m-5 items-center'> {contactData.email}</p>
+                        <p className=' flex flex-col justify-center m-5 items-center'>  {contactData.telephone}</p>
+                    </div>
+                    : "Loading...."}
             </div>
             <Footer />
         </>

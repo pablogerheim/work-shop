@@ -13,12 +13,12 @@ function Toolbar() {
     function handleMenu() {
         if (menu) {
             return (
-                <div className='flex gap-3 mr-2 '>
+                <div className='flex gap-3 mr-2'>
                     <button >
                         <img src={imgMenu} alt="menu img" className='h-4 w-4' onClick={() => togleStateMenu(false)} />
                     </button>
                     <a href='/home' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2' > Home </a>
-                    <a href='/about' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Sobre nós </a>
+                    <a href='/about' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Sobre </a>
                     <a href='/contact' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Contado </a>
                     <a href='/products' className='flex self-center text-xs text-gray-600 pr-2'> Produtos </a>
                 </div>)
@@ -34,7 +34,7 @@ function Toolbar() {
     }
 
     return (
-        <div className="bg-slate-100 flex justify-between ">
+        <div className="bg-slate-100 flex justify-between h-20 ">
             <a href='/home'>
                 <img src={img} alt='Aprendendo Arte' height='60px' width='80px' className='m-2 ' />
             </a>

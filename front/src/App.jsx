@@ -12,6 +12,8 @@ import { useEffect, useState } from "react";
 import {AdmLogin} from './pages/adm/admLogin'
 import { AdmProducts } from './pages/adm/admProducts'
 import { AdmCreateUpdate } from "./pages/adm/admCreateUpdate";
+import { AdmAbout } from './pages/adm/admAbout'
+import { AdmContact } from './pages/adm/admContact'
 
 function App() {
   const [user, setUser] = useState(true);
@@ -30,7 +32,9 @@ function App() {
           <Route path="/sub" element={<Login />}> </Route>
           <Route path="/adm/login" element={<AdmLogin />}></Route>
           <Route path="/adm/products" element={user ? <AdmProducts /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/adm/CreateUpdade" element={user ? <AdmCreateUpdate /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/createUpdade" element={user ? <AdmCreateUpdate /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/about" element={user ? <AdmAbout /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/contact" element={user ? <AdmContact /> : <Navigate to={'/adm/login'} />}></Route>
           <Route path="/adm" element={<Navigate to={'/adm/login'} />} />
           <Route path="/*" element={<Navigate to={'/home'} />} />
         </Routes>

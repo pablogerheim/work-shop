@@ -1,53 +1,71 @@
 import { AdmToolbar } from '../../components/adm/admToolbar'
 import { AdmFooter } from '../../components/adm/admFooter'
 import '../../css/helper.css'
-import {v4}  from "uuid";
+import { Button } from '@chakra-ui/react'
+import { AiOutlineForm, AiOutlineClose, AiFillWarning , AiOutlinePoweroff } from 'react-icons/ai';
+import { products } from '../../data/publicData'
+import { useEffect, useState } from 'react'
+import { productActiv, productDelete } from '../../data/admData';
+import EventEmitter from '../../helper/EventEmitter';
+import { useNavigate } from "react-router-dom";
 
-const arrProducts = [{
-    id: 1,
-    name: "lettering na pratica",
-    img: 'https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp',
-    description: 'Texto descritivo do que se trata',
-    url: 'http://localhost:3000/test',
-    active: true,
-    autoexplan: true
-}, {
-    id: 2,
-    name: "Arte Classica",
-    img: 'https://images.virgula.com.br/2016/03/Pinturas-cla%CC%81ssicase-animacoes-Michelangelo.jpg',
-    description: 'Texto descritivo do que se trata',
-    url: 'http://localhost:3000/test',
-    active: true,
-    autoexplan: false
-
-}, {
-    id: 3,
-    name: "Semana da arte moderna",
-    img: 'https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917',
-    description: 'Texto descritivo do que se trata',
-    url: 'http://localhost:3000/test',
-    active: true,
-    autoexplan: true
-}]
 
 function AdmProducts() {
+    let navigate = useNavigate();
+    const [productData, setProductData] = useState(null)
+    const [refresh, setRefresh] = useState(false)
 
-    function card({ name, img, description, url, active, autoexplan }) {
-        if (!active) { return }
+    useEffect(() => {
+        if (productData === null || refresh) {
+            getProductData()
+            setRefresh(false)
+        }
+    },[productData, refresh])
+
+    async function getProductData() {
+        setProductData(await products())
+    }
+
+    async function handleUpdate(obj) {
+        EventEmitter.emit('update', obj)
+        navigate('/adm/createUpdade')
+    }
+
+    async function handleDelet(id) {
+       await productDelete(id)
+       setRefresh(true)
+    }
+
+    async function togleActive(id, active) {
+        active = !active
+        await productActiv({id, active })
+        setRefresh(true)
+    }
+
+    function card(p,{ productId, name, image, description, active, autoexplan }) {
+        
         if (autoexplan) {
-            return (<div className='card' key={v4()}>
-                <a href={url}>
-                    <img src={img} alt={name} className='img ' />
-                </a>
-            </div>
-        )}
+            return (
+                <div className='card' key={productId}>
+                    <div className=" flex p-2 justify-end gap-2 absolute ml-36 z-10">
+                        <button className='bg-orange-400 shadowClass' title="update" type="button" onClick={() => handleUpdate(p)} ><AiOutlineForm className="h-7 w-7 " /></button>
+                        <button className='bg-red-400 shadowClass' title="delete" type="button" onClick={() => handleDelet(productId)}><AiOutlineClose className="h-7 w-7" /></button>
+                        <button className={`${active? "bg-indigo-400" : "bg-green-400"} shadowClass`} type="button" onClick={() => togleActive(productId, active)}>{active ? <AiFillWarning className="h-7 w-7" /> : <AiOutlinePoweroff className="h-7 w-7" />}</button>
+                    </div>
+                    <img src={image} alt={name} className='img ' />
+                </div>
+            )
+        }
         return (
-            <div className='card' key={v4()}>
-                <a href={url}>
-                    <p className='absolute ml-4 mt-4 z-10'>{name}</p>
-                    <p className='absolute ml-4 mt-10 z-10'>{description}</p>
-                    <img src={img} alt={name} className='img opacity-50' />
-                </a>
+            <div className='card' key={productId}>
+                <div className="flex p-2 justify-end gap-2 absolute ml-36 z-10">
+                    <button className='bg-orange-400  shadowClass' title="update" type="button" onClick={() => handleUpdate(p)} ><AiOutlineForm className="h-7 w-7" /></button>
+                    <button className='bg-red-400 shadowClass' title="delete" type="button" onClick={() => handleDelet(productId)}><AiOutlineClose className="h-7 w-7" /></button>
+                    <button className={`${active? "bg-indigo-400" : "bg-green-400"} shadowClass`}  type="button" onClick={() => togleActive(productId)}>{active ? <AiFillWarning className="h-7 w-7" /> : <AiOutlinePoweroff className="h-7 w-7" />}</button>
+                </div>
+                <p className='absolute ml-4 mt-4 z-10'>{name}</p>
+                <p className='absolute ml-4 mt-10 z-10'>{description}</p>
+                <img src={image} alt={name} className='img opacity-50' />
             </div>
         )
     }
@@ -55,15 +73,19 @@ function AdmProducts() {
     return (
         <>
             <AdmToolbar />
-            <button> Cadastrar novo produto</button>
-            <div className="product grid justify-center ">
-                {arrProducts.map(p => card(p)
-
-                )}
-            </div>
-            <AdmFooter/>
+            <section className='screen'>
+                <div className='flex justify-end'>
+                    <a href='/adm/createUpdade'> <Button colorScheme='blue' className='m-2'> Cadastrar novo produto</Button>
+                    </a>
+                </div>
+                <div className="product grid justify-center ">
+                    {productData? productData.map(p => card(p,p) ) : "Loading...."}
+                </div>
+            </section>
+            <AdmFooter />
         </>
     )
 }
 
 export { AdmProducts }
+

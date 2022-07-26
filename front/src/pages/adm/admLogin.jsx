@@ -29,7 +29,7 @@ function AdmLogin() {
             <AdmToolbar />
             <div className='screen flex justify-center'>
                 <div className='login flex justify-center pt-2 '>
-                    <form className='form p-4 grid gap-2' >
+                    <form className='form formWidth p-4 grid gap-2' >
                         <h2 className='self-center justify-center' >Login ADM</h2>
                         <label>
                             Nome
@@ -62,7 +62,6 @@ function AdmLogin() {
                     </form>
                 </div>
             </div>
-            <a href='/adm/product'> /adm/product </a>
             <AdmFooter />
         </>
     )

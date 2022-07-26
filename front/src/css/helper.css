@@ -13,14 +13,14 @@
     height: 230px;
 }
 
-.login-link {
+.shadowClass {
     box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2);
     padding: 0 10px 5px 10px;
     border-radius: 5px;
 }
 
-.login-link:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+.shadowClass:hover {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
 }
 
 .form {
@@ -36,7 +36,7 @@
 }
 
 .screen{
-    min-height: calc(100vh - 2*80.70px)
+    min-height: calc(100vh - 2*80px)
 }
 
 .submit{
@@ -56,7 +56,15 @@ box-shadow: 0 8px 16px 0 rgba(255,255,255,0.4);
     .admRegister{
         box-shadow: 0 8px 16px 0 rgba(200,200,200,0.2);
         width:31.75rem;
-    }    
+    }
+
+    .formWidth{
+        width:25rem;
+    } 
+    
+    .aboutWidth{
+        width:35rem;
+    }
 }
 
 @media screen and (min-width: 1100px) {
@@ -69,4 +77,12 @@ box-shadow: 0 8px 16px 0 rgba(255,255,255,0.4);
         box-shadow: 0 8px 16px 0 rgba(200,200,200,0.2);
         width:41.75rem;
     }  
+
+    .formWidth{
+        width:35rem;
+    } 
+
+    .aboutWidth{
+        width:45rem;
+    }
 }

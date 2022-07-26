@@ -19,7 +19,6 @@ async function printAbout() {
 }
 
 async function printContact() {
-    console.log("poi")
     try {
         return await Contact.findByPk(1)
     } catch (err) {
