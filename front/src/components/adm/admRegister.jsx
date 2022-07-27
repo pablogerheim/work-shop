@@ -5,10 +5,8 @@ import '../../css/helper.css'
 import { productCreate } from '../../data/admData';
 import EventBus from '../../helper/EventEmitter';
 
-function AdmRegister({
-    setUpdate = null,
-    update = false
-}) {
+function AdmRegister() {
+    const [updateMode, setUpdateMode] = useState(false)
     const [name, setName] = useState('')
     const [image, setImage] = useState('')
     const [description, setDescription] = useState('')
@@ -17,11 +15,19 @@ function AdmRegister({
     const [togleautoexplan, setTogleAutoexplan] = useState("1")
 
     useEffect(() => {
-        EventBus.on('update', (obj) => { console.log("onpg2", obj); setTogleAutoexplan("2") })
+        EventBus.on('setUpdateParams', (selectedCard) => { console.log("onpg2", selectedCard)
+        setUpdateMode(true)
+        setName(selectedCard.name)
+        setImage(selectedCard.image)
+        setDescription(selectedCard.description)
+        setUrl(selectedCard.url)
+        setTogleActive(selectedCard.active? "1": "2")
+        setTogleAutoexplan(selectedCard.autoexplan? "1" : "2") })
+
     })
 
     useEffect(() => {
-        EventBus.remove('update')
+        EventBus.remove('setUpdateParams')
     }, [togleautoexplan])
 
     async function handleSubmit() {
@@ -32,8 +38,8 @@ function AdmRegister({
         await productCreate({ name, image, description, url, active, autoexplan })
 
         clearFilds()
-        if (update) {
-            setUpdate(false)
+        if (updateMode) {
+            setUpdateMode(false)
         }
     }
 
@@ -50,7 +56,7 @@ function AdmRegister({
         <>
             <Box className='screen flex justify-center'>
                 <form className='flax flex-col m-2 p-10 ' onSubmit={handleSubmit}>
-                    <h1 className='flex justify-center w-full'> {update ? "Atualizando Produto" : "Criando Produto"}  </h1>
+                    <h1 className='flex justify-center w-full'> {updateMode ? "Atualizando Produto" : "Criando Produto"}  </h1>
 
                     <Box className='flex flex-col align-center justify-center gap-2 admRegister '>
                         Nome
@@ -81,7 +87,7 @@ function AdmRegister({
                             </Stack>
                         </RadioGroup>
 
-                        <Button type='submit' className='mt-4' colorScheme={update ? "orange" : "blue"}>{update ? "Atualizar" : "Criar"}</Button>
+                        <Button type='submit' className='mt-4' colorScheme={updateMode ? "orange" : "blue"}>{updateMode ? "Atualizar" : "Criar"}</Button>
 
                     </Box>
                 </form>

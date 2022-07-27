@@ -26,10 +26,10 @@ function AdmProducts() {
         setProductData(await products())
     }
 
-    async function handleUpdate(obj) {
+    async function handleUpdate(selectedCard) {
         navigate('/adm/createUpdade')
         setTimeout(() => {
-            EventBus.dispatch('update', obj)
+            EventBus.dispatch('setUpdateParams', selectedCard)
         }, 0);
     }
 
