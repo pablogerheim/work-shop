@@ -21,7 +21,7 @@ function AdmToolbar() {
                     <a href='/adm/about' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Sobre </a>
                     <a href='/adm/contact' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Contado </a>
                     <a href='/adm/products' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Produtos </a>
-                    <a href='/adm/createUpdade' className='flex self-center text-xs text-gray-600 pr-2'> CreateUpdade </a>
+                    <a href='/adm/createUpdade' className='flex self-center text-xs text-gray-600 pr-2'> Novo Card </a>
                 </div>)
         }
         else {

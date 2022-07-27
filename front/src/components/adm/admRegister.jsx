@@ -6,7 +6,7 @@ import { productCreate } from '../../data/admData';
 import EventBus from '../../helper/EventEmitter';
 
 function AdmRegister({
-    setUpdate,
+    setUpdate = null,
     update = false
 }) {
     const [name, setName] = useState('')
@@ -16,16 +16,13 @@ function AdmRegister({
     const [togleActive, setTogleActive] = useState("1")
     const [togleautoexplan, setTogleAutoexplan] = useState("1")
 
-
     useEffect(() => {
-        EventBus.on('update1', (obj) => { console.log("onpg2", obj); setTogleAutoexplan("2") })
+        EventBus.on('update', (obj) => { console.log("onpg2", obj); setTogleAutoexplan("2") })
     })
 
     useEffect(() => {
-
-        EventBus.remove('update1')
-
-    },[togleautoexplan])
+        EventBus.remove('update')
+    }, [togleautoexplan])
 
     async function handleSubmit() {
         // eslint-disable-next-line no-restricted-globals
@@ -35,7 +32,9 @@ function AdmRegister({
         await productCreate({ name, image, description, url, active, autoexplan })
 
         clearFilds()
-        setUpdate(false)
+        if (update) {
+            setUpdate(false)
+        }
     }
 
     function clearFilds() {
