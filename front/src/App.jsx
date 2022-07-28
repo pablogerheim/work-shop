@@ -14,6 +14,7 @@ import { AdmProducts } from './pages/adm/admProducts'
 import { AdmCreateUpdate } from "./pages/adm/admCreateUpdate";
 import { AdmAbout } from './pages/adm/admAbout'
 import { AdmContact } from './pages/adm/admContact'
+import { AdmEmails } from './pages/adm/admEmails'
 
 function App() {
   const [user, setUser] = useState(true);
@@ -35,6 +36,7 @@ function App() {
           <Route path="/adm/createUpdade" element={user ? <AdmCreateUpdate /> : <Navigate to={'/adm/login'} />}></Route>
           <Route path="/adm/about" element={user ? <AdmAbout /> : <Navigate to={'/adm/login'} />}></Route>
           <Route path="/adm/contact" element={user ? <AdmContact /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/emails" element={user ? <AdmEmails /> : <Navigate to={'/adm/login'} />}></Route>
           <Route path="/adm" element={<Navigate to={'/adm/login'} />} />
           <Route path="/*" element={<Navigate to={'/home'} />} />
         </Routes>

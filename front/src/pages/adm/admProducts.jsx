@@ -2,7 +2,7 @@ import { AdmToolbar } from '../../components/adm/admToolbar'
 import { AdmFooter } from '../../components/adm/admFooter'
 import '../../css/helper.css'
 import { Button } from '@chakra-ui/react'
-import { AiOutlineForm, AiOutlineClose, AiFillWarning , AiOutlinePoweroff } from 'react-icons/ai';
+import { AiOutlineForm, AiOutlineClose, AiFillWarning, AiOutlinePoweroff } from 'react-icons/ai';
 import { products } from '../../data/publicData'
 import { useEffect, useState } from 'react'
 import { productActiv, productDelete } from '../../data/admData';
@@ -20,7 +20,7 @@ function AdmProducts() {
             getProductData()
             setRefresh(false)
         }
-    },[productData, refresh])
+    }, [productData, refresh])
 
     async function getProductData() {
         setProductData(await products())
@@ -29,30 +29,47 @@ function AdmProducts() {
     async function handleUpdate(selectedCard) {
         navigate('/adm/createUpdade')
         setTimeout(() => {
-            EventBus.dispatch('setUpdateParams', selectedCard)
+            EventBus.dispatch('setUpdateCard', selectedCard)
         }, 0);
     }
 
     async function handleDelet(id) {
-       await productDelete(id)
-       setRefresh(true)
+        await productDelete(id)
+        setRefresh(true)
     }
 
     async function togleActive(id, active) {
         active = !active
-        await productActiv({id, active })
+        await productActiv({ id, active })
         setRefresh(true)
     }
 
-    function card(p,{ productId, name, image, description, active, autoexplan }) {
-        
+    function card(p, { productId, name, image, description, active, autoexplan }) {
+
         if (autoexplan) {
             return (
                 <div className='card' key={productId}>
                     <div className=" flex p-2 justify-end gap-2 absolute ml-36 z-10">
-                        <button className='bg-orange-400 shadowClass' title="update" type="button" onClick={() => handleUpdate(p)} ><AiOutlineForm className="h-7 w-7 " /></button>
-                        <button className='bg-red-400 shadowClass' title="delete" type="button" onClick={() => handleDelet(productId)}><AiOutlineClose className="h-7 w-7" /></button>
-                        <button className={`${active? "bg-indigo-400" : "bg-green-400"} shadowClass`} type="button" onClick={() => togleActive(productId, active)}>{active ? <AiFillWarning className="h-7 w-7" /> : <AiOutlinePoweroff className="h-7 w-7" />}</button>
+                        <button
+                            className='bg-orange-400 shadowClass'
+                            title="update"
+                            type="button"
+                            onClick={() => handleUpdate(p)} >
+                            <AiOutlineForm className="h-7 w-7 " />
+                        </button>
+                        <button
+                            className='bg-red-400 shadowClass'
+                            title="delete"
+                            type="button"
+                            onClick={() => handleDelet(productId)}>
+                            <AiOutlineClose className="h-7 w-7" />
+                        </button>
+                        <button
+                            className={`${active ? "bg-green-400" : "bg-indigo-400"} shadowClass`}
+                            type="button"
+                            onClick={() => togleActive(productId, active)}>
+                            {active ? <AiOutlinePoweroff className="h-7 w-7" /> : <AiFillWarning className="h-7 w-7" />}
+                        </button>
                     </div>
                     <img src={image} alt={name} className='img ' />
                 </div>
@@ -61,9 +78,26 @@ function AdmProducts() {
         return (
             <div className='card' key={productId}>
                 <div className="flex p-2 justify-end gap-2 absolute ml-36 z-10">
-                    <button className='bg-orange-400  shadowClass' title="update" type="button" onClick={() => handleUpdate(p)} ><AiOutlineForm className="h-7 w-7" /></button>
-                    <button className='bg-red-400 shadowClass' title="delete" type="button" onClick={() => handleDelet(productId)}><AiOutlineClose className="h-7 w-7" /></button>
-                    <button className={`${active? "bg-indigo-400" : "bg-green-400"} shadowClass`}  type="button" onClick={() => togleActive(productId)}>{active ? <AiFillWarning className="h-7 w-7" /> : <AiOutlinePoweroff className="h-7 w-7" />}</button>
+                    <button
+                        className='bg-orange-400  shadowClass'
+                        title="update"
+                        type="button"
+                        onClick={() => handleUpdate(p)} >
+                        <AiOutlineForm className="h-7 w-7" />
+                    </button>
+                    <button
+                        className='bg-red-400 shadowClass'
+                        title="delete"
+                        type="button"
+                        onClick={() => handleDelet(productId)}>
+                        <AiOutlineClose className="h-7 w-7" />
+                    </button>
+                    <button
+                        className={`${active ? "bg-green-400" : "bg-indigo-400"} shadowClass`}
+                        type="button"
+                        onClick={() => togleActive(productId)}>
+                        {active ? <AiOutlinePoweroff className="h-7 w-7" /> : <AiFillWarning className="h-7 w-7" />}
+                    </button>
                 </div>
                 <p className='absolute ml-4 mt-10 z-10'>{name}</p>
                 <p className='absolute ml-4 mt-16 z-10'>{description}</p>
@@ -81,7 +115,7 @@ function AdmProducts() {
                     </a>
                 </div>
                 <div className="product grid justify-center ">
-                    {productData? productData.map(p => card(p,p) ) : "Loading...."}
+                    {productData ? productData.map(p => card(p, p)) : "Loading...."}
                 </div>
             </section>
             <AdmFooter />

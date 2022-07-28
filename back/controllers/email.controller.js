@@ -50,9 +50,26 @@ async function updateEmail(req, res, next) {
     }
 }
 
+async function patchEmail(req, res, next) {
+
+    try {
+        console.log(req.body)
+        const { active, emailId } = req.body;
+        if (!emailId == null || active === null) {
+            return res.status(422).json({ msg: "O estado e o id são obrigatórios!" });
+        }
+        const Email = await emailService.patchEmail(req.body);
+        res.status(200).json({ msg: "Atualização realizada com sucesso!", Email });
+        logger.info(`PATCH/update Email - ${JSON.stringify(Email)}`);
+    } catch (err) {
+        res.status(500).json({ msg: "error" });
+    }
+}
+
 export default {
     getEmail,
     deleteEmail,
     createEmail,
-    updateEmail
+    updateEmail,
+    patchEmail
 }

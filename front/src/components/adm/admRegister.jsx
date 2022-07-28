@@ -2,11 +2,12 @@
 import { Radio, RadioGroup, Stack, Input, Textarea, Box, Button } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
 import '../../css/helper.css'
-import { productCreate } from '../../data/admData';
+import { productCreate , productUpdate} from '../../data/admData';
 import EventBus from '../../helper/EventEmitter';
 
 function AdmRegister() {
     const [updateMode, setUpdateMode] = useState(false)
+    const [productId, setProductId] = useState('')
     const [name, setName] = useState('')
     const [image, setImage] = useState('')
     const [description, setDescription] = useState('')
@@ -15,19 +16,19 @@ function AdmRegister() {
     const [togleautoexplan, setTogleAutoexplan] = useState("1")
 
     useEffect(() => {
-        EventBus.on('setUpdateParams', (selectedCard) => { console.log("onpg2", selectedCard)
+        EventBus.on('setUpdateCard', (selectedCard) => { console.log("onpg2", selectedCard)
         setUpdateMode(true)
+        setProductId(selectedCard.productId)
         setName(selectedCard.name)
         setImage(selectedCard.image)
         setDescription(selectedCard.description)
         setUrl(selectedCard.url)
         setTogleActive(selectedCard.active? "1": "2")
         setTogleAutoexplan(selectedCard.autoexplan? "1" : "2") })
-
     })
 
     useEffect(() => {
-        EventBus.remove('setUpdateParams')
+        EventBus.remove('setUpdateCard')
     }, [togleautoexplan])
 
     async function handleSubmit() {
@@ -35,12 +36,14 @@ function AdmRegister() {
         event.preventDefault()
         const active = togleActive === "1" ? true : false
         const autoexplan = togleautoexplan === "1" ? true : false
+        if (!updateMode) {
         await productCreate({ name, image, description, url, active, autoexplan })
-
-        clearFilds()
+        }
         if (updateMode) {
+            await productUpdate({ name, image, description, url, active, autoexplan, productId  })
             setUpdateMode(false)
         }
+        clearFilds()
     }
 
     function clearFilds() {

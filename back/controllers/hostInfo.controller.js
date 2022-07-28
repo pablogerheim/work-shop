@@ -4,7 +4,7 @@ async function getProduct(req, res, next) {
     try {
         const data = await hostInfoServise.getProduct()
         res.status(200).send(data);
-        logger.info(`GET /Products`);
+        logger.info(`GET /Products `);
     } catch (err) {
         next(err);
     }

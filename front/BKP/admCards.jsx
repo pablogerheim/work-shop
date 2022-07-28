@@ -12,7 +12,9 @@ function AdmCards() {
     const [refresh, setRefresh] = useState(false)
 
     useEffect(() => {
+        console.log("oi", refresh)
         if (productData === null || refresh) {
+            console.log("oi")
             getProductData()
             setRefresh(false)
         }
@@ -35,10 +37,11 @@ function AdmCards() {
         setRefresh(true)
     }
 
-    async function togleActive(id, active) {
-        active = !active
-        await productActiv({ id, active })
+    async function togleActive(productId, newActive) {
+        let active = !newActive
+        await productActiv({ productId, active })
         setRefresh(true)
+        console.log(refresh)
     }
 
     function card(p, { productId, name, image, description, active, autoexplan }) {
@@ -49,7 +52,7 @@ function AdmCards() {
                     <div className=" flex p-2 justify-end gap-2 absolute ml-36 z-10">
                         <button className='bg-orange-400 shadowClass' title="update" type="button" onClick={() => handleUpdate(p)} ><AiOutlineForm className="h-7 w-7 " /></button>
                         <button className='bg-red-400 shadowClass' title="delete" type="button" onClick={() => handleDelet(productId)}><AiOutlineClose className="h-7 w-7" /></button>
-                        <button className={`${active ? "bg-indigo-400" : "bg-green-400"} shadowClass`} type="button" onClick={() => togleActive(productId, active)}>{active ? <AiFillWarning className="h-7 w-7" /> : <AiOutlinePoweroff className="h-7 w-7" />}</button>
+                        <button className={`${active ? "bg-green-400" : "bg-indigo-400"} shadowClass`} type="button" onClick={() => togleActive(productId, active)}>{active ?  <AiOutlinePoweroff className="h-7 w-7" /> : <AiFillWarning className="h-7 w-7" /> }</button>
                     </div>
                     <img src={image} alt={name} className='img ' />
                 </div>
@@ -60,7 +63,7 @@ function AdmCards() {
                 <div className="flex p-2 justify-end gap-2 absolute ml-36 z-10">
                     <button className='bg-orange-400  shadowClass' title="update" type="button" onClick={() => handleUpdate(p)} ><AiOutlineForm className="h-7 w-7" /></button>
                     <button className='bg-red-400 shadowClass' title="delete" type="button" onClick={() => handleDelet(productId)}><AiOutlineClose className="h-7 w-7" /></button>
-                    <button className={`${active ? "bg-indigo-400" : "bg-green-400"} shadowClass`} type="button" onClick={() => togleActive(productId)}>{active ? <AiFillWarning className="h-7 w-7" /> : <AiOutlinePoweroff className="h-7 w-7" />}</button>
+                    <button className={`${active ? "bg-green-400" : "bg-indigo-400"} shadowClass`} type="button" onClick={() => togleActive(productId)}>{active ?  <AiOutlinePoweroff className="h-7 w-7" /> : <AiFillWarning className="h-7 w-7" /> }</button>
                 </div>
                 <p className='absolute ml-4 mt-4 z-10'>{name}</p>
                 <p className='absolute ml-4 mt-10 z-10'>{description}</p>

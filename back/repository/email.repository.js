@@ -1,7 +1,6 @@
 import Email from "../models/email.model.js"
 
 async function create(email) {
-    console.log("12")
     try {
         return await Email.create(email)
     } catch (err) {
@@ -10,6 +9,7 @@ async function create(email) {
 }
 
 async function update(email) {
+    console.log(email)
     try {
         await Email.update(email, {
             where: {
@@ -46,9 +46,24 @@ async function print(id) {
     }
 }
 
+async function patch({ emailId, active }) {
+    console.log(emailId)
+    try {
+        await Email.update({ active }, {
+            where: {
+                emailId
+            }
+        })
+        return await print(emailId)
+    } catch (err) {
+        throw err
+    }
+}
+
 export default {
     create,
     update,
     exclude,
-    print
+    print,
+    patch
 }

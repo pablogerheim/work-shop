@@ -15,6 +15,10 @@ const Email = connect.define('emails', {
     email: {
         type: sequelize.STRING,
         allowNull: false
+    },
+    active: {
+        type: sequelize.BOOLEAN,
+        allowNull: false
     }
 }, { underscored: true })
 

@@ -11,6 +11,26 @@ const api = axios.create({
   baseURL: "http://localhost:3001/adm",
 });
 
+const apiEmail = axios.create({
+  baseURL: "http://localhost:3001/email",
+});
+
+async function getEmail() {
+    return await apiEmail.get("/").then(res => res.data )
+}
+
+async function deleteEmail(id) {
+  await apiEmail.delete(`/${id}`)
+}
+
+async function updateEmail(email) {
+  await apiEmail.put("/", email)
+}
+
+async function activeEmail(emailId, active) {
+  await apiEmail.patch("/", {emailId, active})
+}
+
 
 async function aboutUpdate(aboutText) {
   return await api.put('/about', {about : aboutText}, { headers })
@@ -30,8 +50,7 @@ async function productDelete(id) {
 
 async function productCreate(obj) {
   return await axios.post('http://localhost:3001/adm/product', obj, { headers })
-   
-}
+   }
 
 async function productUpdate(obj) {
   return await api.put('/product', obj, { headers })
@@ -44,5 +63,9 @@ export {
   productActiv,
   productDelete,
   productCreate,
-  productUpdate
+  productUpdate,
+  getEmail,
+  deleteEmail,
+  updateEmail,
+  activeEmail
 }
