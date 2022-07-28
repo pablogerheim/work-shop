@@ -44,7 +44,7 @@ function AdmProducts() {
         setRefresh(true)
     }
 
-    function card(p, { productId, name, image, description, active, autoexplan }) {
+    function card(productSelected, { productId, name, image, description, active, autoexplan }) {
 
         if (autoexplan) {
             return (
@@ -54,7 +54,7 @@ function AdmProducts() {
                             className='bg-orange-400 shadowClass'
                             title="update"
                             type="button"
-                            onClick={() => handleUpdate(p)} >
+                            onClick={() => handleUpdate(productSelected)} >
                             <AiOutlineForm className="h-7 w-7 " />
                         </button>
                         <button
@@ -82,7 +82,7 @@ function AdmProducts() {
                         className='bg-orange-400  shadowClass'
                         title="update"
                         type="button"
-                        onClick={() => handleUpdate(p)} >
+                        onClick={() => handleUpdate(productSelected)} >
                         <AiOutlineForm className="h-7 w-7" />
                     </button>
                     <button
@@ -115,7 +115,7 @@ function AdmProducts() {
                     </a>
                 </div>
                 <div className="product grid justify-center ">
-                    {productData ? productData.map(p => card(p, p)) : "Loading...."}
+                    {productData ? productData.map(productSelected => card(productSelected, productSelected)) : "Loading...."}
                 </div>
             </section>
             <AdmFooter />

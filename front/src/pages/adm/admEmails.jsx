@@ -6,15 +6,15 @@ import { AiOutlineForm, AiOutlineClose, AiFillWarning, AiOutlinePoweroff } from 
 import { getEmail, deleteEmail, activeEmail } from "../../data/admData";
 import { useEffect, useState } from 'react'
 import EventBus from '../../helper/EventEmitter';
-
+import { Input } from '@chakra-ui/react'
 
 function AdmEmails() {
     const [emailData, setEmailData] = useState(null)
     const [emailSelected, setEmailSelected] = useState(0)
     const [refresh, setRefresh] = useState(false)
+    const [search, setSearch] = useState('')
 
     useEffect(() => {
-        console.log("chamado", refresh)
         if (emailData === null || refresh) {
             getProductData()
             setRefresh(false)
@@ -38,11 +38,21 @@ function AdmEmails() {
         setRefresh(true)
     }
 
-
     async function togleActive(emailId, oldActive) {
         let active = !oldActive
-        await activeEmail( emailId, active )
+        await activeEmail(emailId, active)
         setRefresh(true)
+    }
+
+    function hendleSerach(wanted) {
+        setSearch(wanted)
+        if (wanted === '') {
+            setRefresh(true)
+        }
+        if (emailData) {
+            console.log(emailData)
+            setEmailData(emailData.filter(e => e.name.toLowerCase().includes(wanted.toLowerCase())))
+        }
     }
 
     function email(selectedEmail, { emailId, name, active, email }) {
@@ -81,6 +91,13 @@ function AdmEmails() {
         <>
             <AdmToolbar />
             <section className='screen'>
+                <div className='p-4'>
+                    <Input
+                        placeholder='Procurar por nome'
+                        value={search}
+                        onChange={(e)=> hendleSerach(e.target.value)}
+                    />
+                </div>
                 <div className="flex flex-col mt-10">
                     <div className="grid grid-cols-3 gap-4 mb-4">
                         <p className=' flex justify-around'>Nome</p>
