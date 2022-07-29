@@ -8,6 +8,9 @@ const apiClient = axios.create({
   baseURL: "http://localhost:3001/",
 });
 
+async function createEmail(email) {
+ await apiEmail.post("/", email)
+}
 
 async function about() {
   const aboutText = await apiClient('/about')
@@ -28,5 +31,6 @@ export {
   apiEmail,
   about,
   contact,
-  products
+  products,
+  createEmail
 }

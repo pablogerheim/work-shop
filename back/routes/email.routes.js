@@ -9,6 +9,4 @@ router.patch("/", emailController.patchEmail)
 router.post("/", emailController.createEmail)
 router.put("/", emailController.updateEmail)
 
-
-
 export default router;

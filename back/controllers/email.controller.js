@@ -1,4 +1,5 @@
 import emailService from "../service/email.service.js";
+import emailController from "../controllers/email.controller.js";
 
 async function getEmail(req, res, next) {
     try {
@@ -15,7 +16,7 @@ async function deleteEmail(req, res, next) {
         let id = parseInt(req.params.id)
         await emailService.deleteEmail(id)
         res.status(200).json({ msg: "Deleção realizada com sucesso!" });
-        logger.info(`DELETE /servce - ID ${id}`);
+        logger.info(`DELETE /Email - ID ${id}`);
     } catch (err) {
         next(err);
     }
@@ -23,15 +24,17 @@ async function deleteEmail(req, res, next) {
 
 async function createEmail(req, res, next) {
     try {
+        console.log(req.body)
         const { name, email } = req.body;
         if (!name == null || email == null) {
             return res.status(422).json({ msg: "O nome e email são obrigatórios!" });
         }
         const Email = await emailService.createEmail(req.body);
+        console.log(Email)
         res.status(200).json({ msg: "Criação realizada com sucesso!" });
-        logger.info(`POST /creat spand - ${JSON.stringify(Email)}`);
+        logger.info(`POST /creat Email - ${JSON.stringify(Email)}`);
     } catch (err) {
-        res.status(500).json({ msg: "error" });
+        next(err);
     }
 }
 
@@ -53,14 +56,13 @@ async function updateEmail(req, res, next) {
 async function patchEmail(req, res, next) {
 
     try {
-        console.log(req.body)
         const { active, emailId } = req.body;
         if (!emailId == null || active === null) {
             return res.status(422).json({ msg: "O estado e o id são obrigatórios!" });
         }
         const Email = await emailService.patchEmail(req.body);
         res.status(200).json({ msg: "Atualização realizada com sucesso!", Email });
-        logger.info(`PATCH/update Email - ${JSON.stringify(Email)}`);
+        logger.info(`PATCH /update Email - ${JSON.stringify(Email)}`);
     } catch (err) {
         res.status(500).json({ msg: "error" });
     }

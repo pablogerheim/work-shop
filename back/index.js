@@ -46,6 +46,15 @@ app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
 //http://localhost:3001/doc/
 
 app.use("/", hostInfoRoute)
+app.use("/lastId", async(req, res, next) => {
+    try {
+        const data = JSON.parse(await readFile("db.json"))
+        res.status(200).send(data);
+        logger.info(`GET /LastId ${data}`);
+    } catch (err) {
+        next(err);
+    }
+})
 app.use("/email", emailRoute)
 app.use("/login", publicRoute)
 app.use("/adm", admRoute);

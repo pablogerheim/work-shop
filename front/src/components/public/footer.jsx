@@ -1,7 +1,7 @@
 import '../../css/helper.css'
 import { Input } from '@chakra-ui/react'
 import { useState } from 'react'
-import { apiEmail } from "../../data/publicData";
+import { createEmail } from "../../data/publicData";
 
 function Footer() {
     const [email, setEmail] = useState('')
@@ -9,9 +9,10 @@ function Footer() {
     const [name, setNome] = useState('')
     const handleNomeChange = (e) => setNome(e.target.value)
 
-    function handleSubmit() {
-        apiEmail.post('/', { name, email })
-        console.log(email)
+    async function handleSubmit() {
+        // eslint-disable-next-line no-restricted-globals
+        event.preventDefault()
+        await createEmail({ name, email })
         setNome('')
         setEmail('')
     }

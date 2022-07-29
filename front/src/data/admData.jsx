@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const headers = {
- // "Authorization": `Bearer ${token}`
+  // "Authorization": `Bearer ${token}`
   "Content-Type": "application/json; charset = utf-8",
   "Access-Control-Allow-Origin": "*",
   "Access-Control-Allow-Credentials": "true",
@@ -15,8 +15,16 @@ const apiEmail = axios.create({
   baseURL: "http://localhost:3001/email",
 });
 
+const apiLast = axios.create({
+  baseURL: "http://localhost:3001/lastId",
+});
+
 async function getEmail() {
-    return await apiEmail.get("/").then(res => res.data )
+  return await apiEmail.get("/").then(res => res.data)
+}
+
+async function getLastId() {
+  return await apiLast.get("/").then(res => res.data.emailsId)
 }
 
 async function deleteEmail(id) {
@@ -28,12 +36,11 @@ async function updateEmail(email) {
 }
 
 async function activeEmail(emailId, active) {
-  await apiEmail.patch("/", {emailId, active})
+  await apiEmail.patch("/", { emailId, active })
 }
 
-
 async function aboutUpdate(aboutText) {
-  return await api.put('/about', {about : aboutText}, { headers })
+  return await api.put('/about', { about: aboutText }, { headers })
 }
 
 async function contactUpdate(obj) {
@@ -50,7 +57,7 @@ async function productDelete(id) {
 
 async function productCreate(obj) {
   return await axios.post('http://localhost:3001/adm/product', obj, { headers })
-   }
+}
 
 async function productUpdate(obj) {
   return await api.put('/product', obj, { headers })
@@ -67,5 +74,6 @@ export {
   getEmail,
   deleteEmail,
   updateEmail,
-  activeEmail
+  activeEmail,
+  getLastId
 }

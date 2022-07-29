@@ -1,15 +1,21 @@
 import Email from "../models/email.model.js"
+import { promises } from "fs";
+
+async function updateLastId(id) {
+    await promises.writeFile("db.json", JSON.stringify({ emailsId: id }, null, 2))
+}
 
 async function create(email) {
     try {
-        return await Email.create(email)
+        const newEmail = await Email.create(email)
+        await updateLastId(newEmail.dataValues.emailId)
+        return newEmail
     } catch (err) {
         throw err
     }
 }
 
 async function update(email) {
-    console.log(email)
     try {
         await Email.update(email, {
             where: {
@@ -47,7 +53,6 @@ async function print(id) {
 }
 
 async function patch({ emailId, active }) {
-    console.log(emailId)
     try {
         await Email.update({ active }, {
             where: {
