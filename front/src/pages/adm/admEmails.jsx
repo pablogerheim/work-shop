@@ -75,8 +75,8 @@ function AdmEmails() {
             setPage(1)
         }
         if (emailData) {
-            let x = emailData.filter(e => e.name.toLowerCase().includes(wanted.toLowerCase()))
-            setEmailData(x)
+            let filtredEmails = emailData.filter(e => e.name.toLowerCase().includes(wanted.toLowerCase()))
+            setEmailData(filtredEmails)
         }
     }
 
