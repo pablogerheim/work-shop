@@ -43,3 +43,16 @@ Criar -> "swagger-ui-express": "^4.3.0",
 Arquivo Env
 Revisar os logs
 Read-me  
+
+30/07/2022
+
+- Para editProduto usar props ao inves do eventBus
+
+- Separar os componentes de createProduct e editProduct
+
+- editProduct recebe parametro de productId e faz requisiçao para o backend para ter os dados
+
+- Apagar arquivos e pastas nao usadas
+
+- Revisao de nomes de variaveis e arquivos
+
