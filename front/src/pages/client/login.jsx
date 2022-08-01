@@ -1,52 +1,54 @@
-import { AdmToolbar } from '../../components/adm/admToolbar'
+import { Toolbar } from '../../components/client/toolbar'
 import { AdmFooter } from '../../components/adm/admFooter'
-import '../../css/helper.css'
-import { Input } from '@chakra-ui/react'
-import { Button } from '@chakra-ui/react'
+import { Input, Button } from '@chakra-ui/react'
 import { useState } from 'react'
+import { createEmail } from "../../data/clientData";
+import '../../css/helper.css'
 
-function AdmLogin() {
+function Login() {
 
     const [name, setName] = useState('')
-    const [password, setPassword] = useState('')
+    const [email, setEmail] = useState('')
     const [err, setErr] = useState(false)
 
     const handleNameChange = (e) => setName(e.target.value)
-    const handlePasswordChange = (e) => setPassword(e.target.value)
+    const handleEmailChange = (e) => setEmail(e.target.value)
 
-    function submit() {
-        if (name === '' || password === '') { setErr(true) }
+    async function submit() {
+        // eslint-disable-next-line no-restricted-globals
+        event.preventDefault()
+        if (name === '' || email === '') { setErr(true) }
         else {
             setErr(false)
-            //chama o back e Login
+            await createEmail({ name, email })
         }
     }
 
     const erro = <p className='text-red-500'> Campo não preenchido </p>
     return (
         <>
-            <AdmToolbar />
+            <Toolbar />
             <div className='screen flex justify-center'>
-                <div className='login flex justify-center pt-2 '>
-                    <form className='form formWidth p-4 grid gap-2' >
-                        <h2 className='self-center justify-center' >Login ADM</h2>
+                <div className=' formWidth flex justify-center pt-2 '>
+                    <form className='form p-4 grid gap-2' >
+                        <h2 className='self-center justify-center' >Se Inscreva! </h2>
                         <label>
                             Nome
                             <Input
-                                placeholder='Nome'
+                                placeholder=' Nome'
                                 required
                                 type='text'
                                 value={name}
                                 onChange={handleNameChange} />
                         </label>
                         <label>
-                            Senha
+                            Email
                             <Input
-                                placeholder='Senha'
+                                placeholder=' Email'
                                 required
-                                type='Password'
-                                value={password}
-                                onChange={handlePasswordChange} />
+                                type='email'
+                                value={email}
+                                onChange={handleEmailChange} />
 
                         </label>
                         {err ? erro : ''}
@@ -66,4 +68,4 @@ function AdmLogin() {
     )
 }
 
-export { AdmLogin }
+export { Login }

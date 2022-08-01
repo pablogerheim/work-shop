@@ -1,6 +1,6 @@
-import { Toolbar } from '../../components/public/toolbar'
-import { Footer } from '../../components/public/footer'
-import { contact } from '../../data/publicData'
+import { Toolbar } from '../../components/client/toolbar'
+import { Footer } from '../../components/client/footer'
+import { contact } from '../../data/clientData'
 import { useEffect, useState } from 'react'
 
 

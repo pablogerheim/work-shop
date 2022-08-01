@@ -3,14 +3,15 @@ import { AdmFooter } from '../../components/adm/admFooter'
 import '../../css/helper.css'
 import { Button } from '@chakra-ui/react'
 import { AiOutlineForm, AiOutlineClose, AiFillWarning, AiOutlinePoweroff } from 'react-icons/ai';
-import { products } from '../../data/publicData'
+import { products } from '../../data/clientData'
 import { useEffect, useState } from 'react'
 import { productActiv, productDelete } from '../../data/admData';
 import { useNavigate } from "react-router-dom";
-import EventBus from '../../helper/EventEmitter';
 
 
-function AdmProducts() {
+function AdmProducts({
+    setProductId
+}) {
     let navigate = useNavigate();
     const [productData, setProductData] = useState(null)
     const [refresh, setRefresh] = useState(false)
@@ -26,11 +27,9 @@ function AdmProducts() {
         setProductData(await products())
     }
 
-    async function handleUpdate(selectedCard) {
-        navigate('/adm/createUpdade')
-        setTimeout(() => {
-            EventBus.dispatch('setUpdateCard', selectedCard)
-        }, 0);
+    async function handleUpdate(productId) {
+        setProductId(productId)
+        navigate('/adm/edit')
     }
 
     async function handleDelet(id) {
@@ -44,7 +43,7 @@ function AdmProducts() {
         setRefresh(true)
     }
 
-    function card(productSelected, { productId, name, image, description, active, autoexplan }) {
+    function card({ productId, name, image, description, active, autoexplan }) {
 
         if (autoexplan) {
             return (
@@ -54,7 +53,7 @@ function AdmProducts() {
                             className='bg-orange-400 shadowClass'
                             title="update"
                             type="button"
-                            onClick={() => handleUpdate(productSelected)} >
+                            onClick={() => handleUpdate(productId)} >
                             <AiOutlineForm className="h-7 w-7 " />
                         </button>
                         <button
@@ -82,7 +81,7 @@ function AdmProducts() {
                         className='bg-orange-400  shadowClass'
                         title="update"
                         type="button"
-                        onClick={() => handleUpdate(productSelected)} >
+                        onClick={() => handleUpdate(productId)} >
                         <AiOutlineForm className="h-7 w-7" />
                     </button>
                     <button
@@ -111,11 +110,11 @@ function AdmProducts() {
             <AdmToolbar />
             <section className='screen'>
                 <div className='flex justify-end'>
-                    <a href='/adm/createUpdade'> <Button colorScheme='blue' className='m-2'> Cadastrar novo produto</Button>
+                    <a href='/adm/create'> <Button colorScheme='blue' className='m-2'> Cadastrar novo produto</Button>
                     </a>
                 </div>
                 <div className="product grid justify-center ">
-                    {productData ? productData.map(productSelected => card(productSelected, productSelected)) : "Loading...."}
+                    {productData ? productData.map(productSelected => card(productSelected)) : "Loading...."}
                 </div>
             </section>
             <AdmFooter />

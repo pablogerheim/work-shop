@@ -2,12 +2,11 @@ import { useState } from 'react'
 import img from '../../img/logo.png'
 const imgMenu = "https://cdn.icon-icons.com/icons2/2596/PNG/512/hamburger_button_menu_icon_155296.png"
 
-
 function AdmToolbar() {
     const [menu, setMenu] = useState(false)
 
-    function togleStateMenu(props) {
-        setMenu(props)
+    function togleStateMenu(bloenaProps) {
+        setMenu(bloenaProps)
     }
 
     function handleMenu() {
@@ -22,7 +21,7 @@ function AdmToolbar() {
                     <a href='/adm/contact' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Contado </a>
                     <a href='/adm/products' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Produtos </a>
                     <a href='/adm/emails' className='flex self-center text-xs text-gray-600 border-r-2 border-solid border-gray-400 pr-2'> Emails </a>
-                    <a href='/adm/createUpdade' className='flex self-center text-xs text-gray-600 pr-2'> Novo Card </a>
+                    <a href='/adm/create' className='flex self-center text-xs text-gray-600 pr-2'> Novo Produto</a>
                 </div>)
         }
         else {

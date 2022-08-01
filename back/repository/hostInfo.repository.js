@@ -2,13 +2,19 @@ import About from "../models/about.model.js"
 import Contact from "../models/contact.model.js"
 import Products from "../models/products.model.js"
 
-async function printProducts() {
+async function printProducts(id) {
     try {
-        return await Products.findAll()
+        if (id) {
+            return await Products.findByPk(id)
+        } else {
+
+            return await Products.findAll()
+        }
     } catch (err) {
         throw err
     }
 }
+
 
 async function printAbout() {
     try {

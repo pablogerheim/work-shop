@@ -1,8 +1,7 @@
-import { Toolbar } from '../../components/public/toolbar'
-import { Footer } from '../../components/public/footer'
-import { about } from '../../data/publicData'
+import { Toolbar } from '../../components/client/toolbar'
+import { Footer } from '../../components/client/footer'
+import { about } from '../../data/clientData'
 import { useState, useEffect } from 'react'
-
 
 
 function About() {

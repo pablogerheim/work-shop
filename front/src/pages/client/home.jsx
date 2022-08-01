@@ -1,5 +1,5 @@
-import { Toolbar } from '../../components/public/toolbar'
-import { Footer } from '../../components/public/footer'
+import { Toolbar } from '../../components/client/toolbar'
+import { Footer } from '../../components/client/footer'
 import '../../css/helper.css'
 
 function Home() {
@@ -10,6 +10,7 @@ function Home() {
             <div className='screen home' >
                 <div className='flex justify-evenly z-10'>
                 <h2 className='pt-2 pl-2 z-10'>Arte </h2>
+                <a href='/sub' className='border rounded bg-slate-100 mt-2 px-2'> Inscreva-se !</a>
                 </div>
                 <div className='flex justify-center'>
                 <img className='top-2' alt= 'cerebro colorido' src='https://www3.unicentro.br/petfisica/wp-content/uploads/sites/54/2019/05/cerebro.jpg'/>
@@ -22,6 +23,3 @@ function Home() {
 }
 
 export { Home }
-
-//<a href='/adm/product'>adm</a>
-// <a href='\sub' className='login-link mr-2 mt-1 z-10'> Nos conte quem é você </a>

@@ -22,13 +22,13 @@ async function contact() {
   return contactText.data
 }
 
-async function products() {
+async function products(id) {
+  if (id){return await apiClient(`/product/${id}`).then(r => r.data)}
   const productsObj = await apiClient('/product')
   return productsObj.data
 }
 
 export {
-  apiEmail,
   about,
   contact,
   products,

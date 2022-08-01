@@ -1,13 +1,12 @@
 
 import { Radio, RadioGroup, Stack, Input, Textarea, Box, Button } from '@chakra-ui/react'
-import { useState, useEffect } from 'react'
+import { AdmToolbar } from '../../components/adm/admToolbar'
+import { AdmFooter } from '../../components/adm/admFooter'
+import { useState } from 'react'
 import '../../css/helper.css'
-import { productCreate , productUpdate} from '../../data/admData';
-import EventBus from '../../helper/EventEmitter';
+import { productCreate } from '../../data/admData';
 
-function AdmRegister() {
-    const [updateMode, setUpdateMode] = useState(false)
-    const [productId, setProductId] = useState('')
+function AdmCreate() {
     const [name, setName] = useState('')
     const [image, setImage] = useState('')
     const [description, setDescription] = useState('')
@@ -15,34 +14,14 @@ function AdmRegister() {
     const [togleActive, setTogleActive] = useState("1")
     const [togleautoexplan, setTogleAutoexplan] = useState("1")
 
-    useEffect(() => {
-        EventBus.on('setUpdateCard', (selectedCard) => { console.log("onpg2", selectedCard)
-        setUpdateMode(true)
-        setProductId(selectedCard.productId)
-        setName(selectedCard.name)
-        setImage(selectedCard.image)
-        setDescription(selectedCard.description)
-        setUrl(selectedCard.url)
-        setTogleActive(selectedCard.active? "1": "2")
-        setTogleAutoexplan(selectedCard.autoexplan? "1" : "2") })
-    })
-
-    useEffect(() => {
-        EventBus.remove('setUpdateCard')
-    }, [togleautoexplan])
 
     async function handleSubmit() {
         // eslint-disable-next-line no-restricted-globals
         event.preventDefault()
         const active = togleActive === "1" ? true : false
         const autoexplan = togleautoexplan === "1" ? true : false
-        if (!updateMode) {
         await productCreate({ name, image, description, url, active, autoexplan })
-        }
-        if (updateMode) {
-            await productUpdate({ name, image, description, url, active, autoexplan, productId  })
-            setUpdateMode(false)
-        }
+
         clearFilds()
     }
 
@@ -57,9 +36,10 @@ function AdmRegister() {
 
     return (
         <>
+            <AdmToolbar />
             <Box className='screen flex justify-center'>
                 <form className='flax flex-col m-2 p-10 ' onSubmit={handleSubmit}>
-                    <h1 className='flex justify-center w-full'> {updateMode ? "Atualizando Produto" : "Criando Produto"}  </h1>
+                    <h1 className='flex justify-center w-full'> Criando Produto  </h1>
 
                     <Box className='flex flex-col align-center justify-center gap-2 admRegister '>
                         Nome
@@ -90,14 +70,15 @@ function AdmRegister() {
                             </Stack>
                         </RadioGroup>
 
-                        <Button type='submit' className='mt-4' colorScheme={updateMode ? "orange" : "blue"}>{updateMode ? "Atualizar" : "Criar"}</Button>
+                        <Button type='submit' className='mt-4' colorScheme="blue">Criar</Button>
 
                     </Box>
                 </form>
             </Box>
+            <AdmFooter />
         </>
     )
 }
 
-export { AdmRegister }
+export { AdmCreate }
 

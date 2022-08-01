@@ -1,12 +1,12 @@
 import { AdmToolbar } from '../../components/adm/admToolbar'
 import { AdmFooter } from '../../components/adm/admFooter'
-import { AdmUpdateEmail } from "../../components/adm/admUpdateEmail";
-import { Paginas } from "../../components/Paginas";
+import { AdmEditEmail } from "../../components/adm/admEditEmail";
+import { Pagination } from "../../components/pagination";
 import '../../css/helper.css'
 import { AiOutlineForm, AiOutlineClose, AiFillWarning, AiOutlinePoweroff } from 'react-icons/ai';
 import { getEmail, deleteEmail, activeEmail, getLastId } from "../../data/admData";
 import { useEffect, useMemo, useState } from 'react'
-import EventBus from '../../helper/EventEmitter';
+import EventBus from '../../helper/eventBus';
 import { Input } from '@chakra-ui/react'
 
 function AdmEmails() {
@@ -75,13 +75,13 @@ function AdmEmails() {
             setPage(1)
         }
         if (emailData) {
-            let filtredEmails = emailData.filter(e => e.name.toLowerCase().includes(wanted.toLowerCase()))
+            let filtredEmails = emailData.filter(obj => obj.name.toLowerCase().includes(wanted.toLowerCase()))
             setEmailData(filtredEmails)
         }
     }
 
     function email(selectedEmail, { emailId, name, active, email }) {
-        if (emailSelected === emailId) { return <AdmUpdateEmail setRefresh={setRefresh} /> }
+        if (emailSelected === emailId) { return <AdmEditEmail setRefresh={setRefresh} /> }
         return (
             <div key={emailId} className="grid grid-cols-3 gap-4">
                 <p className=' flex justify-around'>{name}</p>
@@ -138,7 +138,7 @@ function AdmEmails() {
                 </div>
             </section>
 
-            <Paginas dataLength={emailData.length} pagina={page} onSelectpage={setPage} />
+            <Pagination dataLength={emailData.length} page={page} onSelectpage={setPage} />
 
             <AdmFooter />
         </>
