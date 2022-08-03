@@ -1,12 +1,5 @@
 import axios from "axios"
 
-const headers = {
-  // "Authorization": `Bearer ${token}`
-  "Content-Type": "application/json; charset = utf-8",
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Credentials": "true",
-};
-
 const api = axios.create({
   baseURL: "http://localhost:3001/adm",
 });
@@ -19,50 +12,165 @@ const apiLast = axios.create({
   baseURL: "http://localhost:3001/lastId",
 });
 
+async function loginAdm(user) {
+  const userinfo = await axios.post("http://localhost:3001/login/", user)
+  return userinfo
+}
+
+async function loggedToken() {
+  const loggedInUser = localStorage.getItem("userToken");
+  if (!loggedInUser) {
+    const foundUser = await JSON.parse(JSON.stringify(loggedInUser))
+    return foundUser
+  }
+  return false
+}
+
+async function logOut() {
+
+  await axios.post("http://localhost:3001/logout/", {}, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
+}
+
 async function getEmail() {
-  return await apiEmail.get("/").then(res => res.data)
+  const token = await loggedToken()
+ // "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjE5NjAsImV4cCI6MTY1OTQ2NTU2MH0.hWBjxqKqXKNLBQYDZb2qW-TF8bnmcCVybdBYicaD16o"
+  return await apiEmail.get("/", {
+    headers: {
+      "Authorization": `Bearer ${ token}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  }).then(res => res.data)
 }
 
 async function getLastId() {
-  return await apiLast.get("/").then(res => res.data.emailsId)
+  return await apiLast.get("/", {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  }).then(res => res.data.emailsId)
 }
 
 async function deleteEmail(id) {
-  await apiEmail.delete(`/${id}`)
+  await apiEmail.delete(`/${id}`, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function updateEmail(email) {
-  await apiEmail.put("/", email)
+  await apiEmail.put("/", email, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function activeEmail(emailId, active) {
-  await apiEmail.patch("/", { emailId, active })
+  await apiEmail.patch("/", { emailId, active }, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function aboutUpdate(aboutText) {
-  return await api.put('/about', { about: aboutText }, { headers })
+  return await api.put('/about', { about: aboutText }, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function contactUpdate(obj) {
-  return await api.put('/contact', obj, { headers })
+  return await api.put('/contact', obj, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function productActiv(obj) {
-  return await api.patch('/product', obj, { headers })
+  return await api.patch('/product', obj, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function productDelete(id) {
-  await api.delete(`/product/${id}`, { headers })
+  await api.delete(`/product/${id}`, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function productCreate(obj) {
-  return await axios.post('http://localhost:3001/adm/product', obj, { headers })
+  return await axios.post('http://localhost:3001/adm/product', obj, {
+
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
 }
 
 async function productUpdate(obj) {
-  return await api.put('/product', obj, { headers })
-}
+  return await api.put('/product', obj, {
 
+    headers: {
+      "Authorization": `Bearer ${ await loggedToken()}`,
+      "Content-Type": "application/json; charset = utf-8",
+      "Access-Control-Allow-Origin": "*",
+      "Access-Control-Allow-Credentials": "true",
+    }
+  })
+}
 
 export {
   aboutUpdate,
@@ -75,5 +183,8 @@ export {
   deleteEmail,
   updateEmail,
   activeEmail,
-  getLastId
+  getLastId,
+  loginAdm,
+  logOut,
+  loggedToken
 }

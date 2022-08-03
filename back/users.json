@@ -2,8 +2,7 @@
     "nextId": 2,
     "users": [{
         "id": 1,
-        "name": "Admin",
-        "email": "admin",
+        "name": "admin",
         "password": "$2b$12$LaKhzwNUngRCp6u6HlTu7O21BiVoiHb08QAMW.7WjYZw0YfeYUV.O",
         "timestamp": "2022-05-24T13:44:27.299Z"
     }]

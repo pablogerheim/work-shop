@@ -1,8 +1,6 @@
-import { Toolbar } from '../../components/public/toolbar'
-import { Footer } from '../../components/public/footer'
-import { Input } from '@chakra-ui/react'
-import { Button } from '@chakra-ui/react'
+import { Input, Button } from '@chakra-ui/react'
 import { useState } from 'react'
+import { createEmail } from "../../data/clientData";
 import '../../css/helper.css'
 
 function Login() {
@@ -13,28 +11,27 @@ function Login() {
 
     const handleNameChange = (e) => setName(e.target.value)
     const handleEmailChange = (e) => setEmail(e.target.value)
-    
-    function submit() {
-        if( name === '' || email === '') { setErr(true)}
-        else{
+
+    async function submit() {
+        // eslint-disable-next-line no-restricted-globals
+        event.preventDefault()
+        if (name === '' || email === '') { setErr(true) }
+        else {
             setErr(false)
-            //chama o back e cadastra o nome email
-            //redireciona para o home e passa a apresentar o texto ola nome digitado
+            await createEmail({ name, email })
         }
     }
-    
-    const erro = <p className = 'text-red-500'> Campo não preenchido </p>
+
+    const erro = <p className='text-red-500'> Campo não preenchido </p>
     return (
-        <>
-            <Toolbar />
-            <div className='flex justify-center'>
-            <div className='login flex justify-center pt-2 '>
+        <div className='screen flex justify-center'>
+            <div className=' formWidth flex justify-center pt-2 '>
                 <form className='form p-4 grid gap-2' >
-                    <h2 className='self-center justify-center' >Será um enorme prazer te conhecer!</h2>
+                    <h2 className='self-center justify-center' >Se Inscreva! </h2>
                     <label>
-                         Nome
+                        Nome
                         <Input
-                         placeholder=' Nome'
+                            placeholder=' Nome'
                             required
                             type='text'
                             value={name}
@@ -43,14 +40,14 @@ function Login() {
                     <label>
                         Email
                         <Input
-                         placeholder=' Email' 
+                            placeholder=' Email'
                             required
                             type='email'
                             value={email}
                             onChange={handleEmailChange} />
-                         
+
                     </label>
-                    { err? erro : '' }
+                    {err ? erro : ''}
                     <Button
                         loadingText='Submitting'
                         colorScheme='teal'
@@ -61,9 +58,7 @@ function Login() {
                     </Button>
                 </form>
             </div>
-            </div>
-            <Footer/>
-        </>
+        </div>
     )
 }
 

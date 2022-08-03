@@ -2,11 +2,10 @@
 import { Input, Box, Button } from '@chakra-ui/react'
 import { useState, useEffect } from 'react'
 import '../../css/helper.css'
-import { updateEmail} from '../../data/admData';
-import EventBus from '../../helper/EventEmitter';
+import { updateEmail } from '../../data/admData';
+import EventBus from '../../helper/eventBus';
 
-
-function AdmUpdateEmail({
+function AdmEditEmail({
     setRefresh
 }) {
     const [emailId, setEmailId] = useState('')
@@ -15,23 +14,23 @@ function AdmUpdateEmail({
 
 
     useEffect(() => {
-        EventBus.on('setUpdateEmail', (selectedEmail) => { 
-        setEmailId(selectedEmail.emailId)
-        setName(selectedEmail.name)
-        setEmail(selectedEmail.email)
+        EventBus.on('setUpdateEmail', (selectedEmail) => {
+            setEmailId(selectedEmail.emailId)
+            setName(selectedEmail.name)
+            setEmail(selectedEmail.email)
+        })
     })
-})
 
-useEffect(() => {
-    EventBus.remove('setUpdateCard')
-}, [emailId])
+    useEffect(() => {
+        EventBus.remove('setUpdateCard')
+    }, [emailId])
 
 
     async function handleSubmit() {
         // eslint-disable-next-line no-restricted-globals
         event.preventDefault()
-       await updateEmail({emailId, name, email })
-       setRefresh(true)
+        await updateEmail({ emailId, name, email })
+        setRefresh(true)
     }
 
     return (
@@ -55,5 +54,5 @@ useEffect(() => {
     )
 }
 
-export { AdmUpdateEmail }
+export { AdmEditEmail }
 

@@ -1,5 +1,5 @@
 import emailService from "../service/email.service.js";
-import emailController from "../controllers/email.controller.js";
+
 
 async function getEmail(req, res, next) {
     try {
@@ -30,7 +30,6 @@ async function createEmail(req, res, next) {
             return res.status(422).json({ msg: "O nome e email são obrigatórios!" });
         }
         const Email = await emailService.createEmail(req.body);
-        console.log(Email)
         res.status(200).json({ msg: "Criação realizada com sucesso!" });
         logger.info(`POST /creat Email - ${JSON.stringify(Email)}`);
     } catch (err) {

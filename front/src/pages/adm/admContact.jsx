@@ -1,6 +1,4 @@
-import { AdmToolbar } from '../../components/adm/admToolbar'
-import { AdmFooter } from '../../components/adm/admFooter'
-import { contact } from '../../data/publicData'
+import { contact } from '../../data/clientData'
 import { useEffect, useState } from 'react'
 import { Button, Textarea } from '@chakra-ui/react'
 import '../../css/helper.css'
@@ -27,32 +25,29 @@ function AdmContact() {
     }, [contactData])
 
     async function getContactData() {
-        console.log(await contact())
         setContactData(await contact())
-
     }
 
-    function handleName(params) {
-        setName(params)
+    function handleName(name) {
+        setName(name)
         setDisabled(false)
     }
 
-    function handleEmail(params) {
-        setEmail(params)
+    function handleEmail(email) {
+        setEmail(email)
         setDisabled(false)
     }
 
-    function handleTelephone(params) {
-        setTelephone(params)
+    function handleTelephone(telephone) {
+        setTelephone(telephone)
         setDisabled(false)
     }
-
 
     async function handleSave() {
         // eslint-disable-next-line no-restricted-globals
         event.preventDefault()
-        let x = await contactUpdate({ name, email, telephone })
-        if (x.statusText) {
+        let res = await contactUpdate({ name, email, telephone })
+        if (res.statusText) {
             setFedback(true)
             setTimeout(() => {
                 setFedback(false)
@@ -62,8 +57,6 @@ function AdmContact() {
     }
 
     return (
-        <>
-            <AdmToolbar />
             <section className="screen p-5 flex align-middle justify-around ">
                 <div className="w-4/5 aboutWidth flex flex-col align-middle">
                     <h1 className=' flex flex-col justify-center p-5 items-center'>
@@ -84,8 +77,6 @@ function AdmContact() {
                     <Button colorScheme='blue' isDisabled={disabled} onClick={handleSave}> Salvar </Button>
                 </div>
             </section>
-            <AdmFooter />
-        </>
     )
 }
 

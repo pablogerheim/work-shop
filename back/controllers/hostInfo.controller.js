@@ -2,7 +2,7 @@ import hostInfoServise from "../service/hostInfo.service.js";
 
 async function getProduct(req, res, next) {
     try {
-        const data = await hostInfoServise.getProduct()
+        const data = await hostInfoServise.getProduct(req.params.id)
         res.status(200).send(data);
         logger.info(`GET /Products `);
     } catch (err) {

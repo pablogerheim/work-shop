@@ -1,6 +1,6 @@
-import { promises as fs } from "fs"
+import { promises } from "fs"
 
-const { readFile, writeFile } = fs
+const { readFile, writeFile } = promises
 
 async function readFileUser() {
     return JSON.parse(await readFile("users.json"))
