@@ -1,20 +1,10 @@
 
-  let { token } = currentIuser
-  return fetch(`http://localhost:3001/private/${eventId}`, {
-    credentials: "include",
-    method: "DELETE",
-    headers: {
-      "Authorization": `Bearer ${token}`,
-      "Content-Type": "application/json; charset = utf-8",
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Credentials": "true",
-    },
-
 FRONT
 
-back
+BACK
 
-Data base
+DATA BASE
+
 CREATE TABLE emails (  
     email_id SERIAL PRIMARY KEY,
     email VARCHAR NOT NULL,
@@ -68,20 +58,3 @@ Read-me
 
 - Revisao de nomes de variaveis e arquivos
 
-
-rotas
-login/email - cria email arrumar no FRONT
-login -> loga ADM 
-
-
-    const loggedInUser = localStorage.getItem("userToken");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(JSON.stringify(loggedInUser))
-      setUser(foundUser);
-    }
-  }, []);
-
-      {
-      "token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTQ1NjQsImV4cCI6MTY1OTM5ODE2NH0.wEZFCd4EF2F9zeNL0Xb49xyx6_GHJXMkIF0v3__Uuv8",
-      "date": "2022-08-01T22:56:06.260Z"
-    }

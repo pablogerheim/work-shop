@@ -1,6 +1,10 @@
 import loginRepository from "../repository/login.repository.js"
 import jwt from 'jsonwebtoken'
 import bcrypt from 'bcrypt'
+import { promises } from "fs";
+
+const { readFile, writeFile } = promises;
+
 
 async function findUser(name) {
     let userdb = await loginRepository.readFileUser()
@@ -33,9 +37,12 @@ async function compareUser(user, password) {
 }
 
 async function createToken(user) {
-    const secret = 'process.env.SECRET';
-    const token = jwt.sign({ id: user._id, }, secret, {
-        expiresIn: 3600 // expires in 1hora
+
+    const privateKey = await readFile('./private.key', 'utf-8')
+
+    const token = jwt.sign({ id: user._id, }, privateKey, {
+        expiresIn: 3600,
+        algorithm: 'RS256'
     });
     return token
 }
