@@ -1,8 +1,5 @@
-import { Toolbar } from '../../components/client/toolbar'
-import { Footer } from '../../components/client/footer'
 import { about } from '../../data/clientData'
 import { useState, useEffect } from 'react'
-
 
 function About() {
     const [aboutText, setAbout] = useState('Loading...')
@@ -16,16 +13,12 @@ function About() {
     }
 
     return (
-        <>
-            <Toolbar />
-            <div className="screen">
-                <h1 className=' flex flex-col justify-center p-5 items-center' >
-                    Sobre nós  titulo </h1>
-                <p className=' flex flex-col justify-center m-5 items-center'>
-                    {aboutText}</p>
-            </div>
-            <Footer />
-        </>
+        <div className="screen">
+            <h1 className=' flex flex-col justify-center p-5 items-center' >
+                Sobre nós  titulo </h1>
+            <p className=' flex flex-col justify-center m-5 items-center'>
+                {aboutText}</p>
+        </div>
     )
 }
 

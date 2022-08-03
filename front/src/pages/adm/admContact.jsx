@@ -1,5 +1,3 @@
-import { AdmToolbar } from '../../components/adm/admToolbar'
-import { AdmFooter } from '../../components/adm/admFooter'
 import { contact } from '../../data/clientData'
 import { useEffect, useState } from 'react'
 import { Button, Textarea } from '@chakra-ui/react'
@@ -59,8 +57,6 @@ function AdmContact() {
     }
 
     return (
-        <>
-            <AdmToolbar />
             <section className="screen p-5 flex align-middle justify-around ">
                 <div className="w-4/5 aboutWidth flex flex-col align-middle">
                     <h1 className=' flex flex-col justify-center p-5 items-center'>
@@ -81,8 +77,6 @@ function AdmContact() {
                     <Button colorScheme='blue' isDisabled={disabled} onClick={handleSave}> Salvar </Button>
                 </div>
             </section>
-            <AdmFooter />
-        </>
     )
 }
 

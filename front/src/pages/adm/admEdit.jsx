@@ -1,16 +1,12 @@
 
 import { Radio, RadioGroup, Stack, Input, Textarea, Box, Button } from '@chakra-ui/react'
-import { AdmToolbar } from '../../components/adm/admToolbar'
-import { AdmFooter } from '../../components/adm/admFooter'
 import { useState, useEffect } from 'react'
 import '../../css/helper.css'
 import { productUpdate } from '../../data/admData';
 import { products } from '../../data/clientData';
 import { useNavigate } from "react-router-dom";
 
-function AdmEdit({
-    id
-}) {
+function AdmEdit({ id }) {
     const navigate = useNavigate()
     const [productId, setProductId] = useState('')
     const [name, setName] = useState('')
@@ -18,7 +14,7 @@ function AdmEdit({
     const [description, setDescription] = useState('')
     const [url, setUrl] = useState('')
     const [togleActive, setTogleActive] = useState('3')
-    const [togleautoexplan, setTogleAutoexplan ] = useState('3')
+    const [togleautoexplan, setTogleAutoexplan] = useState('3')
 
     useEffect(() => {
         if (togleActive === '3') {
@@ -47,51 +43,45 @@ function AdmEdit({
         navigate('/adm/products')
     }
 
-
-
     return (
-        <>
-            <AdmToolbar />
-            <Box className='screen flex justify-center'>
-                <form className='flax flex-col m-2 p-10 ' onSubmit={handleSubmit}>
-                    <h1 className='flex justify-center w-full'> Atualizando Produto  </h1>
+        <Box className='screen flex justify-center'>
+            <form className='flax flex-col m-2 p-10 ' onSubmit={handleSubmit}>
+                <h1 className='flex justify-center w-full'> Atualizando Produto  </h1>
 
-                    <Box className='flex flex-col align-center justify-center gap-2 admRegister '>
-                        Nome
-                        <Input value={name} onChange={(e) => setName(e.target.value)} placeholder='Nome do produto' />
+                <Box className='flex flex-col align-center justify-center gap-2 admRegister '>
+                    Nome
+                    <Input value={name} onChange={(e) => setName(e.target.value)} placeholder='Nome do produto' />
 
-                        Imagen
-                        <Input value={image} onChange={(e) => setImage(e.target.value)} placeholder='Link da Imagen' />
+                    Imagen
+                    <Input value={image} onChange={(e) => setImage(e.target.value)} placeholder='Link da Imagen' />
 
-                        Descrição
-                        <Textarea value={description} onChange={(e) => setDescription(e.target.value)} placeholder='Descrição do produto' />
+                    Descrição
+                    <Textarea value={description} onChange={(e) => setDescription(e.target.value)} placeholder='Descrição do produto' />
 
-                        Url
-                        <Input value={url} onChange={(e) => setUrl(e.target.value)} placeholder='Url de redirecionamento' />
+                    Url
+                    <Input value={url} onChange={(e) => setUrl(e.target.value)} placeholder='Url de redirecionamento' />
 
-                        Produto pronto para exibição.
-                        <RadioGroup onChange={setTogleActive} value={togleActive}>
-                            <Stack direction='row'>
-                                <Radio value='1'>Sim</Radio>
-                                <Radio value='2'>Não</Radio>
-                            </Stack>
-                        </RadioGroup>
+                    Produto pronto para exibição.
+                    <RadioGroup onChange={setTogleActive} value={togleActive}>
+                        <Stack direction='row'>
+                            <Radio value='1'>Sim</Radio>
+                            <Radio value='2'>Não</Radio>
+                        </Stack>
+                    </RadioGroup>
 
-                        Imagem auto explicativa.
-                        <RadioGroup onChange={ setTogleAutoexplan} value={togleautoexplan}>
-                            <Stack direction='row'>
-                                <Radio value='1'>Sim</Radio>
-                                <Radio value='2'>Não</Radio>
-                            </Stack>
-                        </RadioGroup>
+                    Imagem auto explicativa.
+                    <RadioGroup onChange={setTogleAutoexplan} value={togleautoexplan}>
+                        <Stack direction='row'>
+                            <Radio value='1'>Sim</Radio>
+                            <Radio value='2'>Não</Radio>
+                        </Stack>
+                    </RadioGroup>
 
-                        <Button type='submit' className='mt-4' colorScheme='orange'> Atualizar  </Button>
+                    <Button type='submit' className='mt-4' colorScheme='orange'> Atualizar  </Button>
 
-                    </Box>
-                </form>
-            </Box>
-            <AdmFooter />
-        </>
+                </Box>
+            </form>
+        </Box>
     )
 }
 

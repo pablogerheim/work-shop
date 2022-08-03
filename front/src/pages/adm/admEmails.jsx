@@ -1,5 +1,3 @@
-import { AdmToolbar } from '../../components/adm/admToolbar'
-import { AdmFooter } from '../../components/adm/admFooter'
 import { AdmEditEmail } from "../../components/adm/admEditEmail";
 import { Pagination } from "../../components/pagination";
 import '../../css/helper.css'
@@ -26,6 +24,7 @@ function AdmEmails() {
             setRefresh(false)
         }
 
+        // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [emailData, refresh])
 
     useMemo(() => {
@@ -91,7 +90,8 @@ function AdmEmails() {
                         className='bg-orange-400 shadowClass my-2'
                         title="update"
                         type="button"
-                        onClick={() => handleUpdate(selectedEmail)} >
+                        onClick={() => handleUpdate(selectedEmail)} 
+                        >
                         <AiOutlineForm className="h-4 w-4" />
                     </button>
                     <button
@@ -111,37 +111,32 @@ function AdmEmails() {
             </div>
         )
     }
-    if (!emailData) { return <div> Loading....</div> }
-    return (
-        <>
-            <AdmToolbar />
-            <section className='screen'>
-                <div className='p-4'>
-                    <Input
-                        placeholder='Procurar por nome'
-                        value={search}
-                        onChange={(e) => hendleSerach(e.target.value)}
-                    />
-                    {lastId > 0 ? <div className='mt-1'>
-                        <p>Total de emails já cadastrados {lastId}</p>
-                        <p>Total de emails ativos {emailData.length}</p>
-                        <p>Total de emails descadastrados {lastId - emailData.length}</p> </div> : <p className='mt-1'> Sem informações</p>}
+    if (!emailData) { return <div className='screen' > Loading....</div> }
+    return (<>
+        <section className='screen'>
+            <div className='p-4'>
+                <Input
+                    placeholder='Procurar por nome'
+                    value={search}
+                    onChange={(e) => hendleSerach(e.target.value)}
+                />
+                {lastId > 0 ? <div className='mt-1'>
+                    <p>Total de emails já cadastrados {lastId}</p>
+                    <p>Total de emails ativos {emailData.length}</p>
+                    <p>Total de emails descadastrados {lastId - emailData.length}</p> </div> : <p className='mt-1'> Sem informações</p>}
 
+            </div>
+            <div className="flex flex-col mt-1">
+                <div className="grid grid-cols-3 gap-4 mb-4">
+                    <p className=' flex justify-around'>Nome</p>
+                    <p className=' flex justify-around'>Email</p>
+                    <p className=' flex justify-around'>Opções</p>
                 </div>
-                <div className="flex flex-col mt-1">
-                    <div className="grid grid-cols-3 gap-4 mb-4">
-                        <p className=' flex justify-around'>Nome</p>
-                        <p className=' flex justify-around'>Email</p>
-                        <p className=' flex justify-around'>Opções</p>
-                    </div>
-                    {emailsOn ? emailsOn.map(selectedEmail => email(selectedEmail, selectedEmail)) : "Loading...."}
-                </div>
-            </section>
-
-            <Pagination dataLength={emailData.length} page={page} onSelectpage={setPage} />
-
-            <AdmFooter />
-        </>
+                {emailsOn ? emailsOn.map(selectedEmail => email(selectedEmail, selectedEmail)) : "Loading...."}
+            </div>
+        </section>
+        <Pagination dataLength={emailData.length} page={page} onSelectpage={setPage} />
+    </>
     )
 }
 

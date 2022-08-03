@@ -1,8 +1,6 @@
-import { Toolbar } from '../../components/client/toolbar'
-import { Footer } from '../../components/client/footer'
 import { products } from '../../data/clientData'
 import { useEffect, useState } from 'react'
-import {v4}  from "uuid";
+import { v4 } from "uuid";
 import '../../css/helper.css'
 
 function Products() {
@@ -26,7 +24,8 @@ function Products() {
                     <img src={image} alt={name} className='img ' />
                 </a>
             </div>
-        )}
+            )
+        }
         return (
             <div className='card' key={v4()}>
                 <a href={url}>
@@ -38,15 +37,11 @@ function Products() {
         )
     }
 
-    if (!productData) { return (<div>Loading...</div>)}
+    if (!productData) { return (<div>Loading...</div>) }
     return (
-        <>
-            <Toolbar />
-            <div className="screen product grid justify-center  ">
-                {productData.map(product => card(product) )}
-            </div>
-            <Footer/>
-        </>
+        <div className="screen product grid justify-center  ">
+            {productData.map(product => card(product))}
+        </div>
     )
 }
 

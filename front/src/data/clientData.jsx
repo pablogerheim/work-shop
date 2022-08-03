@@ -1,7 +1,7 @@
 import axios from "axios"
 
 const apiEmail = axios.create({
-  baseURL: "http://localhost:3001/email",
+  baseURL: "http://localhost:3001/login",
 });
 
 const apiClient = axios.create({
@@ -9,7 +9,7 @@ const apiClient = axios.create({
 });
 
 async function createEmail(email) {
- await apiEmail.post("/", email)
+ await apiEmail.post("/email", email)
 }
 
 async function about() {

@@ -1,5 +1,3 @@
-import { AdmToolbar } from '../../components/adm/admToolbar'
-import { AdmFooter } from '../../components/adm/admFooter'
 import '../../css/helper.css'
 import { Button } from '@chakra-ui/react'
 import { AiOutlineForm, AiOutlineClose, AiFillWarning, AiOutlinePoweroff } from 'react-icons/ai';
@@ -8,10 +6,7 @@ import { useEffect, useState } from 'react'
 import { productActiv, productDelete } from '../../data/admData';
 import { useNavigate } from "react-router-dom";
 
-
-function AdmProducts({
-    setProductId
-}) {
+function AdmProducts({ setProductId }) {
     let navigate = useNavigate();
     const [productData, setProductData] = useState(null)
     const [refresh, setRefresh] = useState(false)
@@ -106,19 +101,15 @@ function AdmProducts({
     }
 
     return (
-        <>
-            <AdmToolbar />
-            <section className='screen'>
-                <div className='flex justify-end'>
-                    <a href='/adm/create'> <Button colorScheme='blue' className='m-2'> Cadastrar novo produto</Button>
-                    </a>
-                </div>
-                <div className="product grid justify-center ">
-                    {productData ? productData.map(productSelected => card(productSelected)) : "Loading...."}
-                </div>
-            </section>
-            <AdmFooter />
-        </>
+        <section className='screen'>
+            <div className='flex justify-end'>
+                <a href='/adm/create'> <Button colorScheme='blue' className='m-2'> Cadastrar novo produto</Button>
+                </a>
+            </div>
+            <div className="product grid justify-center ">
+                {productData ? productData.map(productSelected => card(productSelected)) : "Loading...."}
+            </div>
+        </section>
     )
 }
 

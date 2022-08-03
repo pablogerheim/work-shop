@@ -1,6 +1,7 @@
 import express from "express";
 import winston from "winston";
-import publicRoute from "./routes/public.routes.js"
+import hostInfoRepository from "./repository/hostInfo.repository.js";
+import loginRoute from "./routes/login.routes.js"
 import emailRoute from "./routes/email.routes.js"
 import admRoute from "./routes/adm.routes.js"
 import hostInfoRoute from "./routes/hostInfo.routes.js"
@@ -12,8 +13,6 @@ import jwt from 'jsonwebtoken'
 import validate from "./helper/helperList.js";
 
 const { readFile, writeFile } = promises;
-
-global.fileName = "base.json";
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -42,40 +41,34 @@ const app = express();
 app.use(express.json());
 app.use(cors(corsOptions));
 app.use(express.static("public"));
+//livre
 app.use("/doc", swaggerUi.serve, swaggerUi.setup(swaggerDocument));
-//http://localhost:3001/doc/
-
 app.use("/", hostInfoRoute)
-app.use("/lastId", async(req, res, next) => {
-    try {
-        const data = JSON.parse(await readFile("db.json"))
-        res.status(200).send(data);
-        logger.info(`GET /LastId ${data}`);
-    } catch (err) {
-        next(err);
-    }
-})
-app.use("/email", emailRoute)
-app.use("/login", publicRoute)
-app.use("/adm", admRoute);
+app.use("/login", loginRoute)
+    //privado
+app.use("/email", checkToken, emailRoute)
+app.use("/adm", checkToken, admRoute);
+app.use("/lastId", checkToken, hostInfoRepository.printLastId)
 app.use("/logout", async(req, res, next) => {
-    const authHeader = req.headers["authorization"];
+    const authHeader = req.headers.authorization;
     const token = authHeader && authHeader.split(" ")[1];
     try {
-        let blaklist = JSON.parse(await readFile("blaklist.json"))
-        let blaktoken = {
-            token,
-            date: new Date
-        }
-        blaklist.blaktokens.forEach((e, i) => {
-            if (!validate(e.date)) { blaklist.blaktokens[i].delete() }
+        if (!token) { throw new Error('token missing') }
+        let blackList = JSON.parse(await readFile("blackList.json"))
+        let blacktoken = { token, date: new Date }
+        let currentTokens = []
+
+        blackList.blacktokens.forEach((e, i) => {
+            console.log(validate(e.date))
+            if (validate(e.date)) { currentTokens.push(e) }
         });
 
-        blaklist.blaktokens.push(blaktoken)
-        await writeFile("blaklist.json", JSON.stringify(blaklist, null, 2))
+        blackList.blacktokens = currentTokens
+        blackList.blacktokens.push(blacktoken)
+        await writeFile("blackList.json", JSON.stringify(blackList, null, 2))
 
         res.status(200).json({ msg: "Deslogado com susseso" })
-        logger.info(`POST / Logout `);
+        logger.info(` Logout `);
     } catch (err) {
         next(err);
     }
@@ -84,10 +77,10 @@ app.use("/logout", async(req, res, next) => {
 async function checkToken(req, res, next) {
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
-    if (!token) { return res.status(401).json({ msg: "Acesso negado!" }) }
-    let blaklist = JSON.parse(await readFile("blaklist.json"))
-    let blaktoken = blaklist.blaktokens.find(t => t.token === token)
-    if (blaktoken) { if (blaktoken.token === token) { return res.status(401).json({ msg: "Acesso negado!" }) } }
+    if (!token) { return res.status(401).json({ msg: "Acesso negado!" }, token) }
+    let blackList = JSON.parse(await readFile("blackList.json"))
+    let blacktoken = blackList.blacktokens.find(t => t.token === token)
+    if (blacktoken) { if (blacktoken.token === token) { return res.status(401).json({ msg: "Acesso negado!" }) } }
     try {
         const secret = 'process.env.SECRET';
         jwt.verify(token, secret);

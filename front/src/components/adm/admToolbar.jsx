@@ -9,6 +9,7 @@ function AdmToolbar() {
         setMenu(bloenaProps)
     }
 
+
     function handleMenu() {
         if (menu) {
             return (
@@ -36,7 +37,7 @@ function AdmToolbar() {
 
     return (
         <div className="bg-slate-100 flex justify-between ">
-            <a href='/home'>
+            <a href='/adm/login'>
                 <img src={img} alt='Aprendendo Arte' height='60px' width='80px' className='m-2 ' />
             </a>
             <div className='h-auto w-auto flex items-center'>

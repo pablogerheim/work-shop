@@ -1,5 +1,3 @@
-import { AdmToolbar } from '../../components/adm/admToolbar'
-import { AdmFooter } from '../../components/adm/admFooter'
 import { about } from '../../data/clientData'
 import { useState, useEffect } from 'react'
 import { Button, Textarea } from '@chakra-ui/react'
@@ -22,9 +20,9 @@ function AdmAbout() {
         setAbout(await about())
     }
 
-    function handleText(params) {
-        if (aboutText !== params) {
-            setAbout(params)
+    function handleText(newText) {
+        if (aboutText !== newText) {
+            setAbout(newText)
             setDisabled(false)
         }
     }
@@ -43,23 +41,19 @@ function AdmAbout() {
     }
 
     return (
-        <>
-            <AdmToolbar />
-            <section className="screen p-5 flex align-middle justify-around ">
-                <div className="w-4/5 aboutWidth flex flex-col align-middle">
+        <section className="screen p-5 flex align-middle justify-around ">
+            <div className="w-4/5 aboutWidth flex flex-col align-middle">
 
-                    <h1 className=' flex flex-col justify-center p-5 items-center' >
-                        Sobre nós  titulo {fedback ? <p className='flex'><FcApproval className='h-7 w-7 mr-3' /> Atualizado com sucesso </p> : null}
-                    </h1>
-                    <Textarea className=' mb-5 flex  '
-                        value={aboutText ? aboutText : 'Loading...'}
-                        onChange={(e) => handleText(e.target.value)}
-                    />
-                    <Button colorScheme='blue' isDisabled={disabled} onClick={handleSave}> Salvar </Button>
-                </div>
-            </section>
-            <AdmFooter />
-        </>
+                <h1 className=' flex flex-col justify-center p-5 items-center' >
+                    Sobre nós  titulo {fedback ? <p className='flex'><FcApproval className='h-7 w-7 mr-3' /> Atualizado com sucesso </p> : null}
+                </h1>
+                <Textarea className=' mb-5 flex  '
+                    value={aboutText ? aboutText : 'Loading...'}
+                    onChange={(e) => handleText(e.target.value)}
+                />
+                <Button colorScheme='blue' isDisabled={disabled} onClick={handleSave}> Salvar </Button>
+            </div>
+        </section>
     )
 }
 
