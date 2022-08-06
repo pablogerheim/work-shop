@@ -4,11 +4,14 @@ import { loginAdm } from "../../data/admData";
 import { useNavigate } from "react-router-dom";
 import '../../css/helper.css'
 
-function AdmLogin({ setUser }) {
+import { useAuth } from '../../helper/auth'
+
+function AdmLogin() {
     const navigate = useNavigate()
     const [name, setName] = useState('')
     const [password, setPassword] = useState('')
     const [err, setErr] = useState(false)
+    const [, { login }] = useAuth()
 
     const handleNameChange = (e) => setName(e.target.value)
     const handlePasswordChange = (e) => setPassword(e.target.value)
@@ -18,8 +21,7 @@ function AdmLogin({ setUser }) {
         if (!userInfo.status === 200) { setErr(true) }
         else {
             setErr(false)
-            localStorage.setItem('userToken', userInfo.data.token)
-            await setUser(userInfo.data.token)
+            login(userInfo.data.token)
             navigate('/adm/emails')
         }
     }

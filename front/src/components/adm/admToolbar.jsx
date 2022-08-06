@@ -9,16 +9,6 @@ function AdmToolbar() {
         setMenu(bloenaProps)
     }
 
-    async function loggedToken() {
-        const loggedInUser = localStorage.getItem("user");
-        console.log(loggedInUser)
-        if (loggedInUser) {
-          const foundUser = await JSON.parse(JSON.stringify(loggedInUser))
-          return foundUser
-        }
-        return "error"
-      }
-
     function handleMenu() {
         if (menu) {
             return (

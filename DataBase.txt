@@ -1,5 +1,4 @@
-
-Data base
+DATA BASE
 
 CREATE TABLE emails (  
     email_id SERIAL PRIMARY KEY,
@@ -58,21 +57,7 @@ CREATE TABLE products (
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+--- //  ---
 
 
 insert into abouts (about) values ('Text about us');

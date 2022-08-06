@@ -15,8 +15,7 @@ import { AdmAbout } from './pages/adm/admAbout'
 import { AdmContact } from './pages/adm/admContact'
 import { AdmEmails } from './pages/adm/admEmails'
 
-
-function Routed({user, setUser}) {
+function Routed({onLine}) {
   const [productId, setProductId] = useState(null)
 
   return (
@@ -27,14 +26,14 @@ function Routed({user, setUser}) {
           <Route path="/contact" element={<Contact />}> </Route>
           <Route path="/products" element={<Products />}> </Route>
           <Route path="/sub" element={<Login />}> </Route>
-          <Route path="/adm/login" element={<AdmLogin setUser={setUser} />}></Route>
-          <Route path="/adm/home" element={user ? <AdmHome setUser={setUser} /> : <Navigate to={'/adm/login'} />}> </Route>
-          <Route path="/adm/products" element={user ? <AdmProducts setProductId={setProductId} /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/adm/edit" element={user ? <AdmEdit id={productId} /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/adm/create" element={user ? <AdmCreate /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/adm/about" element={user ? <AdmAbout /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/adm/contact" element={user ? <AdmContact /> : <Navigate to={'/adm/login'} />}></Route>
-          <Route path="/adm/emails" element={user ? <AdmEmails /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/login" element={<AdmLogin />}></Route>
+          <Route path="/adm/home" element={onLine ? <AdmHome /> : <Navigate to={'/adm/login'} />}> </Route>
+          <Route path="/adm/products" element={onLine ? <AdmProducts setProductId={setProductId} /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/edit" element={onLine ? <AdmEdit id={productId} /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/create" element={onLine ? <AdmCreate /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/about" element={onLine ? <AdmAbout /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/contact" element={onLine ? <AdmContact /> : <Navigate to={'/adm/login'} />}></Route>
+          <Route path="/adm/emails" element={onLine ? <AdmEmails /> : <Navigate to={'/adm/login'} />}></Route>
           <Route path="/adm" element={<Navigate to={'/adm/login'} />} />
           <Route path="/*" element={<Navigate to={'/home'} />} />
         </Routes>

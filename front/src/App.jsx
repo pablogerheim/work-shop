@@ -1,34 +1,43 @@
 import './css/reset.css';
-import { useEffect, useState } from "react";
 import { AdmToolbar } from "./components/adm/admToolbar";
 import { AdmFooter } from "./components/adm/admFooter";
 import { Toolbar } from "./components/client/toolbar";
 import { Footer } from "./components/client/footer";
 import { Routed } from "./routes";
 
-function App() {
-  const [user, setUser] = useState(false);
+import { StoreProvider, useStore } from './helper/store'
+import { ChakraProvider } from '@chakra-ui/react';
 
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("userToken");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(JSON.stringify(loggedInUser))
-      setUser(foundUser);
-    }
-  }, []);
+function Router() {
+  const [store] = useStore();
 
-  return user ?
+  if (!store.rehydrated) {
+    return <p> Loading...</p>;
+  }
+  
+  return store.auth ?
     <>
       <AdmToolbar />
-      <Routed user={user} setUser={setUser}/>
+      <Routed onLine={store.auth} />
       <AdmFooter />
     </>
     :
     <>
       <Toolbar />
-      <Routed user={user} setUser={setUser}/>
+      <Routed onLine={store.auth} />
       <Footer />
-    </>
+    </>;
+}
+
+function App() {
+  return (
+    <StoreProvider>
+      <ChakraProvider>
+        <Router />
+      </ChakraProvider>
+    </StoreProvider>
+  )
+
 }
 
 export default App;

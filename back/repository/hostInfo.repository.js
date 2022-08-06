@@ -1,10 +1,11 @@
 import About from "../models/about.model.js"
 import Contact from "../models/contact.model.js"
 import Products from "../models/products.model.js"
+import { promises } from "fs";
 
 async function printLastId(req, res, next) {
     try {
-        const data = JSON.parse(await readFile("db.json"))
+        const data = JSON.parse(await promises.readFile("db.json"))
         res.status(200).send(data);
         logger.info(`GET /LastId ${data}`);
     } catch (err) {

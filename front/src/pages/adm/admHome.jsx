@@ -1,15 +1,13 @@
-import { logOut } from "../../data/admData";
-import '../../css/helper.css'
 import { useNavigate } from "react-router";
+import { useAuth } from '../../helper/auth'
+import '../../css/helper.css'
 
-function AdmHome({ setUser }) {
+function AdmHome() {
     const navegation = useNavigate()
+    const [, { logout }] = useAuth()
 
     async function handleLogout() {
-        await logOut(async () => await JSON.parse(JSON.stringify(localStorage.getItem("user"))))
-        .then(()=> localStorage.clear())
-        .then(()=> setUser(false))
-        
+        logout()
         navegation("/")
     }
 

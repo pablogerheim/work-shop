@@ -47,6 +47,3 @@ Back
 * [Express](http://expressjs.com/pt-br/) - Framework 
 * [Sequelize](https://sequelize.org/) - ORM 
 * [ElephantSQL](https://www.elephantsql.com/) - Data Base
-
-
-

@@ -5,12 +5,12 @@ import loginRoute from "./routes/login.routes.js"
 import emailRoute from "./routes/email.routes.js"
 import admRoute from "./routes/adm.routes.js"
 import hostInfoRoute from "./routes/hostInfo.routes.js"
-import { promises } from "fs";
 import cors from "cors";
 import swaggerUi from "swagger-ui-express";
 import { swaggerDocument } from "./doc.js"
 import jwt from 'jsonwebtoken'
 import validate from "./helper/helperList.js";
+import { promises } from "fs";
 
 const { readFile, writeFile } = promises;
 
@@ -50,24 +50,24 @@ app.use("/email", checkToken, emailRoute)
 app.use("/adm", checkToken, admRoute);
 app.use("/lastId", checkToken, hostInfoRepository.printLastId)
 app.use("/logout", async(req, res, next) => {
-    console.log("body", req.body)
-    console.log("headers", req.headers.authorization)
-    const authHeader = req.headers["authorization"];
+    const authHeader = req.headers.authorization;
     const token = authHeader && authHeader.split(" ")[1];
     try {
-        if (token) { throw new Error('token missing') }
+        if (!token) { throw new Error('token missing') }
         let blackList = JSON.parse(await readFile("blackList.json"))
         let blacktoken = { token, date: new Date }
+        let currentTokens = []
 
         blackList.blacktokens.forEach((e, i) => {
-            if (!validate(e.date)) { blackList.blacktokens[i].delete() }
+            if (validate(e.date)) { currentTokens.push(e) }
         });
 
+        blackList.blacktokens = currentTokens
         blackList.blacktokens.push(blacktoken)
         await writeFile("blackList.json", JSON.stringify(blackList, null, 2))
 
         res.status(200).json({ msg: "Deslogado com susseso" })
-        logger.info(`POST / Logout `);
+        logger.info(` Logout `);
     } catch (err) {
         next(err);
     }
@@ -76,14 +76,15 @@ app.use("/logout", async(req, res, next) => {
 async function checkToken(req, res, next) {
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
-    console.log("token :  ", token)
     if (!token) { return res.status(401).json({ msg: "Acesso negado!" }, token) }
     let blackList = JSON.parse(await readFile("blackList.json"))
     let blacktoken = blackList.blacktokens.find(t => t.token === token)
     if (blacktoken) { if (blacktoken.token === token) { return res.status(401).json({ msg: "Acesso negado!" }) } }
     try {
-        const secret = 'process.env.SECRET';
-        jwt.verify(token, secret);
+
+        const publicKey = await readFile('./public.key', 'utf-8')
+
+        jwt.verify(token, publicKey, { algorithms: ['RS256'] });
         next();
     } catch (err) {
         res.status(400).json({ msg: "O Token é inválido!" }, token);
