@@ -11,14 +11,14 @@ Area ADM:
 
 Ao abrir o projeto deve -se abrir 2 terminais:
 Terminal 1 
-`Cd back`
-`Npm i`
-`Npm start`
+-`Cd back`
+-`Npm i`
+-`Npm start`
 
 Terminal 2
-`Cd front`
-`Npm i`
-`Npm start`
+-`Cd front`
+-`Npm i`
+-`Npm start`
 
 ### 📋 Pré-requisitos
 
