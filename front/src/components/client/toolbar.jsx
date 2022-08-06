@@ -35,7 +35,7 @@ function Toolbar() {
 
     return (
         <div className="bg-slate-100 flex justify-between h-20 ">
-            <a href='/home'>
+            <a href='/adm/login'>
                 <img src={img} alt='Aprendendo Arte' height='60px' width='80px' className='m-2 ' />
             </a>
             <div className='h-auto w-auto flex items-center'>

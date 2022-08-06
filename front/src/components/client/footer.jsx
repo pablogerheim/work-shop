@@ -1,7 +1,7 @@
 import '../../css/helper.css'
 import { Input } from '@chakra-ui/react'
 import { useState } from 'react'
-import { createEmail } from "../../data/publicData";
+import { createEmail } from "../../data/clientData";
 
 function Footer() {
     const [email, setEmail] = useState('')
@@ -48,7 +48,6 @@ function Footer() {
             </form>
         </div>
     )
-
 }
 
 export { Footer }
