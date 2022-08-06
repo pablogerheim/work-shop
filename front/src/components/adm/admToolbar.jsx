@@ -9,7 +9,6 @@ function AdmToolbar() {
         setMenu(bloenaProps)
     }
 
-
     function handleMenu() {
         if (menu) {
             return (
@@ -40,6 +39,7 @@ function AdmToolbar() {
             <a href='/adm/login'>
                 <img src={img} alt='Aprendendo Arte' height='60px' width='80px' className='m-2 ' />
             </a>
+            <button onClick={ async () => { console.log( await loggedToken()) }}> show user </button>
             <div className='h-auto w-auto flex items-center'>
                 {handleMenu()}
             </div>

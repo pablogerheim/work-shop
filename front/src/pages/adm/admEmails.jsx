@@ -46,6 +46,7 @@ function AdmEmails() {
     }
 
     async function getProductData() {
+        console.log(await getEmail())
         setEmailData(await getEmail())
     }
 

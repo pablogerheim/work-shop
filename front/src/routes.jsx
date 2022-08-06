@@ -15,10 +15,9 @@ import { AdmAbout } from './pages/adm/admAbout'
 import { AdmContact } from './pages/adm/admContact'
 import { AdmEmails } from './pages/adm/admEmails'
 
-
 function Routed({onLine}) {
   const [productId, setProductId] = useState(null)
-    
+
   return (
       <Router>
         <Routes>

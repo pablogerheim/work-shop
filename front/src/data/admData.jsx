@@ -12,6 +12,7 @@ const apiLast = axios.create({
   baseURL: "http://localhost:3001/lastId",
 });
 
+
 async function loggedToken() {
   const loggedInUser = localStorage.getItem("userToken");
   if (loggedInUser) {
@@ -39,6 +40,7 @@ async function logOut() {
 }
 
 async function getEmail() {
+
   const {auth}= await loggedToken()
   return await apiEmail.get("/", {
     headers: {
@@ -75,6 +77,7 @@ async function deleteEmail(id) {
 }
 
 async function updateEmail(email) {
+
   const {auth}= await loggedToken()
   await apiEmail.put("/", email, {
  headers: {

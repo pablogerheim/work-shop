@@ -56,7 +56,9 @@ CREATE TABLE products (
 
 
 
+
 --- //  ---
+
 
 insert into abouts (about) values ('Text about us');
 insert into contacts (name, email, telephone) values ('testtato', 'testtato4@gmail.com', '55-32-99999-0000');

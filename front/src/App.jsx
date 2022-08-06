@@ -4,6 +4,7 @@ import { AdmFooter } from "./components/adm/admFooter";
 import { Toolbar } from "./components/client/toolbar";
 import { Footer } from "./components/client/footer";
 import { Routed } from "./routes";
+
 import { StoreProvider, useStore } from './helper/store'
 import { ChakraProvider } from '@chakra-ui/react';
 
@@ -36,6 +37,7 @@ function App() {
       </ChakraProvider>
     </StoreProvider>
   )
+
 }
 
 export default App;

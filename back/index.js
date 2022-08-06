@@ -87,7 +87,7 @@ async function checkToken(req, res, next) {
         jwt.verify(token, publicKey, { algorithms: ['RS256'] });
         next();
     } catch (err) {
-        res.status(400).json({ msg: "O Token é inválido!" });
+        res.status(400).json({ msg: "O Token é inválido!" }, token);
     }
 }
 

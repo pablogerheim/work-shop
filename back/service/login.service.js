@@ -5,7 +5,6 @@ import { promises } from "fs";
 
 const { readFile, writeFile } = promises;
 
-
 async function findUser(name) {
     let userdb = await loginRepository.readFileUser()
     return userdb.users.find(
@@ -43,6 +42,7 @@ async function createToken(user) {
     const token = jwt.sign({ id: user._id, }, privateKey, {
         expiresIn: 3600,
         algorithm: 'RS256'
+
     });
     return token
 }
