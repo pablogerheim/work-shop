@@ -1,20 +1,6 @@
 
-  let { token } = currentIuser
-  return fetch(`http://localhost:3001/private/${eventId}`, {
-    credentials: "include",
-    method: "DELETE",
-    headers: {
-      "Authorization": `Bearer ${token}`,
-      "Content-Type": "application/json; charset = utf-8",
-      "Access-Control-Allow-Origin": "*",
-      "Access-Control-Allow-Credentials": "true",
-    },
-
-FRONT
-
-back
-
 Data base
+
 CREATE TABLE emails (  
     email_id SERIAL PRIMARY KEY,
     email VARCHAR NOT NULL,
@@ -44,6 +30,51 @@ CREATE TABLE products (
     autoexplan BOOLEAN NOT NULL
 )
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 insert into abouts (about) values ('Text about us');
 insert into contacts (name, email, telephone) values ('testtato', 'testtato4@gmail.com', '55-32-99999-0000');
 insert into products (name, image, description, url, active, autoexplan) values ('lettering na pratica', 'https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp', 'Texto descritivo do que se trata', 'http://localhost:3000/test', true, true);
@@ -68,16 +99,3 @@ Read-me
 
 - Revisao de nomes de variaveis e arquivos
 
-
-rotas
-login/email - cria email arrumar no FRONT
-login -> loga ADM 
-
-
-  useEffect(() => {
-    const loggedInUser = localStorage.getItem("user");
-    if (loggedInUser) {
-      const foundUser = JSON.parse(JSON.stringify(loggedInUser))
-      setUser(foundUser);
-    }
-  }, []);
