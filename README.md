@@ -10,15 +10,18 @@ Area ADM:
 ## 🚀 Começando
 
 Ao abrir o projeto deve -se abrir 2 terminais:
-Terminal 1 
--`Cd back`
--`Npm i`
--`Npm start`
 
-Terminal 2
--`Cd front`
--`Npm i`
--`Npm start`
+Terminal 1:
+
+- `Cd back`
+- `Npm i`
+- `Npm start`
+
+Terminal 2:
+
+- `Cd front`
+- `Npm i`
+- `Npm start`
 
 ### 📋 Pré-requisitos
 
@@ -26,13 +29,42 @@ Terminal 2
 
 Node.js - https://nodejs.org/en/
 
-Visual Studio Code - https://code.visualstudio.com/
-
 Criar uma conta no elephantsql - https://customer.elephantsql.com/login
 
 Criar uma instancia chamada market, copiar o URL na aba Details e colar em: back -> repository -> postgreconnect.js
 
-Rodar os comandos de DataBase.txt para criar as tabelas na aba Browser
+Rodar os comandos para criar as tabelas na aba Browser
+
+## Comandos
+
+CREATE TABLE emails (  
+    email_id SERIAL PRIMARY KEY,
+    email VARCHAR NOT NULL,
+    name VARCHAR NOT NULL,
+active BOOLEAN NOT NULL
+)
+
+CREATE TABLE abouts (  
+    about_id SERIAL PRIMARY KEY,
+    about VARCHAR NOT NULL
+)
+
+CREATE TABLE contacts (  
+    contact_id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    email VARCHAR NOT NULL,
+    telephone VARCHAR NOT NULL
+)
+
+CREATE TABLE products (  
+    product_id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    image VARCHAR NOT NULL,
+    description VARCHAR NOT NULL,
+    url VARCHAR NOT NULL,
+    active BOOLEAN NOT NULL,
+    autoexplan BOOLEAN NOT NULL
+)
 
 ## 🛠️ Construído com
 
