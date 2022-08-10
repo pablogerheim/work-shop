@@ -3,6 +3,7 @@
 Função:
 - Apresentar produtos comercias
 - Capitar e-mail de clientes interessados 
+
 Area ADM:
 - CRUD para manipulação dos produtos, e-mails e demais informações 
 - Informações de evolução da captação de e-mails
@@ -65,6 +66,9 @@ CREATE TABLE products (
     active BOOLEAN NOT NULL,
     autoexplan BOOLEAN NOT NULL
 )
+## Rotas 
+ 
+Após o subir o projeto acessar http://localhost:3001/doc/ 
 
 ## 🛠️ Construído com
 
