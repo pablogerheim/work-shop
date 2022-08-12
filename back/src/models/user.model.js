@@ -1,8 +1,8 @@
-import connect from "../repository/postgreconnect.js";
+import connect from "../config/Postgreconnect.js";
 import sequelize from "sequelize";
 
-const Contact = connect.define('contacts', {
-    contactId: {
+const User = connect.define('users', {
+    user_id: {
         type: sequelize.INTEGER,
         autoIncrement: true,
         allowNull: false,
@@ -12,14 +12,18 @@ const Contact = connect.define('contacts', {
         type: sequelize.STRING,
         allowNull: false
     },
-    email: {
+    password: {
         type: sequelize.STRING,
         allowNull: false
     },
-    telephone:{
+    access: {
         type: sequelize.STRING,
-        allowNull:false
+        allowNull: false
+    },
+    timestamp: {
+        type: sequelize.DATE,
+        allowNull: false
     }
 }, { underscored: true })
 
-export default Contact
+export default User

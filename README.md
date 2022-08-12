@@ -66,6 +66,15 @@ CREATE TABLE products (
     active BOOLEAN NOT NULL,
     autoexplan BOOLEAN NOT NULL
 )
+
+CREATE TABLE users (
+    user_id SERIAL PRIMARY KEY,
+    name VARCHAR NOT NULL,
+    password VARCHAR NOT NULL,
+    access VARCHAR NOT NULL,
+    timestamp DATE NOT NULL
+)
+
 ## Rotas 
  
 Após o subir o projeto acessar http://localhost:3001/doc/ 

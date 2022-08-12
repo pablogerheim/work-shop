@@ -1,10 +1,10 @@
 import express from "express";
 import winston from "winston";
-import hostInfoRepository from "./repository/hostInfo.repository.js";
+import loginRepository from "./repository/login.repository.js";
+import hostInfoRoute from "./routes/hostInfo.routes.js"
 import loginRoute from "./routes/login.routes.js"
 import emailRoute from "./routes/email.routes.js"
 import admRoute from "./routes/adm.routes.js"
-import hostInfoRoute from "./routes/hostInfo.routes.js"
 import cors from "cors";
 import swaggerUi from "swagger-ui-express";
 import { swaggerDocument } from "./doc.js"
@@ -12,7 +12,7 @@ import jwt from 'jsonwebtoken'
 import validate from "./helper/helperList.js";
 import { promises } from "fs";
 
-const { readFile, writeFile } = promises;
+const { readFile } = promises;
 
 const { combine, timestamp, label, printf } = winston.format;
 const myFormat = printf(({ level, message, label, timestamp }) => {
@@ -48,23 +48,27 @@ app.use("/login", loginRoute)
     //privado
 app.use("/email", checkToken, emailRoute)
 app.use("/adm", checkToken, admRoute);
-app.use("/lastId", checkToken, hostInfoRepository.printLastId)
 app.use("/logout", async(req, res, next) => {
     const authHeader = req.headers.authorization;
     const token = authHeader && authHeader.split(" ")[1];
     try {
         if (!token) { throw new Error('token missing') }
-        let blackList = JSON.parse(await readFile("blackList.json"))
-        let blacktoken = { token, date: new Date }
+        let blackList = await loginRepository.getBlackList()
+        let dateTime = new Date
+        dateTime = JSON.parse(JSON.stringify(dateTime))
+        let blacktoken = { token, dateT: dateTime }
         let currentTokens = []
 
-        blackList.blacktokens.forEach((e, i) => {
-            if (validate(e.date)) { currentTokens.push(e) }
+        blackList.blacktokens.forEach((e) => {
+            if (validate(e.dateT)) {
+                currentTokens.push(e);
+            }
         });
 
         blackList.blacktokens = currentTokens
         blackList.blacktokens.push(blacktoken)
-        await writeFile("blackList.json", JSON.stringify(blackList, null, 2))
+
+        await loginRepository.updateBlackList(blackList)
 
         res.status(200).json({ msg: "Deslogado com susseso" })
         logger.info(` Logout `);
@@ -77,17 +81,19 @@ async function checkToken(req, res, next) {
     const authHeader = req.headers["authorization"];
     const token = authHeader && authHeader.split(" ")[1];
     if (!token) { return res.status(401).json({ msg: "Acesso negado!" }, token) }
-    let blackList = JSON.parse(await readFile("blackList.json"))
+
+    let blackList = await loginRepository.getBlackList()
+
     let blacktoken = blackList.blacktokens.find(t => t.token === token)
     if (blacktoken) { if (blacktoken.token === token) { return res.status(401).json({ msg: "Acesso negado!" }) } }
-    try {
 
+    try {
         const publicKey = await readFile('./public.key', 'utf-8')
 
         jwt.verify(token, publicKey, { algorithms: ['RS256'] });
         next();
     } catch (err) {
-        res.status(400).json({ msg: "O Token é inválido!" }, token);
+        next(err)
     }
 }
 
