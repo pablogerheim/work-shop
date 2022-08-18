@@ -16,6 +16,8 @@ Area ADM:
 
 Criação automática do banco de dados
 
+Testes
+
 ## 🚀 Começando
 
 Com Docker - 
