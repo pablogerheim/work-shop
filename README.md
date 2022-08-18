@@ -133,4 +133,4 @@ Back
 
 Geral
 * [Docker](https://www.docker.com/) - Software 
-* [GitHub](https://github.com/) - software
+* [GitHub](https://github.com/) - Software
