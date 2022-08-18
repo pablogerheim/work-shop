@@ -16,6 +16,8 @@ Area ADM:
 
 Criação automática do banco de dados
 
+Testes
+
 ## 🚀 Começando
 
 Com Docker - 
@@ -125,4 +127,10 @@ Back
 * [Node](https://nodejs.org/en/) - Framework 
 * [Express](http://expressjs.com/pt-br/) - Framework 
 * [Sequelize](https://sequelize.org/) - ORM 
-* [ElephantSQL](https://www.elephantsql.com/) - Data Base
+* [ElephantSQL](https://www.elephantsql.com/) - Data Base 
+* [MongoDB](https://www.mongodb.com/) - Data Base 
+* [Swagger](https://swagger.io/) - Documentação
+
+Geral
+* [Docker](https://www.docker.com/) - Software 
+* [GitHub](https://github.com/) - software
