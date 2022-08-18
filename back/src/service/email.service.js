@@ -30,10 +30,15 @@ async function patchEmail(body) {
     return await emailRepository.patch(body)
 }
 
+async function printLastId() {
+    return await emailRepository.printLastId()
+}
+
 export default {
     getEmail,
     deleteEmail,
     createEmail,
     updateEmail,
-    patchEmail
+    patchEmail,
+    printLastId
 }

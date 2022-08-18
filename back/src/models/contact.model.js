@@ -1,8 +1,8 @@
-import connect from "../repository/postgreconnect.js";
+import connect from "../config/Postgreconnect.js";
 import sequelize from "sequelize";
 
-const Email = connect.define('emails', {
-    emailId: {
+const Contact = connect.define('contacts', {
+    contactId: {
         type: sequelize.INTEGER,
         autoIncrement: true,
         allowNull: false,
@@ -16,10 +16,10 @@ const Email = connect.define('emails', {
         type: sequelize.STRING,
         allowNull: false
     },
-    active: {
-        type: sequelize.BOOLEAN,
+    telephone: {
+        type: sequelize.STRING,
         allowNull: false
     }
 }, { underscored: true })
 
-export default Email
+export default Contact

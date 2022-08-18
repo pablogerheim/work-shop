@@ -22,7 +22,7 @@ function AdmLogin() {
         else {
             setErr(false)
             login(userInfo.data.token)
-            navigate('/adm/emails')
+            navigate('/adm/home')
         }
     }
 
