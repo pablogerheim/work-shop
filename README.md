@@ -10,7 +10,13 @@ Area ADM:
 
 ## 🚀 Começando
 
-Ao abrir o projeto deve -se abrir 2 terminais:
+Com Docker - 
+
+- `docker-compose up --build`
+
+Sem Docker -
+
+Ao abrir o projeto deve-se abrir 2 terminais:
 
 Terminal 1:
 
@@ -26,17 +32,21 @@ Terminal 2:
 
 ### 📋 Pré-requisitos
 
-É nessesário ter instalado na maquina: 
+No caso do Docker - https://www.docker.com/
 
-Node.js - https://nodejs.org/en/
+No caso de clonar do Github - Node.js - https://nodejs.org/en/
 
-Criar uma conta no elephantsql - https://customer.elephantsql.com/login
+Criar uma conta no ElephantSQL - https://customer.elephantsql.com/
+
+Criar uma conta no MongoDB Atlas - https://www.mongodb.com/
+
+## Banco de Dados 
+
+PostgresSQL 
 
 Criar uma instancia chamada market, copiar o URL na aba Details e colar em: back -> repository -> postgreconnect.js
 
 Rodar os comandos para criar as tabelas na aba Browser
-
-## Comandos
 
 CREATE TABLE emails (  
     email_id SERIAL PRIMARY KEY,
@@ -75,8 +85,24 @@ CREATE TABLE users (
     timestamp DATE NOT NULL
 )
 
+MongoDB
+
+Criar uma cluster chamada market e 2 collections blacklist e lastId com o seguinte formato 
+
+    blacklist
+        {
+            blacktokens : Array [] 
+            blackList : "BlackList"
+        }
+
+    lastId
+        {
+            title : "LastId"
+            lastId : 0
+        }
+
 ## Rotas 
- 
+
 Após o subir o projeto acessar http://localhost:3001/doc/ 
 
 ## 🛠️ Construído com
