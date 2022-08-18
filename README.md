@@ -2,11 +2,19 @@
 
 Função:
 - Apresentar produtos comercias
+- Apresentar texto sobre a empresa
+- Pagina para informar meios de contato
 - Capitar e-mail de clientes interessados 
 
 Area ADM:
-- CRUD para manipulação dos produtos, e-mails e demais informações 
-- Informações de evolução da captação de e-mails
+- Controle de todas as informações apresentadas na área de cliente
+- Oferece uma forma fácil para atualizar texto sobre a empresa assim como os dados para contato
+- CRUD completo para interagir com os produtos oferecidos, podendo deixá-los inativos ou sinalizar que a imagem contém um texto auto explicativo 
+- Controle da evolução da captação de e-mails podendo excluir ou inativar os emails cadastrados, também oferece paginação e campo de busca para encontrar emails de uma forma mais fácil e pratica
+
+## 🚧 Em Desenvolvimento
+
+Criação automática do banco de dados
 
 ## 🚀 Começando
 
