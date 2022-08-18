@@ -24,7 +24,6 @@ async function deleteEmail(req, res, next) {
 
 async function createEmail(req, res, next) {
     try {
-        console.log(req.body)
         const { name, email } = req.body;
         if (!name == null || email == null) {
             return res.status(422).json({ msg: "O nome e email são obrigatórios!" });
@@ -38,7 +37,6 @@ async function createEmail(req, res, next) {
 }
 
 async function updateEmail(req, res, next) {
-
     try {
         const { name, email, emailId } = req.body;
         if (!name == null || email == null || emailId == null) {
@@ -53,7 +51,6 @@ async function updateEmail(req, res, next) {
 }
 
 async function patchEmail(req, res, next) {
-
     try {
         const { active, emailId } = req.body;
         if (!emailId == null || active === null) {
@@ -63,7 +60,17 @@ async function patchEmail(req, res, next) {
         res.status(200).json({ msg: "Atualização realizada com sucesso!", Email });
         logger.info(`PATCH /update Email - ${JSON.stringify(Email)}`);
     } catch (err) {
-        res.status(500).json({ msg: "error" });
+        next(err);
+    }
+}
+
+async function getLastId(req, res, next) {
+    try {
+        const data = await emailService.printLastId()
+        logger.info(`GET /LastId ${data.lastId}`);
+        res.status(200).json({ lastId: data.lastId });
+    } catch (err) {
+        next(err);
     }
 }
 
@@ -72,5 +79,6 @@ export default {
     deleteEmail,
     createEmail,
     updateEmail,
-    patchEmail
+    patchEmail,
+    getLastId
 }

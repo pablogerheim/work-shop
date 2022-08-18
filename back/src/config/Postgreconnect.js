@@ -1,7 +1,9 @@
 import Sequelize from 'sequelize'
+import * as dotenv from 'dotenv'
+dotenv.config()
 
 const sequelize = new Sequelize(
-    "postgres://wpxdrkhq:ErPfZWdchXymkc39WwByEO0TBb-zn9n0@kesavan.db.elephantsql.com/wpxdrkhq", {
+    process.env.POSTGRESKEY, {
         dialect: "postgres",
         define: {
             timestamps: false

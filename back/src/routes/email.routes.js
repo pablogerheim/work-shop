@@ -5,6 +5,7 @@ import emailController from "../controllers/email.controller.js";
 const router = express.Router();
 
 router.get("/", emailController.getEmail)
+router.get("/lastId", emailController.getLastId)
 router.delete("/:id", emailController.deleteEmail)
 router.patch("/", emailController.patchEmail)
 router.put("/", emailController.updateEmail)

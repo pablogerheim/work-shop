@@ -6,9 +6,10 @@ import { promises } from "fs";
 const { readFile, writeFile } = promises;
 
 async function findUser(name) {
-    let userdb = await loginRepository.readFileUser()
-    return userdb.users.find(
-        (user) => user.name === name
+    let userdb = await loginRepository.printUser()
+
+    return userdb.find(
+        (user) => user.dataValues.name === name
     );
 }
 

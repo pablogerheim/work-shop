@@ -46,7 +46,6 @@ function AdmEmails() {
     }
 
     async function getProductData() {
-        console.log(await getEmail())
         setEmailData(await getEmail())
     }
 
@@ -122,9 +121,7 @@ function AdmEmails() {
                     onChange={(e) => hendleSerach(e.target.value)}
                 />
                 {lastId > 0 ? <div className='mt-1'>
-                    <p>Total de emails já cadastrados {lastId}</p>
-                    <p>Total de emails ativos {emailData.length}</p>
-                    <p>Total de emails descadastrados {lastId - emailData.length}</p> </div> : <p className='mt-1'> Sem informações</p>}
+                    <p>Total de emails já cadastrados {lastId}</p></div> : <p className='mt-1'> Sem informações</p>}
 
             </div>
             <div className="flex flex-col mt-1">
@@ -143,3 +140,6 @@ function AdmEmails() {
 
 export { AdmEmails }
 
+
+{/* <p>Total de emails ativos {emailData.length}</p>
+<p>Total de emails descadastrados {lastId - emailData.length}</p>  */}

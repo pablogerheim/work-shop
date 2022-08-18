@@ -1,8 +1,28 @@
 import Email from "../models/email.model.js"
-import { promises } from "fs";
+import mongconnect from "../config/MongoDBconnect.js"
+
+async function printLastId() {
+    const conn = mongconnect();
+    try {
+        await conn.connect()
+        return await conn.db("market").collection('lastId').findOne({ title: 'LastId' })
+    } catch (err) {
+        throw err
+    } finally {
+        await conn.close()
+    }
+}
 
 async function updateLastId(id) {
-    await promises.writeFile("db.json", JSON.stringify({ emailsId: id }, null, 2))
+    const conn = mongconnect();
+    try {
+        await conn.connect()
+        return await conn.db("market").collection('lastId').findOneAndUpdate({ title: 'LastId' }, { $set: { lastId: id } })
+    } catch (err) {
+        throw err
+    } finally {
+        await conn.close()
+    }
 }
 
 async function create(email) {
@@ -70,5 +90,6 @@ export default {
     update,
     exclude,
     print,
-    patch
+    patch,
+    printLastId
 }

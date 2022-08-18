@@ -8,11 +8,6 @@ const apiEmail = axios.create({
   baseURL: "http://localhost:3001/email",
 });
 
-const apiLast = axios.create({
-  baseURL: "http://localhost:3001/lastId",
-});
-
-
 async function loggedToken() {
   const loggedInUser = localStorage.getItem("userToken");
   if (loggedInUser) {
@@ -40,7 +35,6 @@ async function logOut() {
 }
 
 async function getEmail() {
-
   const {auth}= await loggedToken()
   return await apiEmail.get("/", {
     headers: {
@@ -54,14 +48,14 @@ async function getEmail() {
 
 async function getLastId() {
   const {auth}= await loggedToken()
-  return await apiLast.get("/", {
+  return await apiEmail.get("/lastId", {
     headers: {
       "Authorization": `Bearer ${ auth }`,
       "Content-Type": "application/json; charset = utf-8",
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Credentials": "true",
     }
-  }).then(res => res.data.emailsId)
+  }).then(res => res.data.lastId)
 }
 
 async function deleteEmail(id) {
@@ -77,7 +71,6 @@ async function deleteEmail(id) {
 }
 
 async function updateEmail(email) {
-
   const {auth}= await loggedToken()
   await apiEmail.put("/", email, {
  headers: {

@@ -136,13 +136,7 @@ export const swaggerDocument = {
                     "400": {
                         "description": "Invalid tag value"
                     }
-                },
-                "security": [{
-                    "petstore_auth": [
-                        "write:pets",
-                        "read:pets"
-                    ]
-                }]
+                }
             }
         },
         "/contact": {
