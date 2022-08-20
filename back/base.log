@@ -1,0 +1,2573 @@
+2022-06-15T20:02:46.430Z [base] info: API Started!
+2022-06-15T20:06:21.789Z [base] info: API Started!
+2022-07-22T21:19:24.382Z [base] info: API Started!
+2022-07-22T21:21:42.030Z [base] info: API Started!
+2022-07-22T21:22:53.606Z [base] info: API Started!
+2022-07-22T21:24:20.176Z [base] info: API Started!
+2022-07-22T21:26:19.599Z [base] info: API Started!
+2022-07-22T21:30:08.074Z [base] info: API Started!
+2022-07-22T21:30:25.727Z [base] info: API Started!
+2022-07-22T21:31:26.730Z [base] info: API Started!
+2022-07-22T21:31:37.912Z [base] info: API Started!
+2022-07-22T21:31:44.489Z [base] info: API Started!
+2022-07-22T21:36:11.147Z [base] info: API Started!
+2022-07-22T21:39:54.427Z [base] info: API Started!
+2022-07-22T21:40:00.433Z [base] info: POST /creat spand - {"emailId":1,"name":"pokert","email":"pokert@gmail.com"}
+2022-07-22T21:41:31.039Z [base] info: API Started!
+2022-07-22T21:41:34.267Z [base] info: API Started!
+2022-07-22T21:43:43.920Z [base] info: API Started!
+2022-07-22T21:43:49.125Z [base] info: API Started!
+2022-07-22T21:43:50.372Z [base] info: PUT /update Email - {"emailId":1,"name":"pokert2","email":"pokert@gmail.com"}
+2022-07-22T21:44:02.605Z [base] info: DELETE /servce - ID 1
+2022-07-22T21:44:07.079Z [base] info: POST /creat spand - {"emailId":2,"name":"pokert","email":"pokert@gmail.com"}
+2022-07-22T21:44:22.496Z [base] info: GET /Email
+2022-07-22T21:58:59.626Z [base] info: API Started!
+2022-07-22T21:59:21.466Z [base] info: POST /creat spand - {"emailId":3,"name":"user3","email":"user2@email.com"}
+2022-07-25T12:39:02.352Z [base] info: API Started!
+2022-07-25T12:39:06.543Z [base] info: GET /About US
+2022-07-25T12:39:06.545Z [base] info: GET /About US
+2022-07-25T12:39:06.591Z [base] info: GET /About US
+2022-07-25T12:39:54.408Z [base] info: GET /About US
+2022-07-25T12:39:58.338Z [base] info: GET /About US
+2022-07-25T12:39:58.356Z [base] info: GET /About US
+2022-07-25T12:39:58.628Z [base] info: GET /About US
+2022-07-25T12:41:23.294Z [base] info: GET /About US
+2022-07-25T12:41:23.329Z [base] info: GET /About US
+2022-07-25T12:41:24.277Z [base] info: GET /About US
+2022-07-25T12:41:24.303Z [base] info: GET /About US
+2022-07-25T12:41:24.849Z [base] info: GET /About US
+2022-07-25T12:41:24.878Z [base] info: GET /About US
+2022-07-25T12:41:25.535Z [base] info: GET /About US
+2022-07-25T12:41:25.565Z [base] info: GET /About US
+2022-07-25T12:41:26.283Z [base] info: GET /About US
+2022-07-25T12:41:26.308Z [base] info: GET /About US
+2022-07-25T12:41:26.976Z [base] info: GET /About US
+2022-07-25T12:41:27.000Z [base] info: GET /About US
+2022-07-25T12:41:27.230Z [base] info: GET /About US
+2022-07-25T12:41:27.254Z [base] info: GET /About US
+2022-07-25T12:41:27.439Z [base] info: GET /About US
+2022-07-25T12:41:27.462Z [base] info: GET /About US
+2022-07-25T12:41:27.652Z [base] info: GET /About US
+2022-07-25T12:41:27.675Z [base] info: GET /About US
+2022-07-25T12:41:28.045Z [base] info: GET /About US
+2022-07-25T12:41:28.068Z [base] info: GET /About US
+2022-07-25T12:41:55.021Z [base] info: GET /About US
+2022-07-25T12:41:55.046Z [base] info: GET /About US
+2022-07-25T12:41:55.628Z [base] info: GET /About US
+2022-07-25T12:41:55.652Z [base] info: GET /About US
+2022-07-25T12:41:56.275Z [base] info: GET /About US
+2022-07-25T12:41:56.300Z [base] info: GET /About US
+2022-07-25T12:42:47.519Z [base] info: GET /About US
+2022-07-25T12:42:49.829Z [base] info: GET /About US
+2022-07-25T12:42:49.846Z [base] info: GET /About US
+2022-07-25T12:44:37.491Z [base] info: GET /About US
+2022-07-25T12:44:37.492Z [base] info: GET /About US
+2022-07-25T12:45:11.788Z [base] info: GET /About US
+2022-07-25T12:45:35.846Z [base] info: GET /About US
+2022-07-25T13:20:27.384Z [base] info: GET /Contact
+2022-07-25T13:20:27.390Z [base] info: GET /Contact
+2022-07-25T13:21:03.874Z [base] info: GET /Contact
+2022-07-25T13:21:03.875Z [base] info: GET /Contact
+2022-07-25T13:21:25.731Z [base] info: GET /Contact
+2022-07-25T13:21:25.731Z [base] info: GET /Contact
+2022-07-25T13:22:30.629Z [base] info: GET /Contact
+2022-07-25T13:22:30.630Z [base] info: GET /Contact
+2022-07-25T13:22:30.651Z [base] info: GET /Contact
+2022-07-25T13:22:30.652Z [base] info: GET /Contact
+2022-07-25T13:23:38.463Z [base] info: GET /Contact
+2022-07-25T13:23:38.464Z [base] info: GET /Contact
+2022-07-25T13:23:38.485Z [base] info: GET /Contact
+2022-07-25T13:23:38.491Z [base] info: GET /Contact
+2022-07-25T13:23:55.781Z [base] info: GET /Contact
+2022-07-25T13:23:55.785Z [base] info: GET /Contact
+2022-07-25T13:23:55.804Z [base] info: GET /Contact
+2022-07-25T13:23:55.805Z [base] info: GET /Contact
+2022-07-25T13:23:57.230Z [base] info: GET /Contact
+2022-07-25T13:23:57.231Z [base] info: GET /Contact
+2022-07-25T13:23:57.330Z [base] info: GET /Contact
+2022-07-25T13:23:57.331Z [base] info: GET /Contact
+2022-07-25T13:24:02.461Z [base] info: GET /Contact
+2022-07-25T13:24:02.474Z [base] info: GET /Contact
+2022-07-25T13:24:02.589Z [base] info: GET /Contact
+2022-07-25T13:24:02.590Z [base] info: GET /Contact
+2022-07-25T13:24:44.345Z [base] info: GET /Contact
+2022-07-25T13:24:44.346Z [base] info: GET /Contact
+2022-07-25T13:24:44.378Z [base] info: GET /Contact
+2022-07-25T13:24:44.379Z [base] info: GET /Contact
+2022-07-25T13:24:56.154Z [base] info: GET /Contact
+2022-07-25T13:24:56.168Z [base] info: GET /Contact
+2022-07-25T13:24:56.183Z [base] info: GET /Contact
+2022-07-25T13:24:56.217Z [base] info: GET /Contact
+2022-07-25T13:25:26.058Z [base] info: GET /Contact
+2022-07-25T13:25:26.059Z [base] info: GET /Contact
+2022-07-25T13:25:26.227Z [base] info: GET /Contact
+2022-07-25T13:25:26.228Z [base] info: GET /Contact
+2022-07-25T13:30:29.115Z [base] info: GET /Contact
+2022-07-25T13:30:29.117Z [base] info: GET /Contact
+2022-07-25T13:30:29.268Z [base] info: GET /Contact
+2022-07-25T13:30:29.277Z [base] info: GET /Contact
+2022-07-25T13:34:43.082Z [base] info: GET /Contact
+2022-07-25T13:34:43.083Z [base] info: GET /Contact
+2022-07-25T13:34:43.103Z [base] info: GET /Contact
+2022-07-25T13:34:43.109Z [base] info: GET /Contact
+2022-07-25T13:35:32.183Z [base] info: GET /Contact
+2022-07-25T13:35:32.184Z [base] info: GET /Contact
+2022-07-25T13:38:23.167Z [base] info: GET /Contact
+2022-07-25T13:38:23.168Z [base] info: GET /Contact
+2022-07-25T13:38:23.480Z [base] info: GET /Contact
+2022-07-25T13:38:23.486Z [base] info: GET /Contact
+2022-07-25T13:38:30.556Z [base] info: GET /About US
+2022-07-25T13:38:30.558Z [base] info: GET /About US
+2022-07-25T14:16:02.270Z [base] info: GET /About US
+2022-07-25T14:16:02.273Z [base] info: GET /About US
+2022-07-25T14:16:09.999Z [base] info: GET /Contact
+2022-07-25T14:16:10.000Z [base] info: GET /Contact
+2022-07-25T14:16:10.375Z [base] info: GET /Contact
+2022-07-25T14:16:10.376Z [base] info: GET /Contact
+2022-07-25T14:19:31.013Z [base] info: GET /About US
+2022-07-25T14:19:31.014Z [base] info: GET /About US
+2022-07-25T14:21:10.676Z [base] info: GET /About US
+2022-07-25T14:22:03.400Z [base] info: GET /About US
+2022-07-25T14:22:12.467Z [base] info: GET /About US
+2022-07-25T14:22:41.442Z [base] info: GET /About US
+2022-07-25T14:22:53.905Z [base] info: GET /About US
+2022-07-25T14:23:27.516Z [base] info: GET /About US
+2022-07-25T14:24:56.566Z [base] info: GET /About US
+2022-07-25T14:25:13.029Z [base] info: GET /About US
+2022-07-25T14:25:16.641Z [base] info: GET /About US
+2022-07-25T14:25:21.116Z [base] info: GET /About US
+2022-07-25T14:25:28.070Z [base] info: GET /About US
+2022-07-25T14:25:38.031Z [base] info: GET /About US
+2022-07-25T14:25:53.882Z [base] info: GET /About US
+2022-07-25T14:26:03.493Z [base] info: GET /About US
+2022-07-25T14:26:40.385Z [base] info: GET /About US
+2022-07-25T14:26:59.592Z [base] info: GET /About US
+2022-07-25T14:27:09.896Z [base] info: GET /About US
+2022-07-25T14:27:20.674Z [base] info: GET /About US
+2022-07-25T14:27:57.125Z [base] info: GET /About US
+2022-07-25T14:28:30.061Z [base] info: GET /About US
+2022-07-25T14:29:16.267Z [base] info: GET /About US
+2022-07-25T14:29:37.775Z [base] info: GET /About US
+2022-07-25T14:30:34.496Z [base] info: GET /Contact
+2022-07-25T14:30:34.497Z [base] info: GET /Contact
+2022-07-25T14:30:34.726Z [base] info: GET /Contact
+2022-07-25T14:30:34.730Z [base] info: GET /Contact
+2022-07-25T14:37:47.366Z [base] info: GET /About US
+2022-07-25T14:37:47.367Z [base] info: GET /About US
+2022-07-25T14:37:52.638Z [base] info: GET /About US
+2022-07-25T14:37:52.639Z [base] info: GET /About US
+2022-07-25T14:38:11.819Z [base] info: GET /Contact
+2022-07-25T14:38:11.835Z [base] info: GET /Contact
+2022-07-25T14:38:34.464Z [base] info: GET /About US
+2022-07-25T14:38:34.465Z [base] info: GET /About US
+2022-07-25T14:38:34.488Z [base] info: GET /About US
+2022-07-25T14:38:36.685Z [base] info: GET /Products
+2022-07-25T14:38:36.686Z [base] info: GET /Products
+2022-07-25T14:38:36.720Z [base] info: GET /Products
+2022-07-25T14:38:36.721Z [base] info: GET /Products
+2022-07-25T14:38:41.230Z [base] info: GET /About US
+2022-07-25T14:38:41.231Z [base] info: GET /About US
+2022-07-25T14:38:41.257Z [base] info: GET /About US
+2022-07-25T14:42:21.128Z [base] info: GET /About US
+2022-07-25T14:42:42.532Z [base] info: GET /Contact
+2022-07-25T14:42:42.544Z [base] info: GET /Contact
+2022-07-25T14:43:44.145Z [base] info: GET /About US
+2022-07-25T14:43:44.146Z [base] info: GET /About US
+2022-07-25T14:43:44.381Z [base] info: GET /About US
+2022-07-25T14:43:45.978Z [base] info: GET /Contact
+2022-07-25T14:43:45.978Z [base] info: GET /Contact
+2022-07-25T14:43:48.187Z [base] info: GET /Products
+2022-07-25T14:43:48.199Z [base] info: GET /Products
+2022-07-25T14:43:48.434Z [base] info: GET /Products
+2022-07-25T14:43:48.435Z [base] info: GET /Products
+2022-07-25T14:44:29.831Z [base] info: GET /About US
+2022-07-25T14:44:29.832Z [base] info: GET /About US
+2022-07-25T14:44:34.033Z [base] info: GET /Contact
+2022-07-25T14:44:34.034Z [base] info: GET /Contact
+2022-07-25T14:44:34.321Z [base] info: GET /Contact
+2022-07-25T14:44:34.321Z [base] info: GET /Contact
+2022-07-25T17:12:02.265Z [base] info: GET /About US
+2022-07-25T17:12:02.280Z [base] info: GET /About US
+2022-07-25T17:12:02.310Z [base] info: GET /About US
+2022-07-25T17:12:06.501Z [base] info: GET /Products
+2022-07-25T17:12:06.504Z [base] info: GET /Products
+2022-07-25T17:12:06.797Z [base] info: GET /Products
+2022-07-25T17:12:06.798Z [base] info: GET /Products
+2022-07-25T17:15:32.957Z [base] info: GET /Products
+2022-07-25T17:15:32.959Z [base] info: GET /Products
+2022-07-25T17:15:32.981Z [base] info: GET /Products
+2022-07-25T17:15:32.982Z [base] info: GET /Products
+2022-07-25T17:27:55.478Z [base] info: GET /Products
+2022-07-25T17:27:55.479Z [base] info: GET /Products
+2022-07-25T17:27:55.506Z [base] info: GET /Products
+2022-07-25T17:27:55.507Z [base] info: GET /Products
+2022-07-25T17:45:21.640Z [base] info: API Started!
+2022-07-25T18:01:59.819Z [base] info: API Started!
+2022-07-25T18:05:14.160Z [base] info: API Started!
+2022-07-25T18:08:30.581Z [base] info: API Started!
+2022-07-25T18:08:51.017Z [base] info: API Started!
+2022-07-25T18:09:19.292Z [base] info: API Started!
+2022-07-25T19:34:41.937Z [base] info: API Started!
+2022-07-25T19:34:55.797Z [base] info: API Started!
+2022-07-25T19:35:05.654Z [base] info: API Started!
+2022-07-25T19:45:30.089Z [base] info: API Started!
+2022-07-25T19:52:30.215Z [base] info: API Started!
+2022-07-25T20:12:29.453Z [base] info: API Started!
+2022-07-25T20:18:07.045Z [base] info: GET /Products
+2022-07-25T20:18:59.529Z [base] info: GET /Products
+2022-07-25T20:20:28.437Z [base] info: API Started!
+2022-07-25T20:21:55.974Z [base] info: GET /Contact
+2022-07-25T20:21:58.827Z [base] info: GET /About US
+2022-07-25T20:22:03.122Z [base] info: POST /creat Product - {"productId":2,"name":"lettering2 na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-25T20:22:06.657Z [base] info: GET /Products
+2022-07-25T20:22:14.849Z [base] error: PATCH  - active is not defined
+2022-07-25T20:30:02.085Z [base] info: API Started!
+2022-07-25T20:35:04.334Z [base] info: API Started!
+2022-07-25T20:35:07.583Z [base] error: PATCH  - active is not defined
+2022-07-25T20:35:19.169Z [base] info: API Started!
+2022-07-25T20:35:39.394Z [base] info: GET /Products
+2022-07-25T20:38:59.281Z [base] info: API Started!
+2022-07-25T20:39:47.291Z [base] info: API Started!
+2022-07-25T20:40:33.092Z [base] info: API Started!
+2022-07-25T20:41:10.659Z [base] info: API Started!
+2022-07-25T20:41:20.757Z [base] info: API Started!
+2022-07-25T20:41:29.694Z [base] info: API Started!
+2022-07-25T20:41:55.511Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T20:42:05.983Z [base] info: GET /Products
+2022-07-25T20:42:32.090Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T20:42:47.195Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T20:42:51.998Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T20:43:15.660Z [base] info: API Started!
+2022-07-25T20:43:20.989Z [base] info: GET /Products
+2022-07-25T20:44:14.351Z [base] error: PUT  - WHERE parameter "product_id" has invalid "undefined" value
+2022-07-25T20:45:03.132Z [base] info: API Started!
+2022-07-25T20:45:03.978Z [base] info: PUT /update Product - undefined
+2022-07-25T20:45:07.607Z [base] info: GET /Products
+2022-07-25T20:45:15.622Z [base] info: DELETE /Product- ID 2
+2022-07-25T20:45:18.693Z [base] info: GET /Products
+2022-07-25T20:45:27.446Z [base] info: PUT /update About - undefined
+2022-07-25T20:45:31.038Z [base] info: GET /About US
+2022-07-25T20:45:52.796Z [base] info: PUT /update Contact - undefined
+2022-07-25T20:45:56.888Z [base] info: GET /Contact
+2022-07-25T20:47:04.221Z [base] info: API Started!
+2022-07-25T20:47:32.143Z [base] info: API Started!
+2022-07-25T21:28:58.724Z [base] info: GET /About US
+2022-07-25T21:28:58.726Z [base] info: GET /About US
+2022-07-25T21:29:05.229Z [base] info: PUT /update About - undefined
+2022-07-25T21:31:43.600Z [base] info: GET /About US
+2022-07-25T21:32:05.079Z [base] info: PUT /update About - undefined
+2022-07-25T21:33:23.159Z [base] info: GET /About US
+2022-07-25T21:33:45.116Z [base] info: GET /About US
+2022-07-25T21:33:54.054Z [base] info: PUT /update About - undefined
+2022-07-25T21:34:23.579Z [base] info: GET /About US
+2022-07-25T21:34:26.631Z [base] info: PUT /update About - undefined
+2022-07-25T21:34:51.092Z [base] info: GET /About US
+2022-07-25T21:34:53.553Z [base] info: PUT /update About - undefined
+2022-07-25T21:36:20.428Z [base] info: GET /About US
+2022-07-25T21:36:20.428Z [base] info: GET /About US
+2022-07-25T21:37:03.963Z [base] info: PUT /update About - undefined
+2022-07-25T21:41:25.281Z [base] info: GET /About US
+2022-07-25T21:41:25.282Z [base] info: GET /About US
+2022-07-25T21:42:00.986Z [base] info: PUT /update About - undefined
+2022-07-25T21:42:08.965Z [base] info: PUT /update About - undefined
+2022-07-25T21:43:02.140Z [base] info: PUT /update About - undefined
+2022-07-25T21:43:36.656Z [base] info: PUT /update About - undefined
+2022-07-25T21:43:44.133Z [base] info: PUT /update About - undefined
+2022-07-25T21:43:48.899Z [base] info: PUT /update About - undefined
+2022-07-25T21:44:05.430Z [base] info: PUT /update About - undefined
+2022-07-25T21:44:13.374Z [base] info: PUT /update About - undefined
+2022-07-25T21:44:28.102Z [base] info: PUT /update About - undefined
+2022-07-25T21:44:36.158Z [base] info: PUT /update About - undefined
+2022-07-25T21:44:58.264Z [base] info: PUT /update About - undefined
+2022-07-25T21:45:14.175Z [base] info: PUT /update About - undefined
+2022-07-25T21:45:14.178Z [base] info: PUT /update About - undefined
+2022-07-25T21:45:14.199Z [base] info: PUT /update About - undefined
+2022-07-25T21:45:14.201Z [base] info: PUT /update About - undefined
+2022-07-25T21:45:28.999Z [base] info: PUT /update About - undefined
+2022-07-25T21:45:54.156Z [base] info: PUT /update About - undefined
+2022-07-25T21:46:10.482Z [base] info: PUT /update About - undefined
+2022-07-25T21:46:33.557Z [base] info: PUT /update About - undefined
+2022-07-25T21:47:04.004Z [base] info: PUT /update About - undefined
+2022-07-25T21:47:27.954Z [base] info: GET /About US
+2022-07-25T21:47:27.954Z [base] info: GET /About US
+2022-07-25T21:47:30.764Z [base] info: PUT /update About - undefined
+2022-07-25T21:49:05.983Z [base] info: PUT /update About - undefined
+2022-07-25T21:49:51.908Z [base] info: GET /About US
+2022-07-25T21:49:51.909Z [base] info: GET /About US
+2022-07-25T21:50:37.664Z [base] info: PUT /update About - undefined
+2022-07-25T21:51:37.268Z [base] info: PUT /update About - undefined
+2022-07-25T21:51:47.348Z [base] info: PUT /update About - undefined
+2022-07-25T21:52:17.145Z [base] info: PUT /update About - undefined
+2022-07-25T21:52:36.083Z [base] info: PUT /update About - undefined
+2022-07-25T21:53:09.077Z [base] info: PUT /update About - undefined
+2022-07-25T21:58:38.497Z [base] info: GET /Contact
+2022-07-25T21:58:38.498Z [base] info: GET /Contact
+2022-07-25T21:58:38.738Z [base] info: GET /Contact
+2022-07-25T21:58:38.739Z [base] info: GET /Contact
+2022-07-25T22:01:33.217Z [base] info: API Started!
+2022-07-25T22:02:30.338Z [base] info: GET /About US
+2022-07-25T22:02:30.340Z [base] info: GET /About US
+2022-07-25T22:02:33.396Z [base] info: PUT /update About - undefined
+2022-07-25T22:02:38.665Z [base] info: GET /Contact
+2022-07-25T22:02:38.667Z [base] info: GET /Contact
+2022-07-25T22:02:38.994Z [base] info: GET /Contact
+2022-07-25T22:02:38.995Z [base] info: GET /Contact
+2022-07-25T22:03:44.447Z [base] info: PUT /update Contact - undefined
+2022-07-25T22:03:59.213Z [base] info: GET /Products
+2022-07-25T22:03:59.214Z [base] info: GET /Products
+2022-07-25T22:03:59.473Z [base] info: GET /Products
+2022-07-25T22:03:59.474Z [base] info: GET /Products
+2022-07-25T22:11:27.850Z [base] info: GET /Products
+2022-07-25T22:11:27.851Z [base] info: GET /Products
+2022-07-25T22:11:28.083Z [base] info: GET /Products
+2022-07-25T22:11:28.099Z [base] info: GET /Products
+2022-07-25T22:33:16.662Z [base] info: GET /Products
+2022-07-25T22:33:16.663Z [base] info: GET /Products
+2022-07-25T22:33:16.940Z [base] info: GET /Products
+2022-07-25T22:33:16.942Z [base] info: GET /Products
+2022-07-25T22:33:19.252Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T22:34:21.977Z [base] info: API Started!
+2022-07-25T22:34:30.120Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T22:34:54.008Z [base] info: API Started!
+2022-07-25T22:37:23.827Z [base] info: API Started!
+2022-07-25T22:38:46.805Z [base] info: API Started!
+2022-07-25T22:38:58.330Z [base] info: API Started!
+2022-07-25T22:39:16.955Z [base] info: API Started!
+2022-07-25T22:40:03.832Z [base] info: API Started!
+2022-07-25T22:47:50.373Z [base] info: API Started!
+2022-07-25T22:48:14.046Z [base] info: API Started!
+2022-07-25T22:53:34.231Z [base] info: POST /creat Product - {"productId":3,"name":"lettering2 na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-25T22:53:45.151Z [base] info: POST /creat Product - {"productId":4,"name":"lettering2 na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":false,"autoexplan":true}
+2022-07-25T22:53:59.704Z [base] info: POST /creat Product - {"productId":5,"name":"lettering223 na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":false,"autoexplan":false}
+2022-07-25T22:59:53.513Z [base] info: POST /creat Product - {"productId":6,"name":"lettering21 nac pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":false,"autoexplan":true}
+2022-07-25T23:01:10.514Z [base] info: POST /creat Product - {"productId":7,"name":"qweqwe","image":"qweqweq","description":"wawedgaehaq4rhaertawe","url":"rgfargaergaerg","active":false,"autoexplan":true}
+2022-07-25T23:05:43.771Z [base] info: POST /creat Product - {"productId":8,"name":"argaerg","image":"aergae","description":"graergae","url":"gaergaergaerg","active":false,"autoexplan":true}
+2022-07-25T23:05:50.279Z [base] info: POST /creat Product - {"productId":9,"name":"argaerg","image":"aergae","description":"graergaeascascas","url":"gaergaergaerg","active":false,"autoexplan":true}
+2022-07-25T23:09:04.544Z [base] info: POST /creat Product - {"productId":10,"name":"dsaarthfff","image":"fffffffffffffffffffffffffffff","description":"ffgadefdfgggggggggggggggg","url":"ggrerrrrtertertewqrtwergwergwerg","active":true,"autoexplan":false}
+2022-07-25T23:09:08.201Z [base] info: POST /creat Product - {"productId":11,"name":"dsaarthfff","image":"fffffffffffffffffffffffffffff","description":"ffgadefdfgggggggggggggggg","url":"ggrerrrrtertertewqrtwergwergwerg","active":true,"autoexplan":false}
+2022-07-25T23:12:15.761Z [base] info: POST /creat Product - {"productId":12,"name":"dsaarthfffadfgadfgadfgadf","image":"fffffffffffffffffffffffffffffadfgadfg","description":"ffgadefdfggggggggggggggggvasdfvafsdg","url":"ggrerrrrtertertewqrtwergwergwerg","active":false,"autoexplan":true}
+2022-07-25T23:15:00.165Z [base] info: GET /Products
+2022-07-25T23:15:00.168Z [base] info: GET /Products
+2022-07-25T23:15:00.446Z [base] info: GET /Products
+2022-07-25T23:15:00.448Z [base] info: GET /Products
+2022-07-25T23:15:04.676Z [base] error: DELETE  - invalid input syntax for integer: "undefined"
+2022-07-25T23:15:08.292Z [base] info: GET /Products
+2022-07-25T23:15:08.294Z [base] info: GET /Products
+2022-07-25T23:15:08.350Z [base] info: GET /Products
+2022-07-25T23:15:08.351Z [base] info: GET /Products
+2022-07-25T23:16:06.287Z [base] error: DELETE  - invalid input syntax for integer: "undefined"
+2022-07-25T23:17:17.144Z [base] error: DELETE  - invalid input syntax for integer: "undefined"
+2022-07-25T23:17:34.270Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T23:17:41.230Z [base] error: PATCH  - ID é obrigatório
+2022-07-25T23:21:29.941Z [base] info: DELETE /Product- ID 10
+2022-07-25T23:21:39.287Z [base] info: GET /Products
+2022-07-25T23:21:39.303Z [base] info: GET /Products
+2022-07-25T23:21:39.621Z [base] info: GET /Products
+2022-07-25T23:21:39.626Z [base] info: GET /Products
+2022-07-25T23:26:34.760Z [base] info: GET /Products
+2022-07-25T23:26:34.762Z [base] info: GET /Products
+2022-07-25T23:26:34.782Z [base] info: GET /Products
+2022-07-25T23:26:34.785Z [base] info: GET /Products
+2022-07-25T23:27:13.728Z [base] info: GET /Products
+2022-07-25T23:27:13.730Z [base] info: GET /Products
+2022-07-25T23:27:13.764Z [base] info: GET /Products
+2022-07-25T23:27:13.765Z [base] info: GET /Products
+2022-07-25T23:28:10.957Z [base] info: GET /Products
+2022-07-25T23:28:10.958Z [base] info: GET /Products
+2022-07-25T23:28:11.174Z [base] info: GET /Products
+2022-07-25T23:28:11.178Z [base] info: GET /Products
+2022-07-25T23:28:14.912Z [base] info: DELETE /Product- ID 11
+2022-07-25T23:28:15.029Z [base] info: GET /Products
+2022-07-25T23:28:15.051Z [base] info: GET /Products
+2022-07-25T23:28:17.536Z [base] info: DELETE /Product- ID 12
+2022-07-25T23:28:17.658Z [base] info: GET /Products
+2022-07-25T23:28:17.679Z [base] info: GET /Products
+2022-07-25T23:28:18.432Z [base] info: DELETE /Product- ID 6
+2022-07-25T23:28:18.527Z [base] info: GET /Products
+2022-07-25T23:28:18.549Z [base] info: GET /Products
+2022-07-25T23:28:19.821Z [base] info: DELETE /Product- ID 7
+2022-07-25T23:28:19.913Z [base] info: GET /Products
+2022-07-25T23:28:19.934Z [base] info: GET /Products
+2022-07-25T23:28:21.015Z [base] info: DELETE /Product- ID 9
+2022-07-25T23:28:21.088Z [base] info: GET /Products
+2022-07-25T23:28:21.108Z [base] info: GET /Products
+2022-07-25T23:28:22.080Z [base] info: DELETE /Product- ID 8
+2022-07-25T23:28:22.152Z [base] info: GET /Products
+2022-07-25T23:28:22.173Z [base] info: GET /Products
+2022-07-25T23:28:40.575Z [base] info: GET /Products
+2022-07-25T23:28:40.576Z [base] info: GET /Products
+2022-07-25T23:28:40.821Z [base] info: GET /Products
+2022-07-25T23:28:40.822Z [base] info: GET /Products
+2022-07-25T23:28:57.120Z [base] info: GET /Products
+2022-07-25T23:28:57.141Z [base] info: GET /Products
+2022-07-25T23:29:00.155Z [base] info: GET /Products
+2022-07-25T23:29:00.177Z [base] info: GET /Products
+2022-07-25T23:29:01.609Z [base] info: GET /Products
+2022-07-25T23:29:01.629Z [base] info: GET /Products
+2022-07-25T23:29:03.476Z [base] info: GET /Products
+2022-07-25T23:29:03.498Z [base] info: GET /Products
+2022-07-25T23:29:06.431Z [base] info: GET /Products
+2022-07-25T23:29:06.462Z [base] info: GET /Products
+2022-07-25T23:29:08.966Z [base] info: GET /Products
+2022-07-25T23:29:08.988Z [base] info: GET /Products
+2022-07-25T23:35:13.239Z [base] info: API Started!
+2022-07-26T00:01:04.598Z [base] info: GET /Products
+2022-07-26T00:01:04.600Z [base] info: GET /Products
+2022-07-26T00:02:17.746Z [base] info: GET /Products
+2022-07-26T00:02:17.748Z [base] info: GET /Products
+2022-07-26T00:02:36.036Z [base] info: GET /Products
+2022-07-26T00:02:36.038Z [base] info: GET /Products
+2022-07-26T00:03:23.126Z [base] info: GET /Products
+2022-07-26T00:03:23.127Z [base] info: GET /Products
+2022-07-26T00:03:55.859Z [base] info: GET /Products
+2022-07-26T00:03:55.866Z [base] info: GET /Products
+2022-07-26T00:04:43.633Z [base] info: GET /Products
+2022-07-26T00:04:43.634Z [base] info: GET /Products
+2022-07-26T00:09:23.293Z [base] info: GET /Products
+2022-07-26T00:09:23.294Z [base] info: GET /Products
+2022-07-26T00:12:23.139Z [base] info: GET /Products
+2022-07-26T00:12:23.140Z [base] info: GET /Products
+2022-07-26T00:13:06.349Z [base] info: GET /Products
+2022-07-26T00:13:06.350Z [base] info: GET /Products
+2022-07-26T00:13:27.601Z [base] info: GET /Products
+2022-07-26T00:13:27.604Z [base] info: GET /Products
+2022-07-26T00:13:55.600Z [base] info: GET /Products
+2022-07-26T00:13:55.601Z [base] info: GET /Products
+2022-07-26T00:47:59.244Z [base] info: GET /Products
+2022-07-26T00:47:59.246Z [base] info: GET /Products
+2022-07-27T15:06:25.701Z [base] info: API Started!
+2022-07-27T15:06:31.317Z [base] info: GET /Products
+2022-07-27T15:06:31.319Z [base] info: GET /Products
+2022-07-27T15:09:29.497Z [base] info: GET /Products
+2022-07-27T15:09:29.499Z [base] info: GET /Products
+2022-07-27T15:14:56.120Z [base] info: GET /Products
+2022-07-27T15:14:56.121Z [base] info: GET /Products
+2022-07-27T15:15:26.222Z [base] info: GET /Products
+2022-07-27T15:15:26.225Z [base] info: GET /Products
+2022-07-27T15:15:45.707Z [base] info: GET /Products
+2022-07-27T15:15:45.708Z [base] info: GET /Products
+2022-07-27T15:16:28.218Z [base] info: GET /Products
+2022-07-27T15:16:28.220Z [base] info: GET /Products
+2022-07-27T15:17:22.523Z [base] info: GET /Products
+2022-07-27T15:17:22.524Z [base] info: GET /Products
+2022-07-27T15:18:45.373Z [base] info: GET /Products
+2022-07-27T15:18:45.374Z [base] info: GET /Products
+2022-07-27T15:19:39.503Z [base] info: GET /Products
+2022-07-27T15:19:39.509Z [base] info: GET /Products
+2022-07-27T15:24:45.227Z [base] info: GET /Products
+2022-07-27T15:24:45.228Z [base] info: GET /Products
+2022-07-27T15:25:29.691Z [base] info: GET /Products
+2022-07-27T15:25:29.692Z [base] info: GET /Products
+2022-07-27T15:28:02.622Z [base] info: GET /Products
+2022-07-27T15:28:02.623Z [base] info: GET /Products
+2022-07-27T15:29:13.825Z [base] info: GET /Products
+2022-07-27T15:29:13.827Z [base] info: GET /Products
+2022-07-27T15:29:19.548Z [base] info: GET /Products
+2022-07-27T15:29:19.549Z [base] info: GET /Products
+2022-07-27T15:29:36.817Z [base] info: GET /Products
+2022-07-27T15:29:36.830Z [base] info: GET /Products
+2022-07-27T15:29:45.385Z [base] info: GET /Products
+2022-07-27T15:29:45.387Z [base] info: GET /Products
+2022-07-27T15:47:17.246Z [base] info: GET /Products
+2022-07-27T15:47:17.247Z [base] info: GET /Products
+2022-07-27T15:47:39.273Z [base] info: GET /Products
+2022-07-27T15:47:39.274Z [base] info: GET /Products
+2022-07-27T15:49:00.936Z [base] info: GET /Products
+2022-07-27T15:49:00.942Z [base] info: GET /Products
+2022-07-27T15:49:03.969Z [base] info: GET /Products
+2022-07-27T15:49:03.970Z [base] info: GET /Products
+2022-07-27T15:49:58.419Z [base] info: GET /Products
+2022-07-27T15:49:58.422Z [base] info: GET /Products
+2022-07-27T15:50:04.708Z [base] info: GET /Products
+2022-07-27T15:50:04.710Z [base] info: GET /Products
+2022-07-27T15:50:07.935Z [base] info: GET /Products
+2022-07-27T15:50:07.944Z [base] info: GET /Products
+2022-07-27T15:59:22.313Z [base] info: GET /Products
+2022-07-27T15:59:22.315Z [base] info: GET /Products
+2022-07-27T16:07:19.955Z [base] info: GET /Products
+2022-07-27T16:07:19.956Z [base] info: GET /Products
+2022-07-27T16:16:55.190Z [base] info: GET /Contact
+2022-07-27T16:16:55.191Z [base] info: GET /Contact
+2022-07-27T16:16:55.210Z [base] info: GET /Contact
+2022-07-27T16:16:55.211Z [base] info: GET /Contact
+2022-07-27T16:16:57.489Z [base] info: GET /Products
+2022-07-27T16:16:57.490Z [base] info: GET /Products
+2022-07-27T16:20:35.471Z [base] info: GET /Products
+2022-07-27T16:20:35.472Z [base] info: GET /Products
+2022-07-27T16:22:12.151Z [base] info: GET /Products
+2022-07-27T16:22:12.153Z [base] info: GET /Products
+2022-07-27T16:22:46.165Z [base] info: GET /Products
+2022-07-27T16:22:46.173Z [base] info: GET /Products
+2022-07-27T16:23:11.304Z [base] info: GET /Products
+2022-07-27T16:23:11.305Z [base] info: GET /Products
+2022-07-27T16:24:23.823Z [base] info: GET /Products
+2022-07-27T16:24:23.829Z [base] info: GET /Products
+2022-07-27T16:24:36.150Z [base] info: GET /Products
+2022-07-27T16:24:36.152Z [base] info: GET /Products
+2022-07-27T18:59:31.137Z [base] info: API Started!
+2022-07-27T18:59:38.412Z [base] info: API Started!
+2022-07-27T19:03:26.716Z [base] info: POST /creat Product - {"productId":13,"name":"z","image":"qwerqwe","description":"rqwerwqe","url":"rqwerqwer","active":true,"autoexplan":true}
+2022-07-27T19:03:45.777Z [base] info: POST /creat Product - {"productId":14,"name":"qwer","image":"qwerq","description":"werqwer","url":"qwerqwer","active":true,"autoexplan":true}
+2022-07-27T19:03:54.177Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:03:54.194Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:05:59.750Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:05:59.751Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:06:03.790Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:06:03.796Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:06:10.956Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:06:10.958Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:06:23.178Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:06:23.184Z [base] error: GET  - Assignment to constant variable.
+2022-07-27T19:07:07.127Z [base] info: API Started!
+2022-07-27T19:07:11.119Z [base] info: GET /Products
+2022-07-27T19:07:11.133Z [base] info: GET /Products
+2022-07-27T19:08:24.627Z [base] info: API Started!
+2022-07-27T19:08:35.867Z [base] info: API Started!
+2022-07-27T19:08:42.850Z [base] error: GET  - products is not defined
+2022-07-27T19:08:42.854Z [base] error: GET  - products is not defined
+2022-07-27T19:09:05.864Z [base] info: API Started!
+2022-07-27T19:09:22.219Z [base] info: API Started!
+2022-07-27T19:09:28.684Z [base] error: GET  - products is not defined
+2022-07-27T19:09:28.687Z [base] error: GET  - products is not defined
+2022-07-27T19:09:44.210Z [base] info: API Started!
+2022-07-27T19:09:46.954Z [base] error: GET  - Cannot read property 'sort' of undefined
+2022-07-27T19:09:46.958Z [base] error: GET  - Cannot read property 'sort' of undefined
+2022-07-27T19:10:02.874Z [base] info: API Started!
+2022-07-27T19:10:05.417Z [base] error: GET  - Cannot read property 'sort' of undefined
+2022-07-27T19:10:05.435Z [base] error: GET  - Cannot read property 'sort' of undefined
+2022-07-27T19:14:29.687Z [base] info: API Started!
+2022-07-27T19:14:34.840Z [base] info: GET /Products
+2022-07-27T19:14:34.848Z [base] info: GET /Products
+2022-07-27T19:14:46.483Z [base] info: API Started!
+2022-07-27T19:14:49.869Z [base] info: GET /Products
+2022-07-27T19:14:49.875Z [base] info: GET /Products
+2022-07-27T19:16:31.825Z [base] info: API Started!
+2022-07-27T19:16:38.077Z [base] info: API Started!
+2022-07-27T19:16:48.317Z [base] info: API Started!
+2022-07-27T19:16:50.373Z [base] info: GET /Products
+2022-07-27T19:16:50.378Z [base] info: GET /Products
+2022-07-27T19:17:17.280Z [base] info: API Started!
+2022-07-27T19:17:22.580Z [base] info: GET /Products
+2022-07-27T19:17:22.599Z [base] info: GET /Products
+2022-07-27T19:17:55.706Z [base] info: API Started!
+2022-07-27T19:17:58.192Z [base] info: GET /Products
+2022-07-27T19:17:58.210Z [base] info: GET /Products
+2022-07-27T19:24:16.997Z [base] info: API Started!
+2022-07-27T19:24:19.966Z [base] info: GET /Products
+2022-07-27T19:24:19.984Z [base] info: GET /Products
+2022-07-27T19:24:25.884Z [base] info: API Started!
+2022-07-27T19:24:28.786Z [base] info: GET /Products
+2022-07-27T19:24:28.802Z [base] info: GET /Products
+2022-07-27T19:24:55.941Z [base] info: API Started!
+2022-07-27T19:25:01.023Z [base] info: GET /Products
+2022-07-27T19:25:01.040Z [base] info: GET /Products
+2022-07-27T19:26:44.682Z [base] info: API Started!
+2022-07-27T19:26:47.389Z [base] info: GET /Products
+2022-07-27T19:26:47.403Z [base] info: GET /Products
+2022-07-27T19:27:19.083Z [base] info: API Started!
+2022-07-27T19:27:25.248Z [base] info: GET /Products
+2022-07-27T19:27:25.251Z [base] info: GET /Products
+2022-07-27T19:28:34.444Z [base] info: API Started!
+2022-07-27T19:28:38.948Z [base] info: API Started!
+2022-07-27T19:28:41.713Z [base] info: GET /Products
+2022-07-27T19:28:41.724Z [base] info: GET /Products
+2022-07-27T19:33:09.057Z [base] info: API Started!
+2022-07-27T19:33:14.639Z [base] info: GET /Products
+2022-07-27T19:33:14.641Z [base] info: GET /Products
+2022-07-27T19:33:43.342Z [base] info: API Started!
+2022-07-27T19:33:45.614Z [base] info: GET /Products
+2022-07-27T19:33:45.615Z [base] info: GET /Products
+2022-07-27T19:33:55.609Z [base] info: GET /Products
+2022-07-27T19:33:55.612Z [base] info: GET /Products
+2022-07-27T19:35:48.874Z [base] info: POST /creat Product - {"productId":15,"name":"Arte Classica","image":"https://images.virgula.com.br/2016/03/Pinturas-cla%CC%81ssicase-animacoes-Michelangelo.jpg","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":false}
+2022-07-27T19:48:28.797Z [base] info: GET /Products
+2022-07-27T19:48:28.799Z [base] info: GET /Products
+2022-07-27T19:49:39.464Z [base] info: GET /Products
+2022-07-27T19:49:39.465Z [base] info: GET /Products
+2022-07-27T19:51:46.936Z [base] info: GET /Products
+2022-07-27T19:51:46.941Z [base] info: GET /Products
+2022-07-27T19:51:49.850Z [base] info: DELETE /Product- ID 3
+2022-07-27T19:51:49.879Z [base] info: GET /Products
+2022-07-27T19:51:50.772Z [base] info: DELETE /Product- ID 4
+2022-07-27T19:51:50.798Z [base] info: GET /Products
+2022-07-27T19:51:52.061Z [base] info: DELETE /Product- ID 5
+2022-07-27T19:51:52.088Z [base] info: GET /Products
+2022-07-27T19:51:52.956Z [base] info: DELETE /Product- ID 14
+2022-07-27T19:51:52.982Z [base] info: GET /Products
+2022-07-27T19:51:53.955Z [base] info: DELETE /Product- ID 13
+2022-07-27T19:51:53.980Z [base] info: GET /Products
+2022-07-27T19:52:38.663Z [base] info: POST /creat Product - {"productId":16,"name":"Semana da arte moderna","image":"https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-27T19:52:59.393Z [base] info: GET /Products
+2022-07-27T19:52:59.400Z [base] info: GET /Products
+2022-07-27T19:54:09.713Z [base] info: POST /creat Product - {"productId":17,"name":"lettering na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata Texto descritivo do que se trata Texto descritivo do que se trata","url":"http://localhost:3000/test","active":false,"autoexplan":true}
+2022-07-27T19:55:51.471Z [base] info: POST /creat Product - {"productId":18,"name":"Semana da arte moderna","image":"https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917","description":"Texto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trata","url":"http://localhost:3000/test","active":false,"autoexplan":false}
+2022-07-27T19:55:57.068Z [base] info: GET /Products
+2022-07-27T19:55:57.082Z [base] info: GET /Products
+2022-07-27T19:56:33.797Z [base] info: GET /Contact
+2022-07-27T19:56:33.799Z [base] info: GET /Contact
+2022-07-27T19:56:34.097Z [base] info: GET /Contact
+2022-07-27T19:56:34.098Z [base] info: GET /Contact
+2022-07-27T19:56:37.585Z [base] info: GET /About US
+2022-07-27T19:56:37.588Z [base] info: GET /About US
+2022-07-27T19:56:43.515Z [base] info: GET /Products
+2022-07-27T19:56:43.522Z [base] info: GET /Products
+2022-07-27T19:58:29.760Z [base] info: GET /Products
+2022-07-27T19:58:29.768Z [base] info: GET /Products
+2022-07-27T20:00:22.633Z [base] info: GET /Products
+2022-07-27T20:00:22.634Z [base] info: GET /Products
+2022-07-27T20:02:43.027Z [base] info: GET /About US
+2022-07-27T20:02:43.028Z [base] info: GET /About US
+2022-07-27T20:02:45.479Z [base] info: GET /Products
+2022-07-27T20:02:45.480Z [base] info: GET /Products
+2022-07-27T20:09:01.933Z [base] info: GET /Products
+2022-07-27T20:09:01.934Z [base] info: GET /Products
+2022-07-27T20:09:08.020Z [base] info: GET /Products
+2022-07-27T20:09:08.021Z [base] info: GET /Products
+2022-07-27T20:09:22.189Z [base] info: GET /Products
+2022-07-27T20:09:22.205Z [base] info: GET /Products
+2022-07-27T20:09:30.700Z [base] info: GET /Products
+2022-07-27T20:09:42.929Z [base] info: GET /Products
+2022-07-27T20:09:42.939Z [base] info: GET /Products
+2022-07-27T20:09:44.476Z [base] info: GET /Products
+2022-07-27T20:12:01.048Z [base] info: GET /Products
+2022-07-27T20:12:01.049Z [base] info: GET /Products
+2022-07-27T20:12:38.689Z [base] info: GET /Products
+2022-07-27T20:12:38.690Z [base] info: GET /Products
+2022-07-27T20:12:46.311Z [base] info: GET /Products
+2022-07-27T20:12:46.313Z [base] info: GET /Products
+2022-07-27T20:14:10.849Z [base] info: GET /Products
+2022-07-27T20:14:10.863Z [base] info: GET /Products
+2022-07-27T20:14:17.061Z [base] info: GET /Products
+2022-07-27T20:14:17.062Z [base] info: GET /Products
+2022-07-27T20:14:18.104Z [base] info: GET /Products
+2022-07-27T20:14:22.646Z [base] info: POST /creat Product - {"productId":19,"name":"lettering na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":false,"autoexplan":false}
+2022-07-27T20:14:26.427Z [base] info: GET /Products
+2022-07-27T20:14:26.428Z [base] info: GET /Products
+2022-07-27T20:57:22.541Z [base] info: GET /Email
+2022-07-27T20:57:22.543Z [base] info: GET /Email
+2022-07-27T21:05:11.672Z [base] info: GET /Email
+2022-07-27T21:05:11.676Z [base] info: GET /Email
+2022-07-27T22:04:03.871Z [base] info: GET /Email
+2022-07-27T22:04:03.883Z [base] info: GET /Email
+2022-07-27T22:04:47.528Z [base] info: GET /Email
+2022-07-27T22:04:47.529Z [base] info: GET /Email
+2022-07-27T22:04:47.719Z [base] info: GET /Email
+2022-07-27T22:04:47.720Z [base] info: GET /Email
+2022-07-27T22:09:53.412Z [base] info: GET /Email
+2022-07-27T22:09:53.413Z [base] info: GET /Email
+2022-07-27T22:09:53.603Z [base] info: GET /Email
+2022-07-27T22:09:53.604Z [base] info: GET /Email
+2022-07-27T22:10:00.260Z [base] info: GET /Email
+2022-07-27T22:10:00.262Z [base] info: GET /Email
+2022-07-27T22:10:00.291Z [base] info: GET /Email
+2022-07-27T22:10:00.540Z [base] info: GET /Email
+2022-07-27T22:10:32.104Z [base] info: GET /Email
+2022-07-27T22:10:32.105Z [base] info: GET /Email
+2022-07-27T22:10:32.360Z [base] info: GET /Email
+2022-07-27T22:10:32.362Z [base] info: GET /Email
+2022-07-27T22:10:37.993Z [base] info: GET /Email
+2022-07-27T22:10:37.994Z [base] info: GET /Email
+2022-07-27T22:10:38.033Z [base] info: GET /Email
+2022-07-27T22:10:38.034Z [base] info: GET /Email
+2022-07-27T22:59:18.482Z [base] info: API Started!
+2022-07-27T23:00:12.790Z [base] info: API Started!
+2022-07-27T23:00:14.250Z [base] info: API Started!
+2022-07-27T23:02:10.970Z [base] info: API Started!
+2022-07-27T23:03:18.691Z [base] info: API Started!
+2022-07-27T23:04:05.292Z [base] info: API Started!
+2022-07-27T23:05:41.451Z [base] info: API Started!
+2022-07-27T23:08:37.784Z [base] info: POST /creat spand - {"emailId":1,"name":"Poker Dorp","email":"pokertx@gmail.com","active":true}
+2022-07-27T23:09:04.148Z [base] info: POST /creat spand - {"emailId":2,"name":"testE Mx","email":"mxee@hotmail.com","active":true}
+2022-07-27T23:09:09.829Z [base] info: GET /Email
+2022-07-27T23:09:09.851Z [base] info: GET /Email
+2022-07-27T23:09:16.769Z [base] info: GET /Email
+2022-07-27T23:09:17.871Z [base] info: GET /Email
+2022-07-27T23:09:18.777Z [base] info: GET /Email
+2022-07-27T23:09:19.134Z [base] info: GET /Email
+2022-07-27T23:11:28.002Z [base] info: GET /Email
+2022-07-27T23:11:28.003Z [base] info: GET /Email
+2022-07-27T23:11:28.212Z [base] info: GET /Email
+2022-07-27T23:11:28.218Z [base] info: GET /Email
+2022-07-27T23:12:03.737Z [base] info: GET /Products
+2022-07-27T23:12:03.738Z [base] info: GET /Products
+2022-07-27T23:12:09.203Z [base] info: GET /Products
+2022-07-27T23:12:10.637Z [base] info: GET /Products
+2022-07-27T23:12:11.346Z [base] info: GET /Products
+2022-07-27T23:12:12.404Z [base] info: GET /Products
+2022-07-27T23:12:12.995Z [base] info: GET /Products
+2022-07-27T23:12:14.223Z [base] info: GET /Products
+2022-07-27T23:12:14.962Z [base] info: GET /Products
+2022-07-27T23:12:16.567Z [base] info: GET /Products
+2022-07-27T23:12:17.031Z [base] info: GET /Products
+2022-07-27T23:12:17.204Z [base] info: GET /Products
+2022-07-27T23:12:17.468Z [base] info: GET /Products
+2022-07-27T23:12:18.512Z [base] info: GET /Products
+2022-07-27T23:12:20.396Z [base] info: GET /Products
+2022-07-27T23:12:22.919Z [base] info: GET /Products
+2022-07-27T23:12:24.324Z [base] info: GET /Products
+2022-07-27T23:12:45.490Z [base] info: GET /Products
+2022-07-27T23:12:47.568Z [base] info: GET /Products
+2022-07-27T23:12:49.606Z [base] info: GET /Products
+2022-07-27T23:12:50.537Z [base] info: GET /Products
+2022-07-27T23:12:51.910Z [base] info: GET /Products
+2022-07-27T23:12:53.335Z [base] info: GET /Products
+2022-07-27T23:12:54.551Z [base] info: GET /Products
+2022-07-27T23:12:55.880Z [base] info: GET /Products
+2022-07-27T23:12:57.126Z [base] info: GET /Products
+2022-07-27T23:12:58.444Z [base] info: GET /Products
+2022-07-27T23:12:59.301Z [base] info: GET /Products
+2022-07-27T23:13:00.207Z [base] info: GET /Products
+2022-07-27T23:13:00.832Z [base] info: GET /Products
+2022-07-27T23:13:01.813Z [base] info: GET /Products
+2022-07-27T23:13:03.220Z [base] info: GET /Products
+2022-07-27T23:13:04.747Z [base] info: GET /Products
+2022-07-27T23:13:07.544Z [base] info: GET /Products
+2022-07-27T23:13:15.082Z [base] info: GET /Products
+2022-07-27T23:13:16.980Z [base] info: GET /Products
+2022-07-27T23:13:17.663Z [base] info: DELETE /Product- ID 19
+2022-07-27T23:13:17.688Z [base] info: GET /Products
+2022-07-27T23:13:19.723Z [base] info: DELETE /Product- ID 15
+2022-07-27T23:13:19.745Z [base] info: GET /Products
+2022-07-27T23:13:24.126Z [base] info: GET /Products
+2022-07-27T23:13:25.539Z [base] info: GET /Products
+2022-07-27T23:13:26.774Z [base] info: GET /Products
+2022-07-27T23:13:27.684Z [base] info: GET /Products
+2022-07-27T23:13:28.690Z [base] info: GET /Products
+2022-07-27T23:13:29.951Z [base] info: GET /Products
+2022-07-27T23:13:31.019Z [base] info: GET /Products
+2022-07-27T23:13:31.894Z [base] info: GET /Products
+2022-07-27T23:13:33.335Z [base] info: GET /Products
+2022-07-27T23:13:34.398Z [base] info: GET /Products
+2022-07-27T23:13:34.555Z [base] info: GET /Products
+2022-07-27T23:13:34.718Z [base] info: GET /Products
+2022-07-27T23:13:44.899Z [base] info: GET /Products
+2022-07-27T23:13:44.914Z [base] info: GET /Products
+2022-07-27T23:13:46.234Z [base] info: GET /Products
+2022-07-27T23:13:47.624Z [base] info: GET /Products
+2022-07-27T23:13:49.633Z [base] info: GET /Products
+2022-07-27T23:13:50.313Z [base] info: GET /Products
+2022-07-27T23:13:50.966Z [base] info: GET /Products
+2022-07-27T23:13:51.489Z [base] info: GET /Products
+2022-07-27T23:14:01.946Z [base] info: GET /Products
+2022-07-27T23:14:01.961Z [base] info: GET /Products
+2022-07-27T23:14:06.696Z [base] info: POST /creat Product - {"productId":20,"name":"Semana da arte moderna","image":"https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917","description":"Texto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-27T23:14:09.845Z [base] info: GET /Products
+2022-07-27T23:14:09.847Z [base] info: GET /Products
+2022-07-27T23:14:17.258Z [base] info: POST /creat Product - {"productId":21,"name":"Semana da arte moderna","image":"https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917","description":"Texto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-27T23:14:20.813Z [base] info: GET /Products
+2022-07-27T23:14:20.829Z [base] info: GET /Products
+2022-07-27T23:15:53.879Z [base] info: GET /Products
+2022-07-27T23:15:56.091Z [base] info: GET /Products
+2022-07-27T23:15:57.262Z [base] info: GET /Products
+2022-07-27T23:15:58.377Z [base] info: GET /Products
+2022-07-27T23:16:00.273Z [base] info: GET /Products
+2022-07-27T23:16:24.298Z [base] info: GET /Products
+2022-07-27T23:16:24.307Z [base] info: GET /Products
+2022-07-27T23:16:26.469Z [base] info: GET /Products
+2022-07-27T23:16:32.508Z [base] info: POST /creat Product - {"productId":22,"name":"Semana da arte moderna","image":"https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917","description":"Texto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trataTexto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-27T23:16:35.212Z [base] info: GET /Products
+2022-07-27T23:16:35.229Z [base] info: GET /Products
+2022-07-27T23:16:44.788Z [base] info: POST /creat Product - {"productId":23,"name":"lettering na pratica","image":"https://camilapegado.com.br/wp-content/webp-express/webp-images/uploads/2022/04/Logo-lettering-sem-rebarba-amarela.png.webp","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-27T23:16:48.606Z [base] info: GET /Products
+2022-07-27T23:16:48.624Z [base] info: GET /Products
+2022-07-27T23:19:45.382Z [base] info: GET /Products
+2022-07-27T23:19:46.551Z [base] info: GET /Products
+2022-07-27T23:19:47.671Z [base] info: GET /Products
+2022-07-27T23:19:49.417Z [base] info: GET /Products
+2022-07-27T23:19:50.747Z [base] info: GET /Products
+2022-07-27T23:19:52.345Z [base] info: GET /Products
+2022-07-27T23:29:38.147Z [base] info: GET /Email
+2022-07-27T23:29:38.153Z [base] info: GET /Email
+2022-07-27T23:29:38.384Z [base] info: GET /Email
+2022-07-27T23:29:38.385Z [base] info: GET /Email
+2022-07-27T23:31:29.969Z [base] info: GET /Products
+2022-07-27T23:31:29.970Z [base] info: GET /Products
+2022-07-27T23:31:31.591Z [base] info: GET /Products
+2022-07-27T23:31:32.671Z [base] info: GET /Products
+2022-07-27T23:31:33.502Z [base] info: GET /Products
+2022-07-27T23:31:34.994Z [base] info: GET /Products
+2022-07-27T23:31:35.959Z [base] info: GET /Products
+2022-07-27T23:31:36.532Z [base] info: GET /Products
+2022-07-27T23:31:37.723Z [base] info: GET /Products
+2022-07-27T23:31:38.893Z [base] info: GET /Products
+2022-07-27T23:31:55.865Z [base] info: DELETE /Product- ID 20
+2022-07-27T23:31:55.890Z [base] info: GET /Products
+2022-07-27T23:31:56.366Z [base] info: DELETE /Product- ID 16
+2022-07-27T23:31:56.392Z [base] info: GET /Products
+2022-07-27T23:31:56.838Z [base] info: DELETE /Product- ID 22
+2022-07-27T23:31:56.863Z [base] info: GET /Products
+2022-07-27T23:31:58.031Z [base] info: DELETE /Product- ID 21
+2022-07-27T23:31:58.057Z [base] info: GET /Products
+2022-07-27T23:31:59.517Z [base] info: DELETE /Product- ID 23
+2022-07-27T23:31:59.541Z [base] info: GET /Products
+2022-07-27T23:32:00.660Z [base] info: DELETE /Product- ID 17
+2022-07-27T23:32:00.684Z [base] info: GET /Products
+2022-07-27T23:32:21.193Z [base] info: POST /creat Product - {"productId":24,"name":"Semana da arte moderna","image":"https://img.imageboss.me/revista-cdn/cdn/38773/5f3078e8c3b4905dcddc4928464f25d657b4b56f.jpg?1644958917","description":"Texto descritivo do que se trata","url":"http://localhost:3000/test","active":true,"autoexplan":true}
+2022-07-27T23:32:24.485Z [base] info: GET /Products
+2022-07-27T23:32:24.504Z [base] info: GET /Products
+2022-07-27T23:34:41.853Z [base] info: DELETE /Product- ID 18
+2022-07-27T23:34:41.886Z [base] info: GET /Products
+2022-07-27T23:34:44.879Z [base] info: GET /Products
+2022-07-27T23:34:45.685Z [base] info: GET /Products
+2022-07-27T23:35:15.463Z [base] info: GET /Products
+2022-07-27T23:35:15.464Z [base] info: GET /Products
+2022-07-27T23:37:54.221Z [base] info: GET /Products
+2022-07-27T23:37:54.221Z [base] info: GET /Products
+2022-07-27T23:37:59.253Z [base] info: GET /Products
+2022-07-27T23:38:00.342Z [base] info: GET /Products
+2022-07-27T23:44:21.376Z [base] info: PUT /update Product - undefined
+2022-07-27T23:44:24.435Z [base] info: GET /Products
+2022-07-27T23:44:24.452Z [base] info: GET /Products
+2022-07-27T23:44:30.474Z [base] info: GET /Products
+2022-07-27T23:44:33.558Z [base] info: PUT /update Product - undefined
+2022-07-27T23:44:36.562Z [base] info: GET /Products
+2022-07-27T23:44:36.583Z [base] info: GET /Products
+2022-07-27T23:44:41.633Z [base] info: PUT /update Product - undefined
+2022-07-27T23:44:44.337Z [base] info: GET /Products
+2022-07-27T23:44:44.338Z [base] info: GET /Products
+2022-07-27T23:44:52.882Z [base] info: PUT /update Product - undefined
+2022-07-27T23:44:57.129Z [base] info: GET /Products
+2022-07-27T23:44:57.145Z [base] info: GET /Products
+2022-07-27T23:45:24.338Z [base] info: GET /Products
+2022-07-27T23:45:24.895Z [base] info: GET /Products
+2022-07-27T23:45:26.148Z [base] info: GET /Products
+2022-07-27T23:45:26.690Z [base] info: GET /Products
+2022-07-27T23:45:26.848Z [base] info: GET /Products
+2022-07-27T23:45:27.083Z [base] info: GET /Products
+2022-07-27T23:45:28.561Z [base] info: GET /Products
+2022-07-27T23:45:28.940Z [base] info: GET /Products
+2022-07-27T23:45:29.129Z [base] info: GET /Products
+2022-07-27T23:45:29.512Z [base] info: GET /Products
+2022-07-27T23:45:29.875Z [base] info: GET /Products
+2022-07-27T23:45:30.491Z [base] info: GET /Products
+2022-07-27T23:45:31.480Z [base] info: GET /Products
+2022-07-27T23:45:32.171Z [base] info: GET /Products
+2022-07-27T23:45:33.225Z [base] info: GET /Products
+2022-07-27T23:45:33.775Z [base] info: GET /Products
+2022-07-27T23:45:33.926Z [base] info: GET /Products
+2022-07-27T23:45:34.077Z [base] info: GET /Products
+2022-07-27T23:45:34.997Z [base] info: GET /Products
+2022-07-27T23:45:36.115Z [base] info: GET /Products
+2022-07-27T23:45:36.568Z [base] info: GET /Products
+2022-07-27T23:45:38.562Z [base] info: GET /Products
+2022-07-27T23:45:39.396Z [base] info: GET /Products
+2022-07-27T23:45:40.545Z [base] info: GET /Products
+2022-07-27T23:45:41.924Z [base] info: GET /Products
+2022-07-27T23:45:48.127Z [base] info: GET /Products
+2022-07-27T23:45:48.989Z [base] info: GET /Products
+2022-07-27T23:45:49.274Z [base] info: GET /Products
+2022-07-27T23:47:48.048Z [base] info: GET /Products
+2022-07-27T23:47:49.046Z [base] info: GET /Products
+2022-07-27T23:47:50.652Z [base] info: GET /Products
+2022-07-27T23:47:51.732Z [base] info: GET /Products
+2022-07-27T23:48:23.473Z [base] info: GET /Products
+2022-07-27T23:48:24.362Z [base] info: GET /Products
+2022-07-27T23:48:24.932Z [base] info: GET /Products
+2022-07-27T23:48:58.563Z [base] info: GET /Products
+2022-07-27T23:48:58.570Z [base] info: GET /Products
+2022-07-27T23:49:01.624Z [base] info: GET /Products
+2022-07-27T23:49:35.465Z [base] info: GET /Products
+2022-07-27T23:49:37.564Z [base] info: GET /Products
+2022-07-27T23:50:04.057Z [base] info: GET /Products
+2022-07-27T23:50:04.820Z [base] info: GET /Products
+2022-07-27T23:50:18.148Z [base] info: GET /Products
+2022-07-27T23:50:48.143Z [base] info: API Started!
+2022-07-27T23:51:20.103Z [base] info: GET /Products
+2022-07-27T23:51:20.106Z [base] info: GET /Products
+2022-07-27T23:51:21.660Z [base] info: GET /Products
+2022-07-27T23:51:24.389Z [base] info: GET /Products
+2022-07-27T23:51:25.481Z [base] info: GET /Products
+2022-07-27T23:51:26.036Z [base] info: GET /Products
+2022-07-27T23:52:15.904Z [base] info: GET /Products
+2022-07-27T23:52:17.479Z [base] info: GET /Products
+2022-07-27T23:52:18.852Z [base] info: GET /Products
+2022-07-27T23:53:03.484Z [base] info: GET /Products
+2022-07-27T23:53:04.422Z [base] info: GET /Products
+2022-07-27T23:54:37.717Z [base] info: GET /Products
+2022-07-27T23:54:38.407Z [base] info: GET /Products
+2022-07-27T23:54:41.929Z [base] info: GET /Products
+2022-07-27T23:54:41.945Z [base] info: GET /Products
+2022-07-27T23:55:05.930Z [base] info: GET /Products
+2022-07-27T23:55:05.932Z [base] info: GET /Products
+2022-07-27T23:55:07.971Z [base] info: GET /Products
+2022-07-27T23:55:08.662Z [base] info: GET /Products
+2022-07-27T23:56:12.180Z [base] info: GET /Products
+2022-07-27T23:56:12.828Z [base] info: GET /Products
+2022-07-27T23:56:15.178Z [base] info: GET /Products
+2022-07-27T23:56:15.203Z [base] info: GET /Products
+2022-07-27T23:56:23.090Z [base] info: GET /Products
+2022-07-27T23:56:23.091Z [base] info: GET /Products
+2022-07-27T23:56:49.103Z [base] info: POST /creat Product - {"productId":26,"name":"Novo produto test ","image":"sdfsdfsdf","description":"sdfsdfsdf","url":"sdfsdfsdf","active":true,"autoexplan":true}
+2022-07-27T23:56:52.543Z [base] info: GET /Products
+2022-07-27T23:56:52.561Z [base] info: GET /Products
+2022-07-27T23:58:08.085Z [base] info: API Started!
+2022-07-27T23:58:18.382Z [base] info: GET /Products [object Object],[object Object],[object Object],[object Object]
+2022-07-27T23:58:18.384Z [base] info: GET /Products [object Object],[object Object],[object Object],[object Object]
+2022-07-27T23:58:39.264Z [base] info: API Started!
+2022-07-27T23:58:42.672Z [base] info: GET /Products undefined
+2022-07-27T23:58:42.673Z [base] info: GET /Products undefined
+2022-07-27T23:59:04.886Z [base] info: API Started!
+2022-07-27T23:59:09.120Z [base] info: GET /Products 
+2022-07-27T23:59:09.131Z [base] info: GET /Products 
+2022-07-27T23:59:24.400Z [base] info: GET /Products 
+2022-07-27T23:59:37.330Z [base] info: API Started!
+2022-07-27T23:59:39.412Z [base] info: GET /Products 
+2022-07-28T00:00:41.171Z [base] info: GET /Products 
+2022-07-28T00:00:41.960Z [base] info: GET /Products 
+2022-07-28T00:00:42.806Z [base] info: GET /Products 
+2022-07-28T00:00:43.832Z [base] info: GET /Products 
+2022-07-28T00:00:44.482Z [base] info: GET /Products 
+2022-07-28T00:00:44.645Z [base] info: GET /Products 
+2022-07-28T00:00:44.773Z [base] info: GET /Products 
+2022-07-28T00:00:49.837Z [base] info: PUT /update Product - undefined
+2022-07-28T00:00:52.329Z [base] info: GET /Products 
+2022-07-28T00:00:52.344Z [base] info: GET /Products 
+2022-07-28T00:01:19.413Z [base] info: GET /Products 
+2022-07-28T00:01:19.417Z [base] info: GET /Products 
+2022-07-28T00:01:20.828Z [base] info: GET /Products 
+2022-07-28T00:02:28.446Z [base] info: GET /Products 
+2022-07-28T00:02:29.033Z [base] info: GET /Products 
+2022-07-28T00:02:33.113Z [base] info: GET /Products 
+2022-07-28T00:02:33.131Z [base] info: GET /Products 
+2022-07-28T00:02:34.475Z [base] info: GET /Products 
+2022-07-28T00:02:35.260Z [base] info: GET /Products 
+2022-07-28T00:02:36.146Z [base] info: GET /Products 
+2022-07-28T00:02:36.937Z [base] info: GET /Products 
+2022-07-28T00:02:37.599Z [base] info: GET /Products 
+2022-07-28T00:02:38.416Z [base] info: GET /Products 
+2022-07-28T00:02:39.278Z [base] info: GET /Products 
+2022-07-28T00:02:40.120Z [base] info: GET /Products 
+2022-07-28T00:02:57.862Z [base] info: PUT /update Product - undefined
+2022-07-28T00:02:59.919Z [base] info: GET /Products 
+2022-07-28T00:02:59.941Z [base] info: GET /Products 
+2022-07-28T00:03:03.871Z [base] info: PUT /update Product - undefined
+2022-07-28T00:03:05.931Z [base] info: GET /Products 
+2022-07-28T00:03:05.936Z [base] info: GET /Products 
+2022-07-28T00:03:09.279Z [base] info: PUT /update Product - undefined
+2022-07-28T00:03:12.698Z [base] info: GET /Products 
+2022-07-28T00:03:12.703Z [base] info: GET /Products 
+2022-07-28T00:03:17.109Z [base] info: PUT /update Product - undefined
+2022-07-28T00:03:19.734Z [base] info: GET /Products 
+2022-07-28T00:03:19.739Z [base] info: GET /Products 
+2022-07-28T00:33:46.753Z [base] info: GET /Email
+2022-07-28T00:33:46.767Z [base] info: GET /Email
+2022-07-28T00:33:47.007Z [base] info: GET /Email
+2022-07-28T00:33:47.008Z [base] info: GET /Email
+2022-07-28T00:44:01.210Z [base] info: GET /Products 
+2022-07-28T00:44:01.214Z [base] info: GET /Products 
+2022-07-28T00:44:03.650Z [base] info: GET /Products 
+2022-07-28T00:44:04.554Z [base] info: GET /Products 
+2022-07-28T00:44:05.491Z [base] info: GET /Products 
+2022-07-28T00:44:06.766Z [base] info: GET /Products 
+2022-07-28T00:44:11.914Z [base] info: GET /Email
+2022-07-28T00:44:11.931Z [base] info: GET /Email
+2022-07-28T00:44:11.983Z [base] info: GET /Email
+2022-07-28T00:44:11.995Z [base] info: GET /Email
+2022-07-28T00:44:59.705Z [base] info: GET /Products 
+2022-07-28T00:44:59.714Z [base] info: GET /Products 
+2022-07-28T00:45:04.356Z [base] info: GET /Products 
+2022-07-28T00:45:04.361Z [base] info: GET /Products 
+2022-07-28T00:45:36.479Z [base] info: GET /Email
+2022-07-28T00:45:36.480Z [base] info: GET /Email
+2022-07-28T00:45:36.783Z [base] info: GET /Email
+2022-07-28T00:45:36.784Z [base] info: GET /Email
+2022-07-28T00:46:00.001Z [base] info: GET /Products 
+2022-07-28T00:46:00.020Z [base] info: GET /Products 
+2022-07-28T00:46:01.506Z [base] info: DELETE /Product- ID 26
+2022-07-28T00:46:01.535Z [base] info: GET /Products 
+2022-07-28T00:46:04.733Z [base] info: GET /Products 
+2022-07-28T00:46:04.739Z [base] info: GET /Products 
+2022-07-28T00:46:34.094Z [base] info: GET /Products 
+2022-07-28T00:46:34.975Z [base] info: GET /Products 
+2022-07-28T00:46:35.872Z [base] info: GET /Products 
+2022-07-28T00:48:46.724Z [base] info: API Started!
+2022-07-28T00:49:05.483Z [base] info: PUT /update Product - undefined
+2022-07-28T00:49:09.166Z [base] info: GET /Products 
+2022-07-28T00:49:09.181Z [base] info: GET /Products 
+2022-07-28T00:53:41.881Z [base] info: GET /Products 
+2022-07-28T00:53:41.882Z [base] info: GET /Products 
+2022-07-28T00:53:43.247Z [base] info: GET /Products 
+2022-07-28T00:53:43.756Z [base] info: GET /Products 
+2022-07-28T00:56:40.995Z [base] info: API Started!
+2022-07-28T00:57:28.214Z [base] info: API Started!
+2022-07-28T00:58:08.512Z [base] info: GET /Email
+2022-07-28T00:58:08.513Z [base] info: GET /Email
+2022-07-28T00:58:08.600Z [base] info: GET /Email
+2022-07-28T00:58:08.601Z [base] info: GET /Email
+2022-07-28T00:58:45.685Z [base] info: POST /creat spand - {"emailId":3,"name":"qwe","email":"qweeqweqwe@qwdqw","active":true}
+2022-07-28T00:59:32.349Z [base] info: GET /Email
+2022-07-28T00:59:32.353Z [base] info: GET /Email
+2022-07-28T00:59:32.554Z [base] info: GET /Email
+2022-07-28T00:59:32.554Z [base] info: GET /Email
+2022-07-28T01:04:43.795Z [base] info: API Started!
+2022-07-28T01:05:19.952Z [base] info: API Started!
+2022-07-28T01:07:05.999Z [base] info: API Started!
+2022-07-28T01:07:07.280Z [base] info: API Started!
+2022-07-28T01:07:16.309Z [base] info: API Started!
+2022-07-28T01:07:49.601Z [base] info: API Started!
+2022-07-28T01:09:09.822Z [base] info: API Started!
+2022-07-28T01:19:03.096Z [base] info: GET /Email
+2022-07-28T01:19:03.100Z [base] info: GET /Email
+2022-07-28T01:19:03.354Z [base] info: GET /Email
+2022-07-28T01:19:03.362Z [base] info: GET /Email
+2022-07-28T01:22:57.569Z [base] info: PUT /update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@qwdqw","active":true}
+2022-07-28T01:23:58.790Z [base] info: PATCH/update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@qwdqw","active":true}
+2022-07-28T01:23:58.814Z [base] info: GET /Email
+2022-07-28T01:25:48.372Z [base] info: PUT /update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@qwdqw","active":true}
+2022-07-28T01:25:48.396Z [base] info: GET /Email
+2022-07-28T01:27:33.386Z [base] info: PUT /update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":true}
+2022-07-28T01:27:33.412Z [base] info: GET /Email
+2022-07-28T01:28:34.098Z [base] info: PUT /update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":true}
+2022-07-28T01:28:34.125Z [base] info: GET /Email
+2022-07-28T01:29:01.943Z [base] info: PUT /update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":true}
+2022-07-28T01:29:01.971Z [base] info: GET /Email
+2022-07-28T01:32:18.612Z [base] info: API Started!
+2022-07-28T01:32:55.292Z [base] info: API Started!
+2022-07-28T01:35:54.725Z [base] info: API Started!
+2022-07-28T01:36:00.879Z [base] info: GET /Email
+2022-07-28T01:36:00.881Z [base] info: GET /Email
+2022-07-28T01:36:03.894Z [base] info: PATCH/update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":false}
+2022-07-28T01:36:03.922Z [base] info: GET /Email
+2022-07-28T01:36:06.402Z [base] info: PATCH/update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":true}
+2022-07-28T01:36:06.424Z [base] info: GET /Email
+2022-07-28T01:36:07.050Z [base] info: PATCH/update Email - {"emailId":2,"name":"testE Mx","email":"mxee@hotmail.com","active":false}
+2022-07-28T01:36:07.073Z [base] info: GET /Email
+2022-07-28T01:36:09.807Z [base] info: PATCH/update Email - {"emailId":2,"name":"testE Mx","email":"mxee@hotmail.com","active":true}
+2022-07-28T01:36:09.835Z [base] info: GET /Email
+2022-07-28T01:37:36.010Z [base] info: API Started!
+2022-07-28T01:37:40.751Z [base] info: PATCH/update Email - {"emailId":1,"name":"Poker Dorp","email":"pokertx@gmail.com","active":false}
+2022-07-28T01:37:40.781Z [base] info: GET /Email
+2022-07-28T01:37:41.666Z [base] info: PATCH/update Email - {"emailId":1,"name":"Poker Dorp","email":"pokertx@gmail.com","active":true}
+2022-07-28T01:37:41.690Z [base] info: GET /Email
+2022-07-28T01:37:42.537Z [base] info: PATCH/update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":false}
+2022-07-28T01:37:42.562Z [base] info: GET /Email
+2022-07-28T01:37:43.099Z [base] info: PATCH/update Email - {"emailId":3,"name":"TEsder","email":"Eotimeout@localweb","active":true}
+2022-07-28T01:37:43.121Z [base] info: GET /Email
+2022-07-28T01:38:12.675Z [base] info: GET /Contact
+2022-07-28T01:38:12.676Z [base] info: GET /Contact
+2022-07-28T01:38:12.944Z [base] info: GET /Contact
+2022-07-28T01:38:12.945Z [base] info: GET /Contact
+2022-07-28T01:38:23.302Z [base] info: GET /About US
+2022-07-28T01:38:23.303Z [base] info: GET /About US
+2022-07-28T01:38:23.671Z [base] info: GET /About US
+2022-07-28T01:38:25.487Z [base] info: GET /Contact
+2022-07-28T01:38:25.506Z [base] info: GET /Contact
+2022-07-28T01:38:32.831Z [base] info: GET /Products 
+2022-07-28T01:38:32.840Z [base] info: GET /Products 
+2022-07-28T01:38:33.235Z [base] info: GET /Products 
+2022-07-28T01:38:33.236Z [base] info: GET /Products 
+2022-07-28T16:06:47.325Z [base] info: API Started!
+2022-07-28T16:07:16.599Z [base] info: GET /Email
+2022-07-28T16:07:16.601Z [base] info: GET /Email
+2022-07-28T16:07:33.343Z [base] info: GET /Email
+2022-07-28T16:07:33.349Z [base] info: GET /Email
+2022-07-28T16:14:36.281Z [base] info: GET /Email
+2022-07-28T16:14:36.282Z [base] info: GET /Email
+2022-07-28T16:15:41.384Z [base] info: GET /Email
+2022-07-28T16:15:41.393Z [base] info: GET /Email
+2022-07-28T16:16:26.955Z [base] info: GET /Email
+2022-07-28T16:16:26.957Z [base] info: GET /Email
+2022-07-28T16:17:09.404Z [base] info: GET /Email
+2022-07-28T16:17:09.405Z [base] info: GET /Email
+2022-07-28T16:17:36.709Z [base] info: GET /Email
+2022-07-28T16:17:36.725Z [base] info: GET /Email
+2022-07-28T16:19:30.185Z [base] info: GET /Email
+2022-07-28T16:19:30.199Z [base] info: GET /Email
+2022-07-28T16:20:15.564Z [base] info: GET /Email
+2022-07-28T16:20:19.637Z [base] info: GET /Email
+2022-07-28T16:20:20.535Z [base] info: GET /Email
+2022-07-28T16:20:21.379Z [base] info: GET /Email
+2022-07-28T16:20:24.440Z [base] info: GET /Email
+2022-07-28T16:20:26.656Z [base] info: GET /Email
+2022-07-28T16:37:55.018Z [base] info: POST /creat spand - {"emailId":4,"name":"4","email":"4@wef","active":true}
+2022-07-28T16:38:01.759Z [base] info: POST /creat spand - {"emailId":5,"name":"5","email":"5@fwefwe","active":true}
+2022-07-28T16:38:07.665Z [base] info: POST /creat spand - {"emailId":6,"name":"6","email":"6@fwef","active":true}
+2022-07-28T16:38:13.802Z [base] info: POST /creat spand - {"emailId":7,"name":"7","email":"7@fwefwe","active":true}
+2022-07-28T16:38:20.135Z [base] info: POST /creat spand - {"emailId":8,"name":"8","email":"8@fwewer","active":true}
+2022-07-28T16:38:26.128Z [base] info: POST /creat spand - {"emailId":9,"name":"9","email":"9@dqasfwe","active":true}
+2022-07-28T16:38:37.013Z [base] info: POST /creat spand - {"emailId":10,"name":"10","email":"10@fesfwe","active":true}
+2022-07-28T16:38:40.696Z [base] info: GET /Email
+2022-07-28T16:38:40.711Z [base] info: GET /Email
+2022-07-28T16:39:13.773Z [base] info: POST /creat spand - {"emailId":11,"name":"11","email":"11@oisdas","active":true}
+2022-07-28T16:39:19.328Z [base] info: POST /creat spand - {"emailId":12,"name":"12","email":"12@fqwefuq","active":true}
+2022-07-28T16:39:25.241Z [base] info: POST /creat spand - {"emailId":13,"name":"13","email":"13@dqwid89wq","active":true}
+2022-07-28T16:39:30.991Z [base] info: POST /creat spand - {"emailId":14,"name":"14","email":"14@dewfqwe","active":true}
+2022-07-28T16:39:36.305Z [base] info: POST /creat spand - {"emailId":15,"name":"15","email":"15@fqaewfwq","active":true}
+2022-07-28T16:39:42.601Z [base] info: POST /creat spand - {"emailId":16,"name":"16","email":"16@fwer","active":true}
+2022-07-28T16:39:49.231Z [base] info: GET /Email
+2022-07-28T17:15:59.377Z [base] info: GET /Email
+2022-07-28T17:15:59.383Z [base] info: GET /Email
+2022-07-28T17:47:33.772Z [base] info: GET /Email
+2022-07-28T17:47:33.773Z [base] info: GET /Email
+2022-07-28T17:47:43.022Z [base] info: GET /Email
+2022-07-28T17:47:43.026Z [base] info: GET /Email
+2022-07-28T17:49:49.121Z [base] info: GET /Email
+2022-07-28T17:49:49.123Z [base] info: GET /Email
+2022-07-28T17:49:56.899Z [base] info: GET /Email
+2022-07-28T17:49:56.901Z [base] info: GET /Email
+2022-07-28T17:50:08.677Z [base] info: GET /Email
+2022-07-28T17:51:47.905Z [base] info: GET /Email
+2022-07-28T17:53:10.103Z [base] info: GET /Email
+2022-07-28T17:53:10.114Z [base] info: GET /Email
+2022-07-28T17:54:03.321Z [base] info: GET /Email
+2022-07-28T17:54:03.323Z [base] info: GET /Email
+2022-07-28T17:56:05.331Z [base] info: GET /Email
+2022-07-28T17:56:05.335Z [base] info: GET /Email
+2022-07-28T17:57:40.993Z [base] info: GET /Email
+2022-07-28T17:57:40.995Z [base] info: GET /Email
+2022-07-28T17:58:28.054Z [base] info: GET /Email
+2022-07-28T17:58:28.055Z [base] info: GET /Email
+2022-07-28T17:59:43.275Z [base] info: GET /Email
+2022-07-28T17:59:43.277Z [base] info: GET /Email
+2022-07-28T17:59:46.033Z [base] info: GET /Email
+2022-07-28T17:59:46.034Z [base] info: GET /Email
+2022-07-28T17:59:51.470Z [base] info: GET /Email
+2022-07-28T18:00:30.400Z [base] info: GET /Email
+2022-07-28T18:00:30.416Z [base] info: GET /Email
+2022-07-28T18:12:13.736Z [base] info: GET /Email
+2022-07-28T18:13:53.444Z [base] info: GET /Email
+2022-07-28T18:14:14.904Z [base] info: GET /Email
+2022-07-28T18:15:16.459Z [base] info: GET /Email
+2022-07-28T18:16:51.620Z [base] info: GET /Email
+2022-07-28T18:16:54.268Z [base] info: GET /Email
+2022-07-28T18:16:57.934Z [base] info: GET /Email
+2022-07-28T18:16:57.949Z [base] info: GET /Email
+2022-07-28T18:18:09.035Z [base] info: GET /Email
+2022-07-28T18:18:20.666Z [base] info: GET /Email
+2022-07-28T18:18:25.546Z [base] info: GET /Email
+2022-07-28T18:18:31.653Z [base] info: GET /Email
+2022-07-28T18:18:32.832Z [base] info: GET /Email
+2022-07-28T18:18:48.193Z [base] info: GET /Email
+2022-07-28T18:19:37.421Z [base] info: GET /Email
+2022-07-28T18:19:42.591Z [base] info: GET /Email
+2022-07-28T18:21:42.200Z [base] info: GET /Email
+2022-07-28T18:22:34.062Z [base] info: GET /Email
+2022-07-28T18:22:37.669Z [base] info: GET /Email
+2022-07-28T18:22:39.798Z [base] info: GET /Email
+2022-07-28T18:23:08.584Z [base] info: GET /Email
+2022-07-28T18:23:10.729Z [base] info: GET /Email
+2022-07-28T18:23:12.068Z [base] info: GET /Email
+2022-07-28T18:23:16.184Z [base] info: GET /Email
+2022-07-28T18:23:26.145Z [base] info: GET /Email
+2022-07-28T18:23:31.263Z [base] info: GET /Email
+2022-07-28T18:27:34.220Z [base] info: GET /Email
+2022-07-28T18:27:40.910Z [base] info: GET /Email
+2022-07-28T18:27:47.866Z [base] info: GET /Email
+2022-07-28T18:28:41.002Z [base] info: GET /Email
+2022-07-28T18:28:42.969Z [base] info: GET /Email
+2022-07-28T18:28:44.472Z [base] info: GET /Email
+2022-07-28T18:35:00.411Z [base] info: GET /Email
+2022-07-28T18:35:07.247Z [base] info: GET /Email
+2022-07-28T18:35:10.122Z [base] info: GET /Email
+2022-07-28T18:35:10.929Z [base] info: GET /Email
+2022-07-28T18:35:12.141Z [base] info: GET /Email
+2022-07-28T18:35:13.905Z [base] info: GET /Email
+2022-07-28T19:54:41.677Z [base] info: PATCH/update Email - {"emailId":8,"name":"8","email":"8@fwewer","active":false}
+2022-07-28T19:54:41.733Z [base] info: GET /Email
+2022-07-28T19:54:42.800Z [base] info: PATCH/update Email - {"emailId":7,"name":"7","email":"7@fwefwe","active":false}
+2022-07-28T19:54:42.841Z [base] info: GET /Email
+2022-07-28T19:54:43.610Z [base] info: PATCH/update Email - {"emailId":6,"name":"6","email":"6@fwef","active":false}
+2022-07-28T19:54:43.650Z [base] info: GET /Email
+2022-07-28T19:54:44.411Z [base] info: PATCH/update Email - {"emailId":6,"name":"6","email":"6@fwef","active":true}
+2022-07-28T19:54:44.446Z [base] info: GET /Email
+2022-07-28T19:54:44.983Z [base] info: PATCH/update Email - {"emailId":7,"name":"7","email":"7@fwefwe","active":true}
+2022-07-28T19:54:45.021Z [base] info: GET /Email
+2022-07-28T19:54:45.531Z [base] info: PATCH/update Email - {"emailId":8,"name":"8","email":"8@fwewer","active":true}
+2022-07-28T19:54:45.567Z [base] info: GET /Email
+2022-07-28T20:53:21.460Z [base] info: API Started!
+2022-07-28T21:02:03.728Z [base] info: API Started!
+2022-07-28T21:02:25.170Z [base] info: GET /Products 
+2022-07-28T21:02:25.173Z [base] info: GET /Products 
+2022-07-28T21:03:11.303Z [base] info: API Started!
+2022-07-28T21:04:32.264Z [base] info: API Started!
+2022-07-28T21:05:22.106Z [base] info: API Started!
+2022-07-28T21:08:31.456Z [base] info: API Started!
+2022-07-28T21:09:02.319Z [base] info: API Started!
+2022-07-28T21:35:40.518Z [base] info: API Started!
+2022-07-28T21:35:46.680Z [base] info: API Started!
+2022-07-28T21:37:47.080Z [base] info: API Started!
+2022-07-28T22:25:26.937Z [base] info: API Started!
+2022-07-28T22:27:31.407Z [base] info: API Started!
+2022-07-28T22:28:12.014Z [base] info: GET /Email
+2022-07-28T22:28:12.016Z [base] info: GET /Email
+2022-07-28T22:29:10.958Z [base] info: API Started!
+2022-07-28T22:30:11.578Z [base] info: GET /Email
+2022-07-28T22:30:11.580Z [base] info: GET /Email
+2022-07-28T22:30:25.588Z [base] info: DELETE /servce - ID 10
+2022-07-28T22:30:25.621Z [base] info: GET /Email
+2022-07-28T22:32:44.753Z [base] info: API Started!
+2022-07-28T22:33:15.324Z [base] info: API Started!
+2022-07-28T23:18:30.341Z [base] info: API Started!
+2022-07-28T23:19:30.751Z [base] info: API Started!
+2022-07-28T23:20:10.154Z [base] info: API Started!
+2022-07-28T23:21:12.707Z [base] info: POST /creat spand - {"emailId":19,"name":"aaaaaa","email":"sadasldk@lkajsd","active":true}
+2022-07-28T23:22:19.350Z [base] info: API Started!
+2022-07-28T23:22:29.351Z [base] info: POST /creat spand - {"emailId":20,"name":"bbbbb","email":"asdasd@asas","active":true}
+2022-07-28T23:23:36.020Z [base] info: POST /creat spand - {"emailId":21,"name":"aaaabbbbb","email":"sdasda@asdas","active":true}
+2022-07-28T23:25:30.440Z [base] info: API Started!
+2022-07-28T23:26:01.212Z [base] error: POST  - e is not defined
+2022-07-28T23:26:35.374Z [base] info: API Started!
+2022-07-28T23:26:41.464Z [base] info: POST /creat spand - {"emailId":23,"name":"bvvvvvv","email":"fsdf@asda","active":true}
+2022-07-28T23:27:07.929Z [base] info: API Started!
+2022-07-28T23:27:15.460Z [base] info: API Started!
+2022-07-28T23:27:26.896Z [base] info: API Started!
+2022-07-28T23:29:45.662Z [base] info: API Started!
+2022-07-28T23:30:44.253Z [base] info: API Started!
+2022-07-28T23:32:15.563Z [base] info: API Started!
+2022-07-28T23:32:30.846Z [base] info: API Started!
+2022-07-28T23:33:04.611Z [base] info: API Started!
+2022-07-28T23:36:39.438Z [base] info: API Started!
+2022-07-28T23:45:24.110Z [base] info: GET /Email
+2022-07-28T23:45:24.114Z [base] info: GET /Email
+2022-07-28T23:46:24.395Z [base] info: GET /Email
+2022-07-28T23:46:24.404Z [base] info: GET /Email
+2022-07-28T23:48:33.100Z [base] info: GET /Email
+2022-07-28T23:48:33.102Z [base] info: GET /Email
+2022-07-28T23:49:19.783Z [base] info: GET /Email
+2022-07-28T23:49:19.785Z [base] info: GET /Email
+2022-07-28T23:50:29.193Z [base] info: GET /Email
+2022-07-28T23:50:29.195Z [base] info: GET /Email
+2022-07-28T23:51:25.369Z [base] info: GET /Email
+2022-07-28T23:51:25.370Z [base] info: GET /Email
+2022-07-28T23:51:51.036Z [base] info: GET /Email
+2022-07-28T23:51:51.049Z [base] info: GET /Email
+2022-07-28T23:54:31.034Z [base] info: API Started!
+2022-07-28T23:55:12.925Z [base] info: API Started!
+2022-07-28T23:55:22.555Z [base] info: GET /Email
+2022-07-28T23:55:22.559Z [base] info: GET /Email
+2022-07-28T23:56:28.927Z [base] info: API Started!
+2022-07-28T23:56:48.261Z [base] info: API Started!
+2022-07-28T23:57:07.258Z [base] info: API Started!
+2022-07-29T00:02:20.765Z [base] info: API Started!
+2022-07-29T00:03:06.444Z [base] info: API Started!
+2022-07-29T00:03:21.634Z [base] info: API Started!
+2022-07-29T00:05:41.203Z [base] info: API Started!
+2022-07-29T00:06:06.396Z [base] info: GET /Email
+2022-07-29T00:06:20.690Z [base] info: API Started!
+2022-07-29T00:06:42.734Z [base] info: API Started!
+2022-07-29T00:06:43.828Z [base] info: GET /LastId
+2022-07-29T00:06:44.847Z [base] info: GET /LastId
+2022-07-29T00:06:45.859Z [base] info: GET /LastId
+2022-07-29T00:06:46.876Z [base] info: GET /LastId
+2022-07-29T00:06:55.688Z [base] info: API Started!
+2022-07-29T00:07:54.776Z [base] info: API Started!
+2022-07-29T00:08:14.331Z [base] info: API Started!
+2022-07-29T00:08:30.694Z [base] info: API Started!
+2022-07-29T00:08:36.126Z [base] info: GET /Email
+2022-07-29T00:08:36.128Z [base] info: GET /Email
+2022-07-29T00:09:00.349Z [base] info: API Started!
+2022-07-29T00:13:33.571Z [base] info: GET /Email
+2022-07-29T00:13:33.573Z [base] info: GET /Email
+2022-07-29T00:13:35.281Z [base] info: GET /LastId undefined
+2022-07-29T00:13:35.282Z [base] info: GET /LastId undefined
+2022-07-29T00:13:37.290Z [base] info: GET /LastId undefined
+2022-07-29T00:13:37.290Z [base] info: GET /LastId undefined
+2022-07-29T00:14:10.491Z [base] info: API Started!
+2022-07-29T00:15:31.610Z [base] info: API Started!
+2022-07-29T00:15:36.835Z [base] info: GET /Email
+2022-07-29T00:15:36.838Z [base] info: GET /Email
+2022-07-29T00:15:41.620Z [base] info: GET /LastId undefined
+2022-07-29T00:15:41.621Z [base] info: GET /LastId undefined
+2022-07-29T00:15:46.631Z [base] info: GET /LastId undefined
+2022-07-29T00:15:46.632Z [base] info: GET /LastId undefined
+2022-07-29T00:16:13.948Z [base] info: API Started!
+2022-07-29T00:18:36.894Z [base] info: API Started!
+2022-07-29T00:18:50.463Z [base] info: GET /Email
+2022-07-29T00:18:50.466Z [base] info: GET /Email
+2022-07-29T00:18:55.238Z [base] info: GET /LastId undefined
+2022-07-29T00:18:55.239Z [base] info: GET /LastId undefined
+2022-07-29T00:19:00.257Z [base] info: GET /LastId undefined
+2022-07-29T00:19:00.257Z [base] info: GET /LastId undefined
+2022-07-29T00:19:06.274Z [base] info: API Started!
+2022-07-29T00:19:38.449Z [base] info: API Started!
+2022-07-29T00:19:46.808Z [base] info: API Started!
+2022-07-29T00:19:57.417Z [base] info: GET /Email
+2022-07-29T00:19:57.419Z [base] info: GET /Email
+2022-07-29T00:20:02.169Z [base] info: GET /LastId undefined
+2022-07-29T00:20:02.170Z [base] info: GET /LastId undefined
+2022-07-29T00:20:07.196Z [base] info: GET /LastId undefined
+2022-07-29T00:20:07.197Z [base] info: GET /LastId undefined
+2022-07-29T00:20:14.218Z [base] info: API Started!
+2022-07-29T00:20:53.909Z [base] info: API Started!
+2022-07-29T00:20:57.036Z [base] info: GET /Email
+2022-07-29T00:20:57.038Z [base] info: GET /Email
+2022-07-29T00:21:01.801Z [base] info: GET /LastId undefined
+2022-07-29T00:21:01.802Z [base] info: GET /LastId undefined
+2022-07-29T00:21:06.818Z [base] info: GET /LastId undefined
+2022-07-29T00:21:06.819Z [base] info: GET /LastId undefined
+2022-07-29T00:21:11.852Z [base] info: API Started!
+2022-07-29T00:23:22.323Z [base] info: API Started!
+2022-07-29T00:24:17.685Z [base] info: API Started!
+2022-07-29T00:24:24.097Z [base] info: GET /Email
+2022-07-29T00:24:24.100Z [base] info: GET /Email
+2022-07-29T00:24:28.843Z [base] info: GET /LastId undefined
+2022-07-29T00:24:28.844Z [base] info: GET /LastId undefined
+2022-07-29T00:24:33.855Z [base] info: GET /LastId undefined
+2022-07-29T00:24:33.855Z [base] info: GET /LastId undefined
+2022-07-29T00:24:42.432Z [base] info: API Started!
+2022-07-29T00:26:05.153Z [base] info: API Started!
+2022-07-29T00:28:32.280Z [base] info: GET /Email
+2022-07-29T00:28:32.283Z [base] info: GET /Email
+2022-07-29T00:28:36.990Z [base] info: GET /LastId undefined
+2022-07-29T00:28:36.991Z [base] info: GET /LastId undefined
+2022-07-29T00:28:41.997Z [base] info: GET /LastId undefined
+2022-07-29T00:28:41.998Z [base] info: GET /LastId undefined
+2022-07-29T00:29:02.933Z [base] info: API Started!
+2022-07-29T00:31:25.956Z [base] info: API Started!
+2022-07-29T00:32:46.257Z [base] info: API Started!
+2022-07-29T00:36:15.454Z [base] info: GET /Email
+2022-07-29T00:36:15.456Z [base] info: GET /Email
+2022-07-29T00:36:15.473Z [base] info: GET /Email
+2022-07-29T00:36:15.474Z [base] info: GET /Email
+2022-07-29T00:36:15.543Z [base] info: GET /Email
+2022-07-29T00:36:15.576Z [base] info: GET /Email
+2022-07-29T00:37:12.847Z [base] info: GET /Email
+2022-07-29T00:37:12.848Z [base] info: GET /Email
+2022-07-29T00:37:17.724Z [base] info: GET /LastId [object Object]
+2022-07-29T00:37:17.725Z [base] info: GET /LastId [object Object]
+2022-07-29T00:37:22.732Z [base] info: GET /LastId [object Object]
+2022-07-29T00:37:22.732Z [base] info: GET /LastId [object Object]
+2022-07-29T00:38:00.040Z [base] info: API Started!
+2022-07-29T00:38:10.146Z [base] info: API Started!
+2022-07-29T00:38:22.826Z [base] info: API Started!
+2022-07-29T00:38:42.440Z [base] info: API Started!
+2022-07-29T00:39:20.382Z [base] info: GET /LastId [object Object]
+2022-07-29T00:39:20.384Z [base] info: GET /LastId [object Object]
+2022-07-29T00:39:20.628Z [base] info: GET /Email
+2022-07-29T00:39:20.630Z [base] info: GET /Email
+2022-07-29T00:47:03.737Z [base] info: GET /LastId [object Object]
+2022-07-29T00:47:03.739Z [base] info: GET /LastId [object Object]
+2022-07-29T00:47:03.854Z [base] info: GET /Email
+2022-07-29T00:47:03.855Z [base] info: GET /Email
+2022-08-01T15:40:29.096Z [base] info: API Started!
+2022-08-01T15:40:57.199Z [base] info: GET /Email
+2022-08-01T15:41:23.057Z [base] info: GET /About US
+2022-08-01T15:41:23.059Z [base] info: GET /About US
+2022-08-01T15:41:23.096Z [base] info: GET /About US
+2022-08-01T15:41:26.062Z [base] info: GET /Contact
+2022-08-01T15:41:26.063Z [base] info: GET /Contact
+2022-08-01T15:41:29.135Z [base] info: GET /Products 
+2022-08-01T15:41:29.145Z [base] info: GET /Products 
+2022-08-01T15:41:29.175Z [base] info: GET /Products 
+2022-08-01T15:41:29.176Z [base] info: GET /Products 
+2022-08-01T15:41:43.742Z [base] info: GET /About US
+2022-08-01T15:41:43.743Z [base] info: GET /About US
+2022-08-01T15:41:46.583Z [base] info: GET /Contact
+2022-08-01T15:41:46.584Z [base] info: GET /Contact
+2022-08-01T15:41:46.626Z [base] info: GET /Contact
+2022-08-01T15:41:46.628Z [base] info: GET /Contact
+2022-08-01T15:41:49.468Z [base] info: GET /Products 
+2022-08-01T15:41:49.469Z [base] info: GET /Products 
+2022-08-01T15:41:54.147Z [base] info: GET /LastId [object Object]
+2022-08-01T15:41:54.148Z [base] info: GET /LastId [object Object]
+2022-08-01T15:41:54.159Z [base] info: GET /Email
+2022-08-01T15:41:54.160Z [base] info: GET /Email
+2022-08-01T16:10:29.036Z [base] info: API Started!
+2022-08-01T16:11:25.513Z [base] info: API Started!
+2022-08-01T16:12:32.549Z [base] info: API Started!
+2022-08-01T16:14:18.515Z [base] info: API Started!
+2022-08-01T17:35:23.529Z [base] info: GET /Products 
+2022-08-01T17:35:59.322Z [base] info: GET /Products 
+2022-08-01T17:35:59.344Z [base] info: GET /Products 
+2022-08-01T17:36:18.226Z [base] info: GET /Contact
+2022-08-01T17:36:18.227Z [base] info: GET /Contact
+2022-08-01T17:36:20.054Z [base] info: GET /About US
+2022-08-01T17:36:20.056Z [base] info: GET /About US
+2022-08-01T17:36:20.359Z [base] info: GET /About US
+2022-08-01T17:36:31.742Z [base] info: GET /About US
+2022-08-01T17:36:31.745Z [base] info: GET /About US
+2022-08-01T17:36:35.137Z [base] info: GET /Contact
+2022-08-01T17:36:35.138Z [base] info: GET /Contact
+2022-08-01T17:36:35.194Z [base] info: GET /Contact
+2022-08-01T17:36:35.411Z [base] info: GET /Contact
+2022-08-01T17:36:38.203Z [base] info: GET /Products 
+2022-08-01T17:36:38.204Z [base] info: GET /Products 
+2022-08-01T17:36:41.906Z [base] info: GET /LastId [object Object]
+2022-08-01T17:36:41.907Z [base] info: GET /LastId [object Object]
+2022-08-01T17:36:41.921Z [base] info: GET /Email
+2022-08-01T17:36:41.934Z [base] info: GET /Email
+2022-08-01T17:36:46.410Z [base] info: GET /Products 
+2022-08-01T17:36:46.411Z [base] info: GET /Products 
+2022-08-01T17:42:26.801Z [base] info: GET /Products 
+2022-08-01T17:42:26.803Z [base] info: GET /Products 
+2022-08-01T17:42:28.726Z [base] info: GET /Products 
+2022-08-01T17:42:28.727Z [base] info: GET /Products 
+2022-08-01T17:42:28.767Z [base] info: GET /Products 
+2022-08-01T17:42:38.805Z [base] info: GET /Products 
+2022-08-01T17:42:38.807Z [base] info: GET /Products 
+2022-08-01T17:42:41.675Z [base] info: GET /Products 
+2022-08-01T17:42:41.676Z [base] info: GET /Products 
+2022-08-01T17:42:41.719Z [base] info: GET /Products 
+2022-08-01T17:42:44.157Z [base] info: GET /Products 
+2022-08-01T17:42:44.199Z [base] info: GET /Products 
+2022-08-01T17:42:45.345Z [base] info: GET /Products 
+2022-08-01T17:42:45.386Z [base] info: GET /Products 
+2022-08-01T17:42:46.003Z [base] info: GET /Products 
+2022-08-01T17:42:46.033Z [base] info: GET /Products 
+2022-08-01T17:42:53.981Z [base] info: GET /Products 
+2022-08-01T17:42:53.998Z [base] info: GET /Products 
+2022-08-01T17:47:20.312Z [base] info: GET /Products 
+2022-08-01T17:47:20.313Z [base] info: GET /Products 
+2022-08-01T17:47:20.354Z [base] info: GET /Products 
+2022-08-01T17:48:41.902Z [base] info: GET /Products 
+2022-08-01T17:48:43.936Z [base] info: GET /Products 
+2022-08-01T17:48:43.971Z [base] info: GET /Products 
+2022-08-01T17:50:00.505Z [base] info: GET /Products 
+2022-08-01T17:50:00.506Z [base] info: GET /Products 
+2022-08-01T17:50:28.989Z [base] info: PUT /update Product - undefined
+2022-08-01T18:10:31.731Z [base] info: GET /Products 
+2022-08-01T18:10:31.732Z [base] info: GET /Products 
+2022-08-01T18:10:37.074Z [base] info: PUT /update Product - undefined
+2022-08-01T18:10:37.111Z [base] info: GET /Products 
+2022-08-01T18:10:37.116Z [base] info: GET /Products 
+2022-08-01T18:10:41.476Z [base] info: GET /Products 
+2022-08-01T18:10:41.480Z [base] info: GET /Products 
+2022-08-01T18:10:43.143Z [base] info: PUT /update Product - undefined
+2022-08-01T18:10:43.174Z [base] info: GET /Products 
+2022-08-01T18:10:43.175Z [base] info: GET /Products 
+2022-08-01T18:10:44.238Z [base] info: GET /Products 
+2022-08-01T18:10:44.239Z [base] info: GET /Products 
+2022-08-01T18:10:45.662Z [base] info: PUT /update Product - undefined
+2022-08-01T18:10:45.692Z [base] info: GET /Products 
+2022-08-01T18:10:45.693Z [base] info: GET /Products 
+2022-08-01T19:01:58.133Z [base] info: GET /Products 
+2022-08-01T19:01:58.134Z [base] info: GET /Products 
+2022-08-01T19:02:09.168Z [base] info: GET /About US
+2022-08-01T19:02:09.170Z [base] info: GET /About US
+2022-08-01T19:02:11.329Z [base] info: GET /Contact
+2022-08-01T19:02:11.336Z [base] info: GET /Contact
+2022-08-01T19:02:13.704Z [base] info: GET /Products 
+2022-08-01T19:02:13.705Z [base] info: GET /Products 
+2022-08-01T19:02:16.080Z [base] info: GET /LastId [object Object]
+2022-08-01T19:02:16.092Z [base] info: GET /LastId [object Object]
+2022-08-01T19:02:16.096Z [base] info: GET /Email
+2022-08-01T19:02:16.107Z [base] info: GET /Email
+2022-08-01T19:43:30.775Z [base] info: API Started!
+2022-08-01T19:43:54.464Z [base] info: API Started!
+2022-08-01T20:00:32.060Z [base] info: API Started!
+2022-08-01T20:06:50.309Z [base] info: API Started!
+2022-08-01T20:16:23.637Z [base] info: API Started!
+2022-08-01T20:23:19.659Z [base] info: API Started!
+2022-08-01T20:23:41.106Z [base] info: API Started!
+2022-08-01T20:23:50.850Z [base] info: API Started!
+2022-08-01T20:26:01.521Z [base] info: API Started!
+2022-08-01T20:26:07.370Z [base] info: API Started!
+2022-08-01T20:27:06.980Z [base] info: API Started!
+2022-08-01T20:28:50.622Z [base] info: API Started!
+2022-08-01T20:30:07.689Z [base] info: API Started!
+2022-08-01T20:30:17.005Z [base] info: API Started!
+2022-08-01T20:30:31.005Z [base] info: API Started!
+2022-08-01T20:38:25.216Z [base] info: API Started!
+2022-08-01T20:38:32.670Z [base] info: API Started!
+2022-08-01T20:39:55.425Z [base] info: API Started!
+2022-08-01T20:40:08.984Z [base] info: API Started!
+2022-08-01T20:40:13.798Z [base] info: API Started!
+2022-08-01T20:40:18.109Z [base] info: API Started!
+2022-08-01T20:41:27.965Z [base] info: API Started!
+2022-08-01T20:42:18.496Z [base] info: API Started!
+2022-08-01T20:44:16.237Z [base] info: API Started!
+2022-08-01T20:50:24.818Z [base] info: API Started!
+2022-08-01T20:51:10.638Z [base] info: API Started!
+2022-08-01T20:53:05.476Z [base] info: API Started!
+2022-08-01T20:54:14.595Z [base] info: API Started!
+2022-08-01T21:13:33.008Z [base] info: GET /About US
+2022-08-01T21:13:33.010Z [base] info: GET /About US
+2022-08-01T21:13:33.034Z [base] info: GET /About US
+2022-08-01T21:13:34.296Z [base] info: GET /Contact
+2022-08-01T21:13:34.297Z [base] info: GET /Contact
+2022-08-01T21:13:37.914Z [base] info: GET /Products 
+2022-08-01T21:13:37.916Z [base] info: GET /Products 
+2022-08-01T21:14:01.687Z [base] info: POST /creat Email - {"emailId":24,"name":"testdia01","email":"sadasd@daseqwe","active":true}
+2022-08-01T21:14:47.401Z [base] info: GET /About US
+2022-08-01T21:14:47.402Z [base] info: GET /About US
+2022-08-01T21:14:51.182Z [base] info: GET /Contact
+2022-08-01T21:14:51.183Z [base] info: GET /Contact
+2022-08-01T21:14:54.012Z [base] info: GET /Products 
+2022-08-01T21:14:54.012Z [base] info: GET /Products 
+2022-08-01T21:18:53.175Z [base] info: GET /Products 
+2022-08-01T21:18:53.176Z [base] info: GET /Products 
+2022-08-01T21:26:19.841Z [base] info: API Started!
+2022-08-01T21:26:39.537Z [base] info: API Started!
+2022-08-01T21:26:53.202Z [base] info: API Started!
+2022-08-01T21:27:16.107Z [base] info: API Started!
+2022-08-01T21:28:18.378Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzODkyOTgsImV4cCI6MTY1OTM5Mjg5OH0.DWYezOI_gb5CY3BZsCW4vsfqZ0BRgKucor1pSzPDgaA"}
+2022-08-01T21:42:36.480Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTAxNTYsImV4cCI6MTY1OTM5Mzc1Nn0.knUMLWvhLjKpiF8cNcS43AwoQQvqLiG-hNVZ59RdF2U"}
+2022-08-01T21:42:36.765Z [base] info: GET /Products 
+2022-08-01T21:42:36.766Z [base] info: GET /Products 
+2022-08-01T21:46:00.899Z [base] info: GET /Products 
+2022-08-01T21:46:00.907Z [base] info: GET /Products 
+2022-08-01T21:46:16.559Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTAzNzYsImV4cCI6MTY1OTM5Mzk3Nn0.jvgRKMTyBMzUzbUvedPMQ1-xLbD0BGw7ZZJnzCsLix0"}
+2022-08-01T21:46:16.692Z [base] info: GET /Products 
+2022-08-01T21:46:16.694Z [base] info: GET /Products 
+2022-08-01T21:53:54.108Z [base] info: API Started!
+2022-08-01T21:54:00.926Z [base] info: GET /Products 
+2022-08-01T21:54:00.928Z [base] info: GET /Products 
+2022-08-01T21:54:09.528Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTA4NDksImV4cCI6MTY1OTM5NDQ0OX0.sFKA0MVMkko6V8hgDLvcb9bP9Loi9Oh1muV76O_Om98"}
+2022-08-01T21:54:09.569Z [base] info: GET /Products 
+2022-08-01T21:54:09.571Z [base] info: GET /Products 
+2022-08-01T21:54:34.228Z [base] error: POST  - Cannot read property 'id' of undefined
+2022-08-01T21:54:38.290Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTA4NzgsImV4cCI6MTY1OTM5NDQ3OH0.sxwwK5Mg5wU6jtCd3QzGIQbUsL5qntR_E-NMRrq43xo"}
+2022-08-01T21:54:38.421Z [base] info: GET /Products 
+2022-08-01T21:54:38.422Z [base] info: GET /Products 
+2022-08-01T22:05:06.402Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTE1MDYsImV4cCI6MTY1OTM5NTEwNn0.Vtna9nQZsAdbyNniypOGpokZu2rsxbVRXdoqVeiNzvs"}
+2022-08-01T22:05:06.518Z [base] info: GET /Products 
+2022-08-01T22:05:06.519Z [base] info: GET /Products 
+2022-08-01T22:05:43.420Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:06:24.805Z [base] error: GET  - Cannot read property 'forEach' of undefined
+2022-08-01T22:09:47.969Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:10:09.746Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:10:27.889Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:11:05.048Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:11:10.360Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:11:57.953Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTE5MTcsImV4cCI6MTY1OTM5NTUxN30.S3MMspEHGDd4D_apTLqCneRkcFkPNDsHc-oI5NIT5gY"}
+2022-08-01T22:11:59.088Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:12:19.329Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTE5MzksImV4cCI6MTY1OTM5NTUzOX0.L5qidtqI_yghmNiaqyi8RaIy7aQ9TVDmVhT3VZDoSxs"}
+2022-08-01T22:12:20.392Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:13:37.075Z [base] info: API Started!
+2022-08-01T22:14:03.486Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTIwNDMsImV4cCI6MTY1OTM5NTY0M30.Ls3hh4jgMGpx7kbQC5770IcgxjomjOUAEWh73yuvMz0"}
+2022-08-01T22:14:04.899Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:15:09.480Z [base] info: API Started!
+2022-08-01T22:15:10.380Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTIxMTAsImV4cCI6MTY1OTM5NTcxMH0.JwoajmVq78KX5G0FNUrPGOkrBclnPVcdYElTFHuZvNA"}
+2022-08-01T22:15:11.722Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:16:09.227Z [base] info: API Started!
+2022-08-01T22:16:11.096Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTIxNzEsImV4cCI6MTY1OTM5NTc3MX0.GqVGHzDBptJL7DQyTcX_4DI9JMHX1T3gu8Hx6cfrJDk"}
+2022-08-01T22:16:18.112Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:20:24.880Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTI0MjQsImV4cCI6MTY1OTM5NjAyNH0.8dlQz5w7sAF8lcmo0aOeK9Z-95DxCwSwLlPxzCiDYPw"}
+2022-08-01T22:20:27.976Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:23:09.855Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTI1ODksImV4cCI6MTY1OTM5NjE4OX0.cjpunO3KqAgtOu39Q6z9w1g1u0GnhliA7Kr8aIkSChg"}
+2022-08-01T22:23:11.665Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:26:38.294Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTI3OTgsImV4cCI6MTY1OTM5NjM5OH0.vBvncPfumZ8TgmxiDhbp3TmrCMP9aR3Sy7lh1dyPZuY"}
+2022-08-01T22:26:41.807Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:28:02.526Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTI4ODIsImV4cCI6MTY1OTM5NjQ4Mn0.2KtIshvBhvXt3er2SdMlyoSIxK_Z4Pd8ikmRaXxKaRk"}
+2022-08-01T22:28:12.639Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:28:25.013Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTI5MDUsImV4cCI6MTY1OTM5NjUwNX0.i0CEPm_rkGmoZBl8e0So8ZORoaAH1HsRbqbmLytQEmM"}
+2022-08-01T22:28:25.911Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:29:18.558Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTI5NTgsImV4cCI6MTY1OTM5NjU1OH0.yOnFg2KQAofg89KnISW1MEzDTz2EsmeidpfBDlxe-jw"}
+2022-08-01T22:29:20.024Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:31:10.425Z [base] info: API Started!
+2022-08-01T22:31:11.974Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTMwNzEsImV4cCI6MTY1OTM5NjY3MX0.Vt46wKY01mZZ0VNRLQHjaonhyB24RxfBFMq2P0T8iHo"}
+2022-08-01T22:31:13.086Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:33:51.722Z [base] info: API Started!
+2022-08-01T22:33:53.768Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTMyMzMsImV4cCI6MTY1OTM5NjgzM30.7m4Y_14FmNp7IzlESw0PCyIYDOwt4ICjmr7Z8Q5Weac"}
+2022-08-01T22:33:54.958Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-01T22:34:12.945Z [base] info: API Started!
+2022-08-01T22:34:13.701Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTMyNTMsImV4cCI6MTY1OTM5Njg1M30.Ck-V70SAwZYuOi3z2hQ-_gkW2XopT6RpP6Uwu2lR_iA"}
+2022-08-01T22:34:15.157Z [base] error: POST  - Cannot read property 'push' of undefined
+2022-08-01T22:34:53.799Z [base] info: API Started!
+2022-08-01T22:34:54.399Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTMyOTQsImV4cCI6MTY1OTM5Njg5NH0.UlPVHYw5jWQHu_4dLq6nffamAQuWd9kCpP7Oq4brGwg"}
+2022-08-01T22:34:55.616Z [base] info: POST / Logout 
+2022-08-01T22:36:10.549Z [base] info: API Started!
+2022-08-01T22:36:26.894Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTMzODYsImV4cCI6MTY1OTM5Njk4Nn0.OPhZ7LrbRALMoFbeBREl09ilQGTk3_Ekj6XT4uWyOU4"}
+2022-08-01T22:37:46.758Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTM0NjYsImV4cCI6MTY1OTM5NzA2Nn0.ZchD8gXajhU32EXNi962MHRPL92Wa5_WpDPaSA7uNFw"}
+2022-08-01T22:44:39.020Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTM4NzksImV4cCI6MTY1OTM5NzQ3OX0.3y6rcKtLbTpECaQPzWxgvP4saikOn8c2x6g8cSbOGOw"}
+2022-08-01T22:45:08.443Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTM5MDgsImV4cCI6MTY1OTM5NzUwOH0.sFQxSWqh_R6URzCxiVVV_F1IDOee3lgIL0SOsLogNIA"}
+2022-08-01T22:45:58.752Z [base] info: API Started!
+2022-08-01T22:46:00.030Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTM5NjAsImV4cCI6MTY1OTM5NzU2MH0.3VXeAA81TC_CUS05RpVarr7IvcXD9EC7gwQhhZux95g"}
+2022-08-01T22:46:35.663Z [base] info: API Started!
+2022-08-01T22:46:36.059Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTM5OTYsImV4cCI6MTY1OTM5NzU5Nn0.-iLPrg451_21xlwNPUQdYapbH5KoYC8Hh7aUusEu-pM"}
+2022-08-01T22:48:23.107Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTQxMDMsImV4cCI6MTY1OTM5NzcwM30.w9UutGNqx-vsnaD3X_UoiPKylITvR8B3yWNWjOnZR6s"}
+2022-08-01T22:50:21.581Z [base] info: API Started!
+2022-08-01T22:52:41.249Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTQzNjEsImV4cCI6MTY1OTM5Nzk2MX0.AlmWJ3xOnL6ilNTJxZN8wFOA5BstbJ0SRb79deHFrUA"}
+2022-08-01T22:56:04.231Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTQ1NjQsImV4cCI6MTY1OTM5ODE2NH0.wEZFCd4EF2F9zeNL0Xb49xyx6_GHJXMkIF0v3__Uuv8"}
+2022-08-01T22:56:06.262Z [base] info: POST / Logout 
+2022-08-01T22:56:22.585Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTQ1ODIsImV4cCI6MTY1OTM5ODE4Mn0.LPPAJ9xWRgnB_XwoeU4JNjo6boQnjRw7AEsojTR9fl8"}
+2022-08-01T22:56:24.213Z [base] info: POST / Logout 
+2022-08-01T23:06:10.446Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTUxNzAsImV4cCI6MTY1OTM5ODc3MH0.8la3THyjSC99UF2ML9uMDQnBFbxFdjuqu_2pL10F-aw"}
+2022-08-01T23:09:21.032Z [base] info: API Started!
+2022-08-01T23:09:22.823Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTUzNjIsImV4cCI6MTY1OTM5ODk2Mn0.OZ4dsuDJt7aYvbWZpTYKBE-JwPhBglfK3BM3lkAqgos"}
+2022-08-01T23:11:48.232Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTU1MDgsImV4cCI6MTY1OTM5OTEwOH0.PRx7eQwV5Ca6qZ5OVu42BmM-BDvB-Oszsn9HI_OhmFc"}
+2022-08-01T23:12:45.566Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTU1NjUsImV4cCI6MTY1OTM5OTE2NX0.7Gw0StUSc5gvMjYfibHWlt49B5B6vQs60TZx5Xvkxx0"}
+2022-08-01T23:24:24.964Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTYyNjQsImV4cCI6MTY1OTM5OTg2NH0.sp4pYSEmTwYgrHTG_VN9QFIULr3sV4pocikKFOd-40M"}
+2022-08-02T00:06:12.839Z [base] info: GET /About US
+2022-08-02T00:06:12.842Z [base] info: GET /About US
+2022-08-02T00:06:12.883Z [base] info: GET /About US
+2022-08-02T00:06:14.516Z [base] info: GET /Contact
+2022-08-02T00:06:14.528Z [base] info: GET /Contact
+2022-08-02T00:06:15.909Z [base] info: GET /Products 
+2022-08-02T00:06:15.910Z [base] info: GET /Products 
+2022-08-02T00:10:52.774Z [base] info: GET /Contact
+2022-08-02T00:10:52.774Z [base] info: GET /Contact
+2022-08-02T00:11:13.428Z [base] info: GET /Products 
+2022-08-02T00:11:13.429Z [base] info: GET /Products 
+2022-08-02T00:16:31.505Z [base] info: GET /About US
+2022-08-02T00:16:31.519Z [base] info: GET /About US
+2022-08-02T00:16:31.711Z [base] info: GET /About US
+2022-08-02T00:16:34.098Z [base] info: GET /Contact
+2022-08-02T00:16:34.102Z [base] info: GET /Contact
+2022-08-02T00:16:36.303Z [base] info: GET /Products 
+2022-08-02T00:16:36.304Z [base] info: GET /Products 
+2022-08-02T00:23:24.384Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTk4MDQsImV4cCI6MTY1OTQwMzQwNH0.lNWpHqbI6UUDVAzcBZOfaAMSJ97USTo1y0yFp-NkEnk"}
+2022-08-02T00:26:17.455Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTk5NzcsImV4cCI6MTY1OTQwMzU3N30.rB-pbb_nB7IbzbW3zSXEmtkwrL9XdeC6-_4Ws3CgR2Y"}
+2022-08-02T00:26:25.572Z [base] info: GET /About US
+2022-08-02T00:26:25.577Z [base] info: GET /About US
+2022-08-02T00:26:25.780Z [base] info: GET /About US
+2022-08-02T00:26:35.399Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTkzOTk5OTUsImV4cCI6MTY1OTQwMzU5NX0.mK0tgfLNQZITCDCoHSYTWuzREXfGMzjyOXs-01UWt5g"}
+2022-08-02T00:33:55.587Z [base] info: GET /About US
+2022-08-02T00:33:55.588Z [base] info: GET /About US
+2022-08-02T00:33:55.899Z [base] info: GET /About US
+2022-08-02T00:34:05.416Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDA0NDUsImV4cCI6MTY1OTQwNDA0NX0.k08NCYPlm0n0qzLrszwKMdIhd_wnRYb21Yv-zX1kQgc"}
+2022-08-02T00:34:11.743Z [base] info: GET /About US
+2022-08-02T00:34:11.744Z [base] info: GET /About US
+2022-08-02T00:34:11.985Z [base] info: GET /About US
+2022-08-02T00:37:46.065Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDA2NjYsImV4cCI6MTY1OTQwNDI2Nn0.vNKc75jzZpyuy62xYZes1k7WR3D8g_gzlhZ2Sk6osSk"}
+2022-08-02T00:37:54.418Z [base] info: GET /Contact
+2022-08-02T00:37:54.419Z [base] info: GET /Contact
+2022-08-02T00:40:08.352Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDA4MDgsImV4cCI6MTY1OTQwNDQwOH0.3zbJWFYTul4BWz-f_1g4mj1G3-bt9CVShizmGCjT8JA"}
+2022-08-02T00:40:11.059Z [base] info: GET /About US
+2022-08-02T00:40:11.060Z [base] info: GET /About US
+2022-08-02T00:40:11.295Z [base] info: GET /About US
+2022-08-02T00:41:00.949Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDA4NjAsImV4cCI6MTY1OTQwNDQ2MH0.Cx7o317izxwM0AqMBMgSxj9_JjsXlK3PMyM-erstHp8"}
+2022-08-02T00:41:03.745Z [base] info: GET /Contact
+2022-08-02T00:41:03.746Z [base] info: GET /Contact
+2022-08-02T00:41:43.101Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDA5MDMsImV4cCI6MTY1OTQwNDUwM30.Gm_luJcxAI0uFXVs6VlpDd_9x8RpkFLrsCDc4TF-kAg"}
+2022-08-02T00:41:50.348Z [base] info: GET /Contact
+2022-08-02T00:41:50.349Z [base] info: GET /Contact
+2022-08-02T00:50:51.599Z [base] info: GET /Contact
+2022-08-02T00:50:51.600Z [base] info: GET /Contact
+2022-08-02T00:50:59.774Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDE0NTksImV4cCI6MTY1OTQwNTA1OX0.sHIIylHGYhR7EXg9-XNvKjxh1NSbtdEQRalQ7-Esuy0"}
+2022-08-02T00:51:03.165Z [base] info: GET /About US
+2022-08-02T00:51:03.166Z [base] info: GET /About US
+2022-08-02T00:51:03.408Z [base] info: GET /About US
+2022-08-02T00:53:43.321Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDE2MjMsImV4cCI6MTY1OTQwNTIyM30.uRwvmE2nKtwTC6nmo1EYf0g44JatpMKOxprTR1mJmQg"}
+2022-08-02T00:53:45.763Z [base] info: GET /Contact
+2022-08-02T00:53:45.764Z [base] info: GET /Contact
+2022-08-02T00:58:35.327Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDE5MTUsImV4cCI6MTY1OTQwNTUxNX0.we-55afd3iaWnfnQ6Lp-lqTrLWclgbS4ONcBLUjpHVQ"}
+2022-08-02T01:00:38.124Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDIwMzgsImV4cCI6MTY1OTQwNTYzOH0.3wzRYruC8HG5uoq85SiBtKHIQ9Ocl1FFyYWFKpKp5XI"}
+2022-08-02T01:00:41.984Z [base] info: GET /Contact
+2022-08-02T01:00:41.985Z [base] info: GET /Contact
+2022-08-02T01:01:00.599Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDIwNjAsImV4cCI6MTY1OTQwNTY2MH0.70DXGPiOGGP_jmyBDBA-YIqHYqUteNHAUCatrtdp0ww"}
+2022-08-02T01:01:04.008Z [base] info: GET /Contact
+2022-08-02T01:01:04.009Z [base] info: GET /Contact
+2022-08-02T01:01:35.655Z [base] info: GET /Contact
+2022-08-02T01:01:35.655Z [base] info: GET /Contact
+2022-08-02T01:02:57.739Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDIxNzcsImV4cCI6MTY1OTQwNTc3N30.jrDCrYzjNF-ouwH3KOj2xJbTMmYOaSyqrgx3lVlpdIc"}
+2022-08-02T01:03:00.717Z [base] info: GET /Contact
+2022-08-02T01:03:00.718Z [base] info: GET /Contact
+2022-08-02T01:03:29.694Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDIyMDksImV4cCI6MTY1OTQwNTgwOX0.3AYMT2YhRkbRi9TBnN8zIcSYB4h_8ATSjVPJUz3qTP4"}
+2022-08-02T01:03:32.237Z [base] info: GET /Contact
+2022-08-02T01:03:32.238Z [base] info: GET /Contact
+2022-08-02T01:44:27.904Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDQ2NjcsImV4cCI6MTY1OTQwODI2N30.fQJPhjIWiZgF31nei5ONPKBtGaCRKIzlrErnmg4SCVs"}
+2022-08-02T01:44:30.811Z [base] info: GET /About US
+2022-08-02T01:44:30.813Z [base] info: GET /About US
+2022-08-02T01:44:31.037Z [base] info: GET /About US
+2022-08-02T01:46:10.877Z [base] info: GET /About US
+2022-08-02T01:46:13.724Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDQ3NzMsImV4cCI6MTY1OTQwODM3M30.8mWZB4hCwSo7twMuoKRlXAaihVW4l_NoXAf5Ud2Sr64"}
+2022-08-02T01:46:16.439Z [base] info: GET /About US
+2022-08-02T01:46:16.456Z [base] info: GET /About US
+2022-08-02T01:47:02.577Z [base] info: GET /About US
+2022-08-02T01:47:02.578Z [base] info: GET /About US
+2022-08-02T01:47:21.193Z [base] info: GET /Products 
+2022-08-02T01:47:21.194Z [base] info: GET /Products 
+2022-08-02T01:47:21.207Z [base] info: GET /Products 
+2022-08-02T01:47:21.209Z [base] info: GET /Products 
+2022-08-02T01:47:24.401Z [base] info: GET /Contact
+2022-08-02T01:47:24.403Z [base] info: GET /Contact
+2022-08-02T01:47:24.737Z [base] info: GET /Contact
+2022-08-02T01:47:24.738Z [base] info: GET /Contact
+2022-08-02T01:47:40.900Z [base] info: GET /About US
+2022-08-02T01:47:40.901Z [base] info: GET /About US
+2022-08-02T01:47:46.330Z [base] info: GET /Contact
+2022-08-02T01:47:46.331Z [base] info: GET /Contact
+2022-08-02T01:47:46.423Z [base] info: GET /Contact
+2022-08-02T01:47:46.423Z [base] info: GET /Contact
+2022-08-02T01:52:40.566Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDUxNjAsImV4cCI6MTY1OTQwODc2MH0.VTGoDsaGxxcfYQ-Ah5D5arcdOkpr_P1gxsmFdADuBkw"}
+2022-08-02T02:00:32.655Z [base] info: GET /Contact
+2022-08-02T02:00:32.662Z [base] info: GET /Contact
+2022-08-02T02:00:33.014Z [base] info: GET /Contact
+2022-08-02T02:00:33.015Z [base] info: GET /Contact
+2022-08-02T02:01:14.813Z [base] info: GET /Contact
+2022-08-02T02:01:14.814Z [base] info: GET /Contact
+2022-08-02T02:02:24.490Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDU3NDQsImV4cCI6MTY1OTQwOTM0NH0.yUJIOzGkXgUsLCcpZU00eDjZoCIoH8d57gQvYAbUY2s"}
+2022-08-02T02:02:35.371Z [base] info: GET /About US
+2022-08-02T02:02:35.377Z [base] info: GET /About US
+2022-08-02T02:05:14.192Z [base] info: GET /About US
+2022-08-02T02:05:14.193Z [base] info: GET /About US
+2022-08-02T02:05:19.939Z [base] info: GET /About US
+2022-08-02T02:05:19.940Z [base] info: GET /About US
+2022-08-02T02:07:18.931Z [base] info: GET /About US
+2022-08-02T02:07:18.932Z [base] info: GET /About US
+2022-08-02T02:08:40.176Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDYxMjAsImV4cCI6MTY1OTQwOTcyMH0.3LHtKrk7ynq8f_zaJoXGFVxlFu5d2oFFFaMbJyrXkzI"}
+2022-08-02T02:11:26.354Z [base] error: POST  - token missing
+2022-08-02T02:24:37.715Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDcwNzcsImV4cCI6MTY1OTQxMDY3N30.bbEbNf1YwFxXJfWpu9KhB1aB77Co0mYxkR1aV-Jbjjw"}
+2022-08-02T02:24:40.189Z [base] error: POST  - token missing
+2022-08-02T02:26:57.195Z [base] info: GET /Contact
+2022-08-02T02:26:57.195Z [base] info: GET /Contact
+2022-08-02T02:27:03.235Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDcyMjMsImV4cCI6MTY1OTQxMDgyM30.65j22FpC7ybbBwopU7l2IsNRHTer6zFbhzBkipz56bg"}
+2022-08-02T02:27:04.934Z [base] error: POST  - token missing
+2022-08-02T02:27:31.353Z [base] info: GET /Products 
+2022-08-02T02:27:31.354Z [base] info: GET /Products 
+2022-08-02T02:27:31.356Z [base] info: GET /Products 
+2022-08-02T02:27:31.360Z [base] info: GET /Products 
+2022-08-02T02:27:39.705Z [base] error: POST  - token missing
+2022-08-02T02:27:40.539Z [base] error: POST  - token missing
+2022-08-02T02:28:39.053Z [base] error: POST  - token missing
+2022-08-02T02:30:24.052Z [base] error: POST  - token missing
+2022-08-02T02:30:53.092Z [base] error: POST  - token missing
+2022-08-02T02:31:11.804Z [base] error: POST  - token missing
+2022-08-02T02:31:27.876Z [base] error: POST  - token missing
+2022-08-02T02:31:57.965Z [base] error: POST  - token missing
+2022-08-02T02:32:06.956Z [base] error: POST  - token missing
+2022-08-02T02:32:38.547Z [base] error: POST  - token missing
+2022-08-02T02:32:46.043Z [base] error: POST  - token missing
+2022-08-02T02:33:00.116Z [base] error: POST  - token missing
+2022-08-02T02:33:08.395Z [base] error: POST  - token missing
+2022-08-02T02:33:14.987Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDc1OTQsImV4cCI6MTY1OTQxMTE5NH0.EpAlKezfxyyHrJuU70H9H9zgUsb6D06nU66tbzOG1aM"}
+2022-08-02T02:33:18.017Z [base] info: GET /Contact
+2022-08-02T02:33:18.024Z [base] info: GET /Contact
+2022-08-02T02:33:18.336Z [base] info: GET /Contact
+2022-08-02T02:33:18.337Z [base] info: GET /Contact
+2022-08-02T02:36:45.003Z [base] error: POST  - token missing
+2022-08-02T02:37:04.770Z [base] error: POST  - token missing
+2022-08-02T02:37:16.622Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDc4MzYsImV4cCI6MTY1OTQxMTQzNn0.iyz9uUcHzBnl_i6sWfRyBKCBGhVDmM6fAFbPgrhuaSY"}
+2022-08-02T02:39:19.915Z [base] error: POST  - token missing
+2022-08-02T02:40:01.335Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDgwMDEsImV4cCI6MTY1OTQxMTYwMX0.W2Uvb0KnObpoTV4RVeC1WjDCn6sZSKDaJlUJ3c30BDk"}
+2022-08-02T02:40:03.705Z [base] error: POST  - token missing
+2022-08-02T02:40:26.171Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDgwMjYsImV4cCI6MTY1OTQxMTYyNn0.uuC001uVl7kIMLnSyYoKnkI5v6NXCV0B-3ptc9LHV2k"}
+2022-08-02T02:42:33.866Z [base] error: POST  - token missing
+2022-08-02T02:44:40.833Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDgyODAsImV4cCI6MTY1OTQxMTg4MH0.-dpKgOFe--Hs80HDTbRg-fkqYGJt6MRhygKoJcXD2zU"}
+2022-08-02T02:45:48.011Z [base] info: GET /Contact
+2022-08-02T02:45:48.012Z [base] info: GET /Contact
+2022-08-02T02:45:48.014Z [base] info: GET /Contact
+2022-08-02T02:45:48.015Z [base] info: GET /Contact
+2022-08-02T02:50:17.070Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDg2MTcsImV4cCI6MTY1OTQxMjIxN30.DMagEXnrr3Qw3XJ8AuVcWICE-XKp11vo1Vcd09Hvh1w"}
+2022-08-02T02:51:06.453Z [base] error: POST  - token missing
+2022-08-02T02:56:46.727Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDkwMDYsImV4cCI6MTY1OTQxMjYwNn0.Sx73rutVMgAa3lkej1xSbebM1D6fwqYsAGjSGhm4AeI"}
+2022-08-02T02:56:57.063Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDkwMTcsImV4cCI6MTY1OTQxMjYxN30.i3eYo81E__hFKSZJjanlmcK_I4h9dVIbg873fvcW5L0"}
+2022-08-02T02:57:10.100Z [base] info: GET /About US
+2022-08-02T02:57:10.101Z [base] info: GET /About US
+2022-08-02T02:57:10.102Z [base] info: GET /About US
+2022-08-02T02:57:10.106Z [base] info: GET /About US
+2022-08-02T02:57:55.930Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDkwNzUsImV4cCI6MTY1OTQxMjY3NX0.PjqySz1MgQPy-8XHPByj8Sv34BS9_NzO63DB4sGIOYU"}
+2022-08-02T03:03:43.979Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MDk0MjMsImV4cCI6MTY1OTQxMzAyM30.yRrZSPn2wYIS-Ahi7W8KhFJ1_cYbvv6cPZKAAyC97z4"}
+2022-08-02T03:05:42.914Z [base] info: API Started!
+2022-08-02T03:09:19.464Z [base] info: API Started!
+2022-08-02T03:10:49.606Z [base] info: API Started!
+2022-08-02T03:11:06.552Z [base] info: API Started!
+2022-08-02T03:13:07.417Z [base] info: API Started!
+2022-08-02T03:13:08.654Z [base] info: GET /Email
+2022-08-02T03:13:26.443Z [base] info: API Started!
+2022-08-02T03:13:29.167Z [base] info: GET /Email
+2022-08-02T03:25:02.232Z [base] info: API Started!
+2022-08-02T03:26:20.375Z [base] info: GET /Email
+2022-08-02T03:26:20.399Z [base] info: GET /Email
+2022-08-02T03:27:54.845Z [base] info: GET /About US
+2022-08-02T03:27:54.847Z [base] info: GET /About US
+2022-08-02T03:27:54.861Z [base] info: GET /About US
+2022-08-02T03:27:54.862Z [base] info: GET /About US
+2022-08-02T03:31:35.864Z [base] info: GET /About US
+2022-08-02T03:31:35.865Z [base] info: GET /About US
+2022-08-02T03:31:35.866Z [base] info: GET /About US
+2022-08-02T03:31:35.884Z [base] info: GET /About US
+2022-08-02T03:31:40.131Z [base] info: GET /Contact
+2022-08-02T03:31:40.131Z [base] info: GET /Contact
+2022-08-02T03:31:40.606Z [base] info: GET /Contact
+2022-08-02T03:31:40.607Z [base] info: GET /Contact
+2022-08-02T03:31:44.255Z [base] info: GET /Products 
+2022-08-02T03:31:44.286Z [base] info: GET /Products 
+2022-08-02T03:31:44.287Z [base] info: GET /Products 
+2022-08-02T03:31:44.288Z [base] info: GET /Products 
+2022-08-02T03:33:06.913Z [base] info: GET /Products 
+2022-08-02T03:33:06.914Z [base] info: GET /Products 
+2022-08-02T03:33:06.954Z [base] info: GET /Products 
+2022-08-02T03:33:06.956Z [base] info: GET /Products 
+2022-08-02T04:07:21.811Z [base] info: API Started!
+2022-08-02T04:07:39.659Z [base] error: POST  - token missing
+2022-08-02T04:07:48.562Z [base] info: GET /About US
+2022-08-02T04:07:48.563Z [base] info: GET /About US
+2022-08-02T04:07:48.596Z [base] info: GET /About US
+2022-08-02T04:07:50.122Z [base] info: GET /Contact
+2022-08-02T04:07:50.124Z [base] info: GET /Contact
+2022-08-02T04:07:51.455Z [base] info: GET /Products 
+2022-08-02T04:07:51.459Z [base] info: GET /Products 
+2022-08-02T04:08:11.476Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MTMyOTEsImV4cCI6MTY1OTQxNjg5MX0.gNZpcReseyb0XJaECdLHa-mQKzVsAKHQqxhZpaRGlCI"}
+2022-08-02T04:11:03.424Z [base] info: GET /About US
+2022-08-02T04:11:03.425Z [base] info: GET /About US
+2022-08-02T04:11:03.441Z [base] info: GET /About US
+2022-08-02T04:11:06.237Z [base] info: GET /Contact
+2022-08-02T04:11:06.237Z [base] info: GET /Contact
+2022-08-02T04:11:09.096Z [base] info: GET /Products 
+2022-08-02T04:11:09.097Z [base] info: GET /Products 
+2022-08-02T04:11:11.125Z [base] info: GET /Products 
+2022-08-02T04:11:11.126Z [base] info: GET /Products 
+2022-08-02T04:14:59.930Z [base] error: POST  - token missing
+2022-08-02T04:15:17.559Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0MTM3MTcsImV4cCI6MTY1OTQxNzMxN30.zUZ_LPK3TOHYjeeErJUeO6RxZ3SdMbsYtjmKeF1fif4"}
+2022-08-02T17:14:32.218Z [base] info: API Started!
+2022-08-02T17:34:05.420Z [base] info: GET /About US
+2022-08-02T17:34:05.422Z [base] info: GET /About US
+2022-08-02T17:34:07.474Z [base] info: GET /Contact
+2022-08-02T17:34:07.477Z [base] info: GET /Contact
+2022-08-02T17:34:10.267Z [base] info: GET /Products 
+2022-08-02T17:34:10.269Z [base] info: GET /Products 
+2022-08-02T17:34:43.073Z [base] info: GET /About US
+2022-08-02T17:34:43.074Z [base] info: GET /About US
+2022-08-02T17:34:43.259Z [base] info: GET /About US
+2022-08-02T17:34:45.090Z [base] info: GET /Contact
+2022-08-02T17:34:45.092Z [base] info: GET /Contact
+2022-08-02T17:34:47.918Z [base] info: GET /Products 
+2022-08-02T17:34:47.919Z [base] info: GET /Products 
+2022-08-02T17:37:16.956Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjE4MzYsImV4cCI6MTY1OTQ2NTQzNn0.30WOq0u3oPS21KK8B9JyvD2ebiqIpBnYiKdy7WBs6EM"}
+2022-08-02T17:38:10.350Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjE4OTAsImV4cCI6MTY1OTQ2NTQ5MH0.ZKDba6BumgQ6okidLG1NisRTONcmQvGvxCFjpXXesuA"}
+2022-08-02T17:39:20.838Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjE5NjAsImV4cCI6MTY1OTQ2NTU2MH0.hWBjxqKqXKNLBQYDZb2qW-TF8bnmcCVybdBYicaD16o"}
+2022-08-02T17:39:25.039Z [base] info: GET /About US
+2022-08-02T17:39:25.043Z [base] info: GET /About US
+2022-08-02T17:39:31.228Z [base] info: GET /Contact
+2022-08-02T17:39:31.229Z [base] info: GET /Contact
+2022-08-02T17:39:34.363Z [base] info: GET /Products 
+2022-08-02T17:39:34.364Z [base] info: GET /Products 
+2022-08-02T17:40:52.544Z [base] info: GET /Email
+2022-08-02T17:40:52.569Z [base] info: GET /Email
+2022-08-02T17:41:00.696Z [base] info: GET /Email
+2022-08-02T17:41:00.717Z [base] info: GET /Email
+2022-08-02T17:41:01.663Z [base] info: GET /Email
+2022-08-02T17:41:01.685Z [base] info: GET /Email
+2022-08-02T17:41:04.449Z [base] info: GET /Email
+2022-08-02T17:41:04.472Z [base] info: GET /Email
+2022-08-02T17:41:05.895Z [base] info: GET /Email
+2022-08-02T17:41:05.917Z [base] info: GET /Email
+2022-08-02T17:41:50.485Z [base] info: GET /About US
+2022-08-02T17:41:50.485Z [base] info: GET /About US
+2022-08-02T17:43:30.363Z [base] info: API Started!
+2022-08-02T17:44:01.788Z [base] error: POST  - token missing
+2022-08-02T17:45:22.167Z [base] info: API Started!
+2022-08-02T17:46:43.847Z [base] error: POST  - token missing
+2022-08-02T17:47:22.740Z [base] error: POST  - token missing
+2022-08-02T17:49:53.221Z [base] error: POST  - token missing
+2022-08-02T17:50:57.902Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjI2NTcsImV4cCI6MTY1OTQ2NjI1N30.lyjjo3La9BFWBb8jCPGs9QOS37l06qxRecu46KLKbVk"}
+2022-08-02T17:56:24.207Z [base] error: POST  - token missing
+2022-08-02T17:59:36.179Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjMxNzYsImV4cCI6MTY1OTQ2Njc3Nn0.1pe8GtW1ulCxmzpwobwR2he_TQThcnZhkdUo-ahPo7w"}
+2022-08-02T18:02:05.224Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0NjMzMjUsImV4cCI6MTY1OTQ2NjkyNX0.ywbtUA-SMN3SZSoLhUGUb3fFeb0KNyegfSdgZv42pK0"}
+2022-08-02T19:23:42.352Z [base] info: API Started!
+2022-08-02T19:36:01.447Z [base] info: GET /Contact
+2022-08-02T19:36:01.449Z [base] info: GET /Contact
+2022-08-02T19:36:05.656Z [base] info: GET /Products 
+2022-08-02T19:36:05.664Z [base] info: GET /Products 
+2022-08-02T19:36:07.758Z [base] info: GET /Products 
+2022-08-02T19:36:07.759Z [base] info: GET /Products 
+2022-08-02T19:45:48.416Z [base] info: GET /About US
+2022-08-02T19:45:48.417Z [base] info: GET /About US
+2022-08-02T19:45:48.637Z [base] info: GET /About US
+2022-08-02T19:45:51.410Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0Njk1NTEsImV4cCI6MTY1OTQ3MzE1MX0.ybpkdpBI8npz0k3jnT8wxW0whKURbmZNkQRayGddLnA"}
+2022-08-02T19:47:16.727Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0Njk2MzYsImV4cCI6MTY1OTQ3MzIzNn0.doR5byUxwzwyJxook4INtcrBA-I3fYNXCpp1qU0LC0I"}
+2022-08-02T19:48:27.991Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0Njk3MDcsImV4cCI6MTY1OTQ3MzMwN30.uNlj1oe4Yun9sEcDEzmwEBbCWHPER-1giFDV5z9o--o"}
+2022-08-02T19:51:37.799Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0Njk4OTcsImV4cCI6MTY1OTQ3MzQ5N30.vq5a9euTtr9HsgKKnBtOVk0h4nSXwloBHnzlVsnDvV8"}
+2022-08-02T19:52:00.974Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0Njk5MjAsImV4cCI6MTY1OTQ3MzUyMH0.XcY5uz3OBNeeRbb5o2uKkkXs0cQ5RJk240Q_ByzUQaI"}
+2022-08-02T23:37:05.125Z [base] info: API Started!
+2022-08-03T01:28:28.009Z [base] info: GET /About US
+2022-08-03T01:28:28.011Z [base] info: GET /About US
+2022-08-03T01:28:28.037Z [base] info: GET /About US
+2022-08-03T01:28:30.378Z [base] info: GET /Contact
+2022-08-03T01:28:30.379Z [base] info: GET /Contact
+2022-08-03T01:28:33.467Z [base] info: GET /Products 
+2022-08-03T01:28:33.468Z [base] info: GET /Products 
+2022-08-03T01:28:39.622Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTAxMTksImV4cCI6MTY1OTQ5MzcxOX0.YMlo42QGthHe9pEcOtw7LnGkp6n6t_um6iiXZ2AuG48"}
+2022-08-03T01:29:04.740Z [base] info: GET /About US
+2022-08-03T01:29:04.746Z [base] info: GET /About US
+2022-08-03T01:29:09.113Z [base] info: GET /Contact
+2022-08-03T01:29:09.114Z [base] info: GET /Contact
+2022-08-03T01:35:57.896Z [base] info: GET /About US
+2022-08-03T01:35:57.908Z [base] info: GET /About US
+2022-08-03T01:35:57.953Z [base] info: GET /About US
+2022-08-03T01:36:04.329Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTA1NjQsImV4cCI6MTY1OTQ5NDE2NH0.zBdS3m_jmJ2r-eEWvduyogrNEiphmuleZ_DdljmFkmw"}
+2022-08-03T01:36:19.696Z [base] info: GET /Contact
+2022-08-03T01:36:19.697Z [base] info: GET /Contact
+2022-08-03T01:53:35.001Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTE2MTUsImV4cCI6MTY1OTQ5NTIxNX0.meJXjT7sS8uNvCoPjw6nOswxYoGhRG0zUYoI6L3VVXE"}
+2022-08-03T01:55:23.630Z [base] info: API Started!
+2022-08-03T01:55:57.255Z [base] info: API Started!
+2022-08-03T01:57:56.899Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTE4NzYsImV4cCI6MTY1OTQ5NTQ3Nn0.BhsKtbRmcTgKT4SXvoZQevHZhtNZL5LhYwEU8i_rMuA"}
+2022-08-03T01:58:04.626Z [base] error: POST  - token missing
+2022-08-03T01:58:56.908Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTE5MzYsImV4cCI6MTY1OTQ5NTUzNn0.MljaLqGniD4n-8hTrbDzBrVxFShGeayM624pe061vZk"}
+2022-08-03T01:59:03.319Z [base] error: POST  - token missing
+2022-08-03T01:59:44.075Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTE5ODQsImV4cCI6MTY1OTQ5NTU4NH0.huSH4DznA7rtB5TqUFuuFIDnmiAjpqVSWrQnok5VLWM"}
+2022-08-03T01:59:47.421Z [base] error: POST  - token missing
+2022-08-03T02:01:14.219Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTIwNzQsImV4cCI6MTY1OTQ5NTY3NH0.TCtd-NFDMXD987ac1mpZPhbbyBz7R5I2jpFqIeFCtPU"}
+2022-08-03T02:01:14.550Z [base] info: GET /Email
+2022-08-03T02:01:14.572Z [base] info: GET /Email
+2022-08-03T02:01:23.769Z [base] error: POST  - token missing
+2022-08-03T02:03:35.614Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTIyMTUsImV4cCI6MTY1OTQ5NTgxNX0.nxBdvCHSLdhsREW64xiSMjShbg62uruqrAkrux4vQjU"}
+2022-08-03T02:03:35.646Z [base] error: GET  - readFile is not defined
+2022-08-03T02:03:35.748Z [base] info: GET /Email
+2022-08-03T02:03:35.771Z [base] info: GET /Email
+2022-08-03T02:03:42.925Z [base] info: GET /Contact
+2022-08-03T02:03:42.940Z [base] info: GET /Contact
+2022-08-03T02:03:47.043Z [base] info: PUT /update Contact - undefined
+2022-08-03T02:03:53.199Z [base] info: GET /About US
+2022-08-03T02:03:53.200Z [base] info: GET /About US
+2022-08-03T02:03:56.265Z [base] info: GET /Email
+2022-08-03T02:03:56.286Z [base] error: GET  - readFile is not defined
+2022-08-03T02:03:56.578Z [base] info: GET /Email
+2022-08-03T02:03:58.733Z [base] info: PATCH /update Email - {"emailId":15,"name":"15","email":"15@fqaewfwq","active":false}
+2022-08-03T02:03:58.772Z [base] error: GET  - readFile is not defined
+2022-08-03T02:03:58.789Z [base] info: GET /Email
+2022-08-03T02:03:58.815Z [base] info: GET /Email
+2022-08-03T02:04:00.169Z [base] info: PATCH /update Email - {"emailId":15,"name":"15","email":"15@fqaewfwq","active":true}
+2022-08-03T02:04:00.194Z [base] error: GET  - readFile is not defined
+2022-08-03T02:04:00.207Z [base] info: GET /Email
+2022-08-03T02:04:00.228Z [base] info: GET /Email
+2022-08-03T02:04:10.324Z [base] error: POST  - token missing
+2022-08-03T02:04:34.853Z [base] info: POST /creat Email - {"emailId":25,"name":"doisdo8","email":"dfaosijfd@lkansd","active":true}
+2022-08-03T02:04:38.792Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTIyNzgsImV4cCI6MTY1OTQ5NTg3OH0.2HS6UTbAFHVoXqKom_8IRxdbxq3G2Spwzr8BUn_ZTGs"}
+2022-08-03T02:04:38.826Z [base] error: GET  - readFile is not defined
+2022-08-03T02:04:38.829Z [base] info: GET /Email
+2022-08-03T02:04:38.857Z [base] info: GET /Email
+2022-08-03T02:04:47.160Z [base] error: GET  - readFile is not defined
+2022-08-03T02:04:47.173Z [base] info: GET /Email
+2022-08-03T02:04:47.195Z [base] info: GET /Email
+2022-08-03T02:05:03.051Z [base] error: GET  - readFile is not defined
+2022-08-03T02:05:03.135Z [base] info: GET /Email
+2022-08-03T02:05:03.167Z [base] info: GET /Email
+2022-08-03T02:44:56.404Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTQ2OTYsImV4cCI6MTY1OTQ5ODI5Nn0.RpciAkvW09lOG9YGM5_yf0hsf_wyiQyxEz2LQH2enR0"}
+2022-08-03T02:44:56.437Z [base] error: GET  - readFile is not defined
+2022-08-03T02:44:56.439Z [base] error: GET  - readFile is not defined
+2022-08-03T02:44:56.585Z [base] info: GET /Email
+2022-08-03T02:44:56.587Z [base] info: GET /Email
+2022-08-03T02:44:56.620Z [base] info: GET /Email
+2022-08-03T02:44:56.626Z [base] info: GET /Email
+2022-08-03T02:44:59.531Z [base] info: GET /Products 
+2022-08-03T02:44:59.541Z [base] info: GET /Products 
+2022-08-03T02:45:02.370Z [base] info: GET /Email
+2022-08-03T02:45:02.374Z [base] error: GET  - readFile is not defined
+2022-08-03T02:45:02.435Z [base] info: GET /Email
+2022-08-03T02:45:16.696Z [base] error: POST  - token missing
+2022-08-03T02:46:23.208Z [base] info: API Started!
+2022-08-03T02:46:56.698Z [base] info: API Started!
+2022-08-03T02:47:02.069Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTQ4MjIsImV4cCI6MTY1OTQ5ODQyMn0.HP9Zu6vEakGNo4tWeCZqurGW77ROdWoQAL-4f9X8Q5E"}
+2022-08-03T02:47:02.138Z [base] error: GET  - readFile is not defined
+2022-08-03T02:47:02.371Z [base] info: GET /Email
+2022-08-03T02:47:02.395Z [base] info: GET /Email
+2022-08-03T02:47:06.836Z [base] error: POST  - token missing
+2022-08-03T02:48:13.156Z [base] info: API Started!
+2022-08-03T02:48:15.365Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTQ4OTUsImV4cCI6MTY1OTQ5ODQ5NX0._maiPJyh8dESYgqXHL1zAGTRKtL3H5A5Tk2rdwJSt5o"}
+2022-08-03T02:48:15.436Z [base] error: GET  - readFile is not defined
+2022-08-03T02:48:15.705Z [base] info: GET /Email
+2022-08-03T02:48:15.728Z [base] info: GET /Email
+2022-08-03T02:48:18.741Z [base] error: POST  - token missing
+2022-08-03T02:48:53.415Z [base] info: API Started!
+2022-08-03T02:48:55.945Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTQ5MzUsImV4cCI6MTY1OTQ5ODUzNX0.N__B0n_t0lhikZtmNxVhT9WWufo8nroSzStP4uhDnJU"}
+2022-08-03T02:48:56.013Z [base] error: GET  - readFile is not defined
+2022-08-03T02:48:56.241Z [base] info: GET /Email
+2022-08-03T02:48:56.264Z [base] info: GET /Email
+2022-08-03T02:48:59.597Z [base] info: POST / Logout 
+2022-08-03T02:52:16.503Z [base] info: API Started!
+2022-08-03T02:52:21.966Z [base] info: API Started!
+2022-08-03T02:54:48.483Z [base] info: API Started!
+2022-08-03T02:55:06.394Z [base] info: API Started!
+2022-08-03T02:55:09.065Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTUzMDksImV4cCI6MTY1OTQ5ODkwOX0.BAysHYmaKMMdUmTBGoe37k_ZkZoshPfhk6IhoNLWxp8"}
+2022-08-03T02:55:09.122Z [base] error: GET  - readFile is not defined
+2022-08-03T02:55:09.356Z [base] info: GET /Email
+2022-08-03T02:55:09.381Z [base] info: GET /Email
+2022-08-03T02:55:13.127Z [base] info: POST / Logout 
+2022-08-03T02:57:19.321Z [base] info: API Started!
+2022-08-03T02:57:34.359Z [base] info: API Started!
+2022-08-03T02:57:37.353Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTU0NTcsImV4cCI6MTY1OTQ5OTA1N30.7JGOgiWMN5FgXFbdpTHXfVmhKOlCYhrWKDLRX9-YKZ0"}
+2022-08-03T02:57:37.405Z [base] error: GET  - readFile is not defined
+2022-08-03T02:57:37.643Z [base] info: GET /Email
+2022-08-03T02:57:37.666Z [base] info: GET /Email
+2022-08-03T02:57:41.237Z [base] info: POST / Logout 
+2022-08-03T03:00:53.039Z [base] info: API Started!
+2022-08-03T03:01:00.224Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTU2NjAsImV4cCI6MTY1OTQ5OTI2MH0.f2lN2LaRVoX2MS4vPHF89R8u-FFCqg24TeoOBtBe3d0"}
+2022-08-03T03:01:00.278Z [base] error: GET  - readFile is not defined
+2022-08-03T03:01:00.557Z [base] info: GET /Email
+2022-08-03T03:01:00.581Z [base] info: GET /Email
+2022-08-03T03:01:04.367Z [base] info: POST / Logout 
+2022-08-03T03:03:45.473Z [base] info: API Started!
+2022-08-03T03:03:47.818Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTU4MjcsImV4cCI6MTY1OTQ5OTQyN30.kDdyjvJYx5_cXMYHsNvc5YqWJEmfyydS3okwOF46BuI"}
+2022-08-03T03:03:47.873Z [base] error: GET  - readFile is not defined
+2022-08-03T03:03:48.120Z [base] info: GET /Email
+2022-08-03T03:03:48.143Z [base] info: GET /Email
+2022-08-03T03:03:51.270Z [base] info: POST / Logout 
+2022-08-03T03:11:33.163Z [base] info: API Started!
+2022-08-03T03:11:35.926Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTYyOTUsImV4cCI6MTY1OTQ5OTg5NX0.ZRePAV-3z2ez4bgy2JA4d4JFBfljZHGDd71OOg9K3IQ"}
+2022-08-03T03:11:35.987Z [base] error: GET  - readFile is not defined
+2022-08-03T03:11:36.199Z [base] info: GET /Email
+2022-08-03T03:11:36.223Z [base] info: GET /Email
+2022-08-03T03:11:39.966Z [base] error: POST  - blackList.blacktokens[i].delete is not a function
+2022-08-03T03:17:08.299Z [base] info: API Started!
+2022-08-03T03:19:02.346Z [base] info: API Started!
+2022-08-03T03:19:36.200Z [base] info: API Started!
+2022-08-03T03:19:42.660Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTY3ODIsImV4cCI6MTY1OTUwMDM4Mn0.RQgpkVd-avbX4-SAK9yP3mETsJ2UI-Ly0_rWl0ODyy0"}
+2022-08-03T03:19:42.714Z [base] error: GET  - readFile is not defined
+2022-08-03T03:19:42.943Z [base] info: GET /Email
+2022-08-03T03:19:42.967Z [base] info: GET /Email
+2022-08-03T03:19:47.196Z [base] error: POST  - time is not defined
+2022-08-03T03:20:16.560Z [base] info: API Started!
+2022-08-03T03:20:19.741Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTY4MTksImV4cCI6MTY1OTUwMDQxOX0.8-bmN0KJyQzILlL3zvW7ghPrPBSD2lFemvDHWd-Gv_Q"}
+2022-08-03T03:20:19.808Z [base] error: GET  - readFile is not defined
+2022-08-03T03:20:20.068Z [base] info: GET /Email
+2022-08-03T03:20:20.091Z [base] info: GET /Email
+2022-08-03T03:20:23.589Z [base] error: POST  - blackList.blacktokens[i].delete is not a function
+2022-08-03T03:22:57.964Z [base] info: API Started!
+2022-08-03T03:23:24.964Z [base] info: API Started!
+2022-08-03T03:23:32.233Z [base] info: API Started!
+2022-08-03T03:23:39.156Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTcwMTksImV4cCI6MTY1OTUwMDYxOX0.lDWA_F7jB92wxoLOIov7HqyvE0_OWQ4xzeslbyRXHbU"}
+2022-08-03T03:23:39.215Z [base] error: GET  - readFile is not defined
+2022-08-03T03:23:39.485Z [base] info: GET /Email
+2022-08-03T03:23:39.507Z [base] info: GET /Email
+2022-08-03T03:23:42.777Z [base] error: POST  - blackList.blacktokens[i].delete is not a function
+2022-08-03T03:24:05.228Z [base] info: API Started!
+2022-08-03T03:24:07.389Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTcwNDcsImV4cCI6MTY1OTUwMDY0N30.GQHQjKhCgbYKyYf73DVU2KEhbDd6HTwkI2cEnXFGg6E"}
+2022-08-03T03:24:07.451Z [base] error: GET  - readFile is not defined
+2022-08-03T03:24:07.660Z [base] info: GET /Email
+2022-08-03T03:24:07.684Z [base] info: GET /Email
+2022-08-03T03:24:11.394Z [base] error: POST  - blackList.blacktokens[i].delete is not a function
+2022-08-03T03:26:55.996Z [base] info: API Started!
+2022-08-03T03:27:00.658Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTcyMjAsImV4cCI6MTY1OTUwMDgyMH0.lz9MaZXU5a0xgUsnsDYgA5l7CTxrnSRsvmc22gIgobo"}
+2022-08-03T03:27:00.715Z [base] error: GET  - readFile is not defined
+2022-08-03T03:27:00.982Z [base] info: GET /Email
+2022-08-03T03:27:01.004Z [base] info: GET /Email
+2022-08-03T03:27:03.459Z [base] error: POST  - blackList.blacktokens[i].delete is not a function
+2022-08-03T03:29:05.994Z [base] info: API Started!
+2022-08-03T03:29:29.502Z [base] info: API Started!
+2022-08-03T03:29:42.244Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTczODIsImV4cCI6MTY1OTUwMDk4Mn0.g-msAUnvc3yJZOVhdrHVZJaHIosBO4ZmcHoSs8X1-xY"}
+2022-08-03T03:29:42.307Z [base] error: GET  - readFile is not defined
+2022-08-03T03:29:42.569Z [base] info: GET /Email
+2022-08-03T03:29:42.593Z [base] info: GET /Email
+2022-08-03T03:29:46.321Z [base] error: POST  - blackList.blacktokens[i].delete is not a function
+2022-08-03T03:32:46.504Z [base] info: API Started!
+2022-08-03T03:32:51.051Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTc1NzEsImV4cCI6MTY1OTUwMTE3MX0.5zw7huDQK80PNCqUoA9K3S5S1b6_r4HudI2XdQ9HmxA"}
+2022-08-03T03:32:51.134Z [base] error: GET  - readFile is not defined
+2022-08-03T03:32:51.374Z [base] info: GET /Email
+2022-08-03T03:32:51.400Z [base] info: GET /Email
+2022-08-03T03:32:54.539Z [base] error: POST  - e.delete is not a function
+2022-08-03T03:36:38.640Z [base] info: API Started!
+2022-08-03T03:36:41.804Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTc4MDEsImV4cCI6MTY1OTUwMTQwMX0.syDox2SsrGf9ki2J3_z0M3RzfFiO3hNsIz6zycDxeig"}
+2022-08-03T03:36:41.878Z [base] error: GET  - readFile is not defined
+2022-08-03T03:36:42.098Z [base] info: GET /Email
+2022-08-03T03:36:42.125Z [base] info: GET /Email
+2022-08-03T03:36:45.419Z [base] info: POST / Logout 
+2022-08-03T03:39:05.893Z [base] info: API Started!
+2022-08-03T03:42:12.044Z [base] info: API Started!
+2022-08-03T03:42:16.675Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTgxMzYsImV4cCI6MTY1OTUwMTczNn0.tt1N-zyV1CkRN0QcC2RkMu1fYRHvUNIpiuhq4KTOnYo"}
+2022-08-03T03:42:16.739Z [base] error: GET  - readFile is not defined
+2022-08-03T03:42:16.988Z [base] info: GET /Email
+2022-08-03T03:42:17.009Z [base] info: GET /Email
+2022-08-03T03:42:21.196Z [base] info:  Logout 
+2022-08-03T03:43:37.981Z [base] info: API Started!
+2022-08-03T03:44:01.089Z [base] info: API Started!
+2022-08-03T03:47:43.337Z [base] info: API Started!
+2022-08-03T03:47:45.889Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk0OTg0NjUsImV4cCI6MTY1OTUwMjA2NX0.a_Th7AX1i3hAXqMIH6A831lAUa3_BHcHiqDFr1zM1Qs"}
+2022-08-03T03:47:45.947Z [base] error: GET  - readFile is not defined
+2022-08-03T03:47:46.165Z [base] info: GET /Email
+2022-08-03T03:47:46.204Z [base] info: GET /Email
+2022-08-03T03:49:28.142Z [base] info: API Started!
+2022-08-03T03:49:28.198Z [base] error: GET  - jwt malformed
+2022-08-03T03:49:28.202Z [base] error: GET  - jwt malformed
+2022-08-03T03:50:08.442Z [base] info: API Started!
+2022-08-03T03:50:15.800Z [base] info: GET /Products 
+2022-08-03T03:50:15.802Z [base] info: GET /Products 
+2022-08-03T03:50:17.763Z [base] error: GET  - readFile is not defined
+2022-08-03T03:50:17.777Z [base] info: GET /Email
+2022-08-03T03:50:18.064Z [base] info: GET /Email
+2022-08-03T03:50:59.446Z [base] info: API Started!
+2022-08-03T03:51:03.729Z [base] info: GET /Products 
+2022-08-03T03:51:03.731Z [base] info: GET /Products 
+2022-08-03T03:51:04.811Z [base] info: GET /LastId [object Object]
+2022-08-03T03:51:04.827Z [base] info: GET /Email
+2022-08-03T03:51:05.096Z [base] info: GET /Email
+2022-08-03T03:54:10.307Z [base] info: API Started!
+2022-08-03T21:09:21.360Z [base] info: API Started!
+2022-08-03T21:10:18.017Z [base] error: POST  - ENOENT: no such file or directory, open 'C:\Users\pablo\OneDrive\Área de Trabalho\FullStack\Market-place\private.key'
+2022-08-03T21:15:01.993Z [base] info: API Started!
+2022-08-03T21:15:10.942Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NTk1NjEzMTAsImV4cCI6MTY1OTU2NDkxMH0.ly-2kAhTTc_lz94Z3pccdpUWOcKilyOoY1yh5QIC5voJgFkwGidQ6ETwtpH0cTI3ASQwX60ZNetK49jq_g8GIw"}
+2022-08-03T21:15:11.031Z [base] info: GET /LastId [object Object]
+2022-08-03T21:15:11.306Z [base] info: GET /Email
+2022-08-03T21:15:17.041Z [base] info: GET /LastId [object Object]
+2022-08-03T21:15:17.058Z [base] info: GET /Email
+2022-08-03T21:15:19.523Z [base] info: GET /Products 
+2022-08-03T21:15:19.541Z [base] info: GET /Products 
+2022-08-03T21:15:21.216Z [base] info: GET /Products 
+2022-08-03T21:15:21.217Z [base] info: GET /Products 
+2022-08-03T21:15:28.230Z [base] info:  Logout 
+2022-08-03T21:17:22.180Z [base] info: API Started!
+2022-08-09T19:12:56.138Z [base] info: API Started!
+2022-08-10T00:57:27.475Z [base] info: API Started!
+2022-08-10T01:30:54.140Z [base] info: API Started!
+2022-08-10T01:31:21.635Z [base] info: POST /login ADM - {"id":1,"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAwOTUwODEsImV4cCI6MTY2MDA5ODY4MX0.IJIheQ2cJqk4v2t8rDykaJwWw1DvK2laYZC0H1AWyiFwJ59p1687MvoWWwyDQRzRHxBJL0BI7YPJ_MxlWbCGDw"}
+2022-08-10T01:31:21.696Z [base] info: GET /LastId [object Object]
+2022-08-10T01:31:22.078Z [base] info: GET /Email
+2022-08-10T01:31:22.099Z [base] info: GET /Email
+2022-08-10T01:31:32.532Z [base] info: GET /LastId [object Object]
+2022-08-10T01:31:32.621Z [base] info: GET /Email
+2022-08-10T01:31:32.644Z [base] info: GET /Email
+2022-08-10T01:31:47.980Z [base] info: GET /LastId [object Object]
+2022-08-10T01:31:48.071Z [base] info: GET /Email
+2022-08-10T01:31:48.091Z [base] info: GET /Email
+2022-08-10T01:32:16.436Z [base] info: GET /LastId [object Object]
+2022-08-10T01:32:16.534Z [base] info: GET /Email
+2022-08-10T01:32:16.556Z [base] info: GET /Email
+2022-08-10T01:38:25.554Z [base] info: GET /Products 
+2022-08-10T01:38:25.555Z [base] info: GET /Products 
+2022-08-10T01:38:27.617Z [base] info: GET /LastId [object Object]
+2022-08-10T01:38:27.633Z [base] info: GET /Email
+2022-08-10T01:38:27.655Z [base] info: GET /Email
+2022-08-10T01:38:33.345Z [base] info: GET /Products 
+2022-08-10T01:38:33.346Z [base] info: GET /Products 
+2022-08-10T01:38:36.805Z [base] info: GET /Products 
+2022-08-10T01:38:37.304Z [base] info: GET /Products 
+2022-08-10T01:38:38.122Z [base] info: GET /Products 
+2022-08-10T01:38:38.123Z [base] info: GET /Products 
+2022-08-10T01:38:47.822Z [base] info:  Logout 
+2022-08-10T01:38:50.802Z [base] info: GET /Contact
+2022-08-10T01:38:50.805Z [base] info: GET /Contact
+2022-08-10T01:38:52.150Z [base] info: GET /Products 
+2022-08-10T01:38:52.152Z [base] info: GET /Products 
+2022-08-11T17:35:20.221Z [base] info: API Started!
+2022-08-11T17:35:22.671Z [base] info: API Started!
+2022-08-11T18:28:06.816Z [base] info: API Started!
+2022-08-11T20:45:32.962Z [base] info: API Started!
+2022-08-11T20:47:08.949Z [base] info: API Started!
+2022-08-11T20:59:13.441Z [base] info: API Started!
+2022-08-11T21:02:36.422Z [base] info: API Started!
+2022-08-11T21:03:30.000Z [base] info: API Started!
+2022-08-11T21:03:31.099Z [base] error: GET  - bad auth : Authentication failed.
+2022-08-11T21:03:50.483Z [base] error: GET  - bad auth : Authentication failed.
+2022-08-11T21:04:37.105Z [base] info: API Started!
+2022-08-11T21:04:38.563Z [base] error: GET  - bad auth : Authentication failed.
+2022-08-11T21:05:26.469Z [base] info: API Started!
+2022-08-11T21:05:27.844Z [base] error: GET  - bad auth : Authentication failed.
+2022-08-11T21:05:48.695Z [base] error: PATCH  - bad auth : Authentication failed.
+2022-08-11T21:07:24.330Z [base] info: API Started!
+2022-08-11T21:07:26.728Z [base] error: GET  - bad auth : Authentication failed.
+2022-08-11T21:08:15.711Z [base] info: API Started!
+2022-08-11T21:08:19.519Z [base] info: GET /LastId 
+2022-08-11T21:11:38.511Z [base] info: API Started!
+2022-08-11T21:11:51.120Z [base] info: API Started!
+2022-08-11T21:13:49.689Z [base] info: API Started!
+2022-08-11T21:15:06.911Z [base] info: API Started!
+2022-08-11T21:16:33.944Z [base] info: API Started!
+2022-08-11T21:25:59.461Z [base] info: API Started!
+2022-08-11T21:27:00.753Z [base] info: API Started!
+2022-08-11T21:27:03.443Z [base] info: GET /LastId [object Object],[object Object]
+2022-08-11T21:27:53.993Z [base] info: API Started!
+2022-08-11T21:27:55.127Z [base] info: GET /LastId [object Object],[object Object]
+2022-08-11T21:28:33.476Z [base] info: API Started!
+2022-08-11T21:29:22.549Z [base] info: API Started!
+2022-08-11T21:29:23.629Z [base] info: GET /LastId [object Object]
+2022-08-11T21:29:41.307Z [base] info: API Started!
+2022-08-11T21:29:42.106Z [base] info: GET /LastId [object Object]
+2022-08-11T21:32:36.886Z [base] info: API Started!
+2022-08-11T21:32:39.041Z [base] info: GET /LastId [object Object]
+2022-08-11T21:33:17.570Z [base] info: API Started!
+2022-08-11T21:33:34.818Z [base] info: API Started!
+2022-08-11T21:33:46.306Z [base] info: API Started!
+2022-08-11T21:33:54.252Z [base] info: API Started!
+2022-08-11T21:34:00.735Z [base] info: API Started!
+2022-08-11T21:34:01.902Z [base] info: GET /LastId 25
+2022-08-11T21:34:41.810Z [base] info: API Started!
+2022-08-11T21:34:42.525Z [base] info: GET /LastId 25
+2022-08-11T21:34:42.529Z [base] error: GET  - Invalid status code: 25
+2022-08-11T21:35:52.561Z [base] info: API Started!
+2022-08-11T21:35:53.179Z [base] info: GET /LastId 25
+2022-08-11T21:36:00.780Z [base] info: API Started!
+2022-08-11T21:36:01.552Z [base] info: GET /LastId 25
+2022-08-11T21:42:48.957Z [base] info: API Started!
+2022-08-11T21:50:12.212Z [base] info: API Started!
+2022-08-11T21:50:49.172Z [base] info: GET /LastId 25
+2022-08-11T21:51:10.805Z [base] info: API Started!
+2022-08-11T21:51:34.703Z [base] info: API Started!
+2022-08-11T21:51:48.691Z [base] info: API Started!
+2022-08-11T21:53:57.423Z [base] info: API Started!
+2022-08-11T21:55:52.285Z [base] info: API Started!
+2022-08-11T21:56:01.845Z [base] info: API Started!
+2022-08-11T21:56:25.058Z [base] info: API Started!
+2022-08-11T21:56:32.221Z [base] info: API Started!
+2022-08-11T21:56:38.604Z [base] info: API Started!
+2022-08-11T21:59:12.428Z [base] info: API Started!
+2022-08-11T21:59:15.712Z [base] info: GET /LastId 25
+2022-08-11T21:59:15.716Z [base] error: GET  - next is not defined
+2022-08-11T22:00:25.220Z [base] info: API Started!
+2022-08-11T22:00:45.365Z [base] info: GET /LastId 25
+2022-08-11T22:00:45.369Z [base] error: GET  - next is not defined
+2022-08-11T22:01:25.536Z [base] info: API Started!
+2022-08-11T22:01:28.938Z [base] info: GET /LastId 25
+2022-08-11T22:02:14.648Z [base] info: API Started!
+2022-08-11T22:03:05.597Z [base] info: API Started!
+2022-08-11T22:03:25.939Z [base] info: API Started!
+2022-08-11T22:03:27.062Z [base] info: GET /LastId [object Object],[object Object]
+2022-08-11T22:03:36.870Z [base] info: API Started!
+2022-08-11T22:04:14.617Z [base] info: API Started!
+2022-08-11T22:04:15.753Z [base] info: GET /LastId [object Object]
+2022-08-11T22:04:39.783Z [base] info: API Started!
+2022-08-11T22:04:40.604Z [base] info: GET /LastId [object Object]
+2022-08-11T22:04:54.100Z [base] info: API Started!
+2022-08-11T22:04:54.974Z [base] info: GET /LastId [object Object]
+2022-08-11T22:05:07.676Z [base] info: API Started!
+2022-08-11T22:05:20.894Z [base] info: GET /LastId 25
+2022-08-11T22:05:38.591Z [base] info: API Started!
+2022-08-11T22:08:30.805Z [base] error: POST  - updateLastId is not defined
+2022-08-11T22:08:32.960Z [base] error: POST  - updateLastId is not defined
+2022-08-11T22:08:37.790Z [base] error: POST  - updateLastId is not defined
+2022-08-11T22:08:47.486Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNTU3MjcsImV4cCI6MTY2MDI1OTMyN30.ZwYbAxinJAnTx46pogD2f8AJ1gZ-4rmP2tXbAPeyoLv64TwOCDRUsCKpi54uFmp0lFfdbX7-RbAKD8hetIgZoA"}
+2022-08-11T22:08:47.533Z [base] info: GET /Email
+2022-08-11T22:08:47.550Z [base] info: GET /Email
+2022-08-11T22:10:05.555Z [base] info: API Started!
+2022-08-11T22:10:22.234Z [base] info: GET /Email
+2022-08-11T22:10:22.236Z [base] info: GET /Email
+2022-08-11T22:10:34.273Z [base] info:  Logout 
+2022-08-11T22:10:58.838Z [base] error: POST  - unknown top level operator: $oid. If you have a field name that starts with a '$' symbol, consider using $getField or $setField.
+2022-08-11T22:11:55.376Z [base] info: API Started!
+2022-08-11T22:12:10.589Z [base] info: API Started!
+2022-08-11T22:12:18.926Z [base] info: POST /creat Email - {"emailId":30,"name":"test3","email":"upd@gmail.com","active":true}
+2022-08-11T22:13:27.136Z [base] info: API Started!
+2022-08-11T22:20:23.883Z [base] info: API Started!
+2022-08-11T22:20:45.598Z [base] error: POST  - unknown operator: $oid
+2022-08-11T22:20:55.733Z [base] info: API Started!
+2022-08-11T22:21:04.291Z [base] error: POST  - unknown operator: $oid
+2022-08-11T22:21:19.980Z [base] info: API Started!
+2022-08-11T22:21:27.081Z [base] info: POST /creat Email - {"emailId":33,"name":"test6","email":"lastdId@gmail.com","active":true}
+2022-08-11T22:21:45.328Z [base] info: API Started!
+2022-08-11T22:21:57.455Z [base] info: POST /creat Email - {"emailId":34,"name":"asd","email":"asdasd@asdasd","active":true}
+2022-08-11T22:23:15.274Z [base] info: API Started!
+2022-08-11T22:23:28.761Z [base] info: POST /creat Email - {"emailId":35,"name":"asdasd","email":"asdasd@frehger","active":true}
+2022-08-11T22:24:35.407Z [base] info: API Started!
+2022-08-11T22:25:05.469Z [base] info: API Started!
+2022-08-11T22:25:33.060Z [base] info: POST /creat Email - {"emailId":36,"name":"asd","email":"asd@aweqwe","active":true}
+2022-08-11T22:29:09.490Z [base] info: API Started!
+2022-08-11T22:29:20.036Z [base] error: POST  - Document must be a valid JavaScript object
+2022-08-11T22:29:51.130Z [base] info: API Started!
+2022-08-11T22:29:55.722Z [base] info: POST /creat Email - {"emailId":38,"name":"qr3etgqerer","email":"qertqr@asfdawerf","active":true}
+2022-08-11T22:34:25.849Z [base] info: API Started!
+2022-08-11T22:35:12.018Z [base] info: POST /creat Email - {"emailId":39,"name":"wretjuw","email":"wrtywry6@sgbsrytjas","active":true}
+2022-08-11T22:37:01.790Z [base] info: API Started!
+2022-08-11T22:37:12.750Z [base] info: POST /creat Email - {"emailId":40,"name":"qwefg","email":"qwerf@fqewf","active":true}
+2022-08-11T22:49:25.114Z [base] info: API Started!
+2022-08-11T22:49:41.986Z [base] info: API Started!
+2022-08-11T22:49:51.264Z [base] info: POST /creat Email - {"emailId":41,"name":"argaerg","email":"aergaer@FVSEDF","active":true}
+2022-08-11T22:50:09.789Z [base] info: API Started!
+2022-08-11T22:50:18.785Z [base] info: POST /creat Email - {"emailId":42,"name":"QEFAE","email":"QEFQ@FAEFA","active":true}
+2022-08-11T22:54:36.232Z [base] info: API Started!
+2022-08-11T22:54:43.573Z [base] info: POST /creat Email - {"emailId":43,"name":"qewfq","email":"qwfqwf@fafgawf","active":true}
+2022-08-11T23:01:38.168Z [base] info: API Started!
+2022-08-11T23:02:42.172Z [base] info: POST /creat Email - {"emailId":44,"name":"qwdqwd","email":"dqwd@asdasd","active":true}
+2022-08-11T23:04:37.444Z [base] info: API Started!
+2022-08-11T23:04:46.051Z [base] info: POST /creat Email - {"emailId":45,"name":"scasc","email":"ascasc@asdasd","active":true}
+2022-08-11T23:05:37.271Z [base] info: GET /LastId 25
+2022-08-11T23:07:40.108Z [base] info: GET /LastId 25
+2022-08-11T23:09:34.941Z [base] info: API Started!
+2022-08-11T23:09:36.226Z [base] info: GET /LastId 25
+2022-08-11T23:09:41.718Z [base] info: API Started!
+2022-08-11T23:09:42.536Z [base] info: GET /LastId 25
+2022-08-11T23:10:09.342Z [base] info: API Started!
+2022-08-11T23:10:11.357Z [base] info: GET /LastId 25
+2022-08-11T23:11:14.895Z [base] info: GET /LastId 25
+2022-08-11T23:12:21.931Z [base] info: API Started!
+2022-08-11T23:12:54.605Z [base] info: API Started!
+2022-08-11T23:13:05.118Z [base] error: GET  - next is not defined
+2022-08-11T23:13:44.522Z [base] info: API Started!
+2022-08-11T23:13:45.603Z [base] info: GET /LastId 25
+2022-08-11T23:14:13.623Z [base] info: API Started!
+2022-08-11T23:14:14.372Z [base] info: GET /LastId 25
+2022-08-11T23:15:07.834Z [base] info: API Started!
+2022-08-11T23:15:09.073Z [base] info: API Started!
+2022-08-11T23:15:28.457Z [base] info: API Started!
+2022-08-11T23:15:29.748Z [base] info: GET /LastId 25
+2022-08-11T23:16:04.435Z [base] info: GET /LastId 25
+2022-08-11T23:27:44.498Z [base] info: GET /LastId 25
+2022-08-11T23:28:23.795Z [base] info: API Started!
+2022-08-11T23:28:56.601Z [base] info: API Started!
+2022-08-11T23:28:59.338Z [base] info: API Started!
+2022-08-11T23:29:17.397Z [base] info: API Started!
+2022-08-11T23:30:24.647Z [base] info: API Started!
+2022-08-11T23:30:25.984Z [base] error: GET  - Cannot read property '1' of null
+2022-08-11T23:31:54.012Z [base] info: API Started!
+2022-08-11T23:31:59.234Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:35:26.388Z [base] info: API Started!
+2022-08-11T23:35:29.511Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:42:26.701Z [base] info: API Started!
+2022-08-11T23:42:31.005Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:46:48.600Z [base] info: API Started!
+2022-08-11T23:46:53.165Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:47:03.514Z [base] info: API Started!
+2022-08-11T23:47:04.862Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:52:28.211Z [base] info: API Started!
+2022-08-11T23:52:33.092Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:52:55.558Z [base] info: API Started!
+2022-08-11T23:52:57.071Z [base] error: GET  - next is not defined
+2022-08-11T23:53:54.380Z [base] info: API Started!
+2022-08-11T23:54:08.730Z [base] info: API Started!
+2022-08-11T23:54:19.817Z [base] info: API Started!
+2022-08-11T23:54:26.708Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:54:49.189Z [base] info: API Started!
+2022-08-11T23:55:12.611Z [base] info: API Started!
+2022-08-11T23:55:15.575Z [base] error: GET  - Cannot read property 'find' of undefined
+2022-08-11T23:57:02.548Z [base] info: API Started!
+2022-08-11T23:57:07.544Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-11T23:58:29.552Z [base] info: API Started!
+2022-08-11T23:58:31.481Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-12T02:55:48.242Z [base] info: API Started!
+2022-08-12T02:55:49.456Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-12T02:56:16.788Z [base] info: API Started!
+2022-08-12T02:56:18.174Z [base] error: GET  - Cannot read property '1' of null
+2022-08-12T02:56:36.203Z [base] info: API Started!
+2022-08-12T02:56:39.670Z [base] info: API Started!
+2022-08-12T02:56:40.351Z [base] info: GET /LastId 25
+2022-08-12T02:57:56.759Z [base] info: API Started!
+2022-08-12T02:58:10.236Z [base] info: API Started!
+2022-08-12T02:58:17.690Z [base] error: POST  - Connection pool closed
+2022-08-12T02:59:14.833Z [base] info: API Started!
+2022-08-12T03:00:29.196Z [base] info: POST /creat Email - {"emailId":47,"name":"asdasdq","email":"asdasd@asdasds","active":true}
+2022-08-12T03:02:25.407Z [base] info: API Started!
+2022-08-12T03:02:38.997Z [base] info: POST /creat Email - {"emailId":48,"name":"fatgar","email":"oaifgodi@oiajsdfa","active":true}
+2022-08-12T03:03:29.916Z [base] info: API Started!
+2022-08-12T03:03:37.359Z [base] info: POST /creat Email - {"emailId":49,"name":"dgaerhg","email":"aergaer@asfasfdas","active":true}
+2022-08-12T03:04:03.017Z [base] info: API Started!
+2022-08-12T03:04:05.848Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-12T03:04:31.690Z [base] info: API Started!
+2022-08-12T03:04:33.785Z [base] error: GET  - next is not defined
+2022-08-12T03:04:57.042Z [base] info: API Started!
+2022-08-12T03:05:00.839Z [base] error: GET  - conn.db(...).collection(...).findOne(...).toArray is not a function
+2022-08-12T03:05:10.260Z [base] info: API Started!
+2022-08-12T03:05:12.050Z [base] error: GET  - Cannot read property 'lastId' of undefined
+2022-08-12T03:06:19.176Z [base] info: API Started!
+2022-08-12T03:06:20.503Z [base] info: GET /LastId [object Object]
+2022-08-12T03:06:37.691Z [base] info: API Started!
+2022-08-12T03:06:48.801Z [base] info: API Started!
+2022-08-12T03:06:51.081Z [base] info: GET /LastId 49
+2022-08-12T03:07:18.758Z [base] info: API Started!
+2022-08-12T03:07:48.078Z [base] info: API Started!
+2022-08-12T03:07:57.317Z [base] info: API Started!
+2022-08-12T03:09:59.810Z [base] info: API Started!
+2022-08-12T03:10:41.445Z [base] info: API Started!
+2022-08-12T03:35:24.048Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzUzMjQsImV4cCI6MTY2MDI3ODkyNH0.A2-ektEj1S4SO19GhDWEzP1h7Sy7FnvjyTMxnPmK942c7bmruld_YeLuQzk-uqIstIh3gxOfEogW1qHXhfBfhw"}
+2022-08-12T03:35:24.095Z [base] info: GET /Email
+2022-08-12T03:35:24.113Z [base] info: GET /Email
+2022-08-12T03:38:22.820Z [base] info: API Started!
+2022-08-12T03:39:09.186Z [base] info: API Started!
+2022-08-12T03:39:23.088Z [base] info: API Started!
+2022-08-12T03:39:39.470Z [base] info: API Started!
+2022-08-12T03:41:59.674Z [base] info: API Started!
+2022-08-12T03:42:15.150Z [base] info: API Started!
+2022-08-12T03:44:46.142Z [base] info: API Started!
+2022-08-12T03:44:55.613Z [base] info:  Logout 
+2022-08-12T03:45:27.324Z [base] info: API Started!
+2022-08-12T03:45:31.108Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzU5MzEsImV4cCI6MTY2MDI3OTUzMX0.YDcpIIlgLW8-FvsUMlrF5e0No1RRNJo2PUnijE7eaABcjnFvxxvwWpRyWLUcxEljLYxDM1AfYmjJRi85DRfwdA"}
+2022-08-12T03:45:31.157Z [base] info: GET /Email
+2022-08-12T03:45:31.174Z [base] info: GET /Email
+2022-08-12T03:45:37.678Z [base] info:  Logout 
+2022-08-12T03:48:01.178Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzYwODEsImV4cCI6MTY2MDI3OTY4MX0.Hfwbvn-cfq4YMqiBICyTwZRCmCfcynU6kDeUHJCNFcJW7R-FlXXowykofctsg8kCKu5V17xQHeXmJAanoSZWug"}
+2022-08-12T03:49:36.966Z [base] info: API Started!
+2022-08-12T03:49:40.148Z [base] info:  Logout 
+2022-08-12T03:49:44.546Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzYxODQsImV4cCI6MTY2MDI3OTc4NH0.HKa-lrh7eaNPJqjRM4e83WN-Qs1BWdG4FOOQNLU3xMyJ0dZKc-knaeOm-usiOvCPe_m6sw67PLPjjesEzPVs1w"}
+2022-08-12T03:50:13.187Z [base] info: API Started!
+2022-08-12T03:50:15.731Z [base] info:  Logout 
+2022-08-12T03:50:17.756Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzYyMTcsImV4cCI6MTY2MDI3OTgxN30.ll1N0ABfSPVK3KIwBzhVAmljx-m0Evax5xuSb2C40s1NTgRchSHwlEMhS5LLwN9IYQYcRv_44MAWrPA6Q23I4Q"}
+2022-08-12T03:51:07.114Z [base] info: API Started!
+2022-08-12T03:51:34.932Z [base] info: API Started!
+2022-08-12T03:51:38.649Z [base] info:  Logout 
+2022-08-12T03:51:40.492Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzYzMDAsImV4cCI6MTY2MDI3OTkwMH0.QQrZBJM0qeL2OldVjuMfr3y5dcZXBkrJU2Sq6SdBFE-w-DhhYZascWrfX5WM2SBHOb-jvgb5HdQ0MrBF_V7QXw"}
+2022-08-12T03:52:22.193Z [base] info: API Started!
+2022-08-12T03:52:44.047Z [base] info: API Started!
+2022-08-12T03:52:45.796Z [base] info:  Logout 
+2022-08-12T03:52:53.797Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzYzNzMsImV4cCI6MTY2MDI3OTk3M30.mnIW6uJb42lazLW0Wkf6h2L-30dLXwLwY1CV6HLlE7xJESdxXNx7_k2iwkP57YwP-LmWiWjac2MWlZwYZsusyw"}
+2022-08-12T03:52:55.760Z [base] info: GET /Email
+2022-08-12T03:54:13.281Z [base] info: API Started!
+2022-08-12T03:54:35.292Z [base] info:  Logout 
+2022-08-12T03:56:53.730Z [base] info: API Started!
+2022-08-12T03:57:32.307Z [base] info: API Started!
+2022-08-12T03:57:33.486Z [base] info: API Started!
+2022-08-12T03:57:38.375Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzY2NTgsImV4cCI6MTY2MDI4MDI1OH0.XDoqt3DCV6NQiX-RQ4ONyuFzMRNHC0JaTZ-6haEGwHAuGVKEgwXV48233UVBZgXNFuTUNocAXac2wPAiegY3zA"}
+2022-08-12T03:57:45.254Z [base] error: GET  - jwt malformed
+2022-08-12T03:57:45.270Z [base] info: GET /Email
+2022-08-12T04:06:52.067Z [base] info: API Started!
+2022-08-12T04:07:38.330Z [base] info: API Started!
+2022-08-12T04:08:15.565Z [base] info: API Started!
+2022-08-12T04:08:20.449Z [base] info:  Logout 
+2022-08-12T04:09:26.427Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzczNjYsImV4cCI6MTY2MDI4MDk2Nn0.lF2gNmWLGpBGpffen4GJ7pWcYgMDxvMH6V_MawJWTlUqVz73szjpfCvZaA4sN-ELy6jLaUJajXEr5k95648Kyg"}
+2022-08-12T04:09:46.948Z [base] info:  Logout 
+2022-08-12T04:11:22.774Z [base] info: API Started!
+2022-08-12T04:11:31.529Z [base] info: API Started!
+2022-08-12T04:14:06.947Z [base] info: API Started!
+2022-08-12T04:14:25.111Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzc2NjUsImV4cCI6MTY2MDI4MTI2NX0.TToeNLva0PkmB2WQe8yC6JU3C8ulXX_UllHVfcUG4ZcMjIx0DM9G7JA9_Pn5rnbgqOCHQ3FYk755zrm-acGJpw"}
+2022-08-12T04:14:33.452Z [base] error: POST  - blackList.blacktokens.forEach is not a function
+2022-08-12T04:15:20.677Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzc3MjAsImV4cCI6MTY2MDI4MTMyMH0.fy7UVb11-4TbVTa4Yrx0gwBqDH65xCKi_TBu1BQJ7M60m-Vx6co3LbFiu4sV8GmOziiUjpFs37FqXdC5rRVq-g"}
+2022-08-12T04:17:20.964Z [base] info: API Started!
+2022-08-12T04:17:29.388Z [base] info: API Started!
+2022-08-12T04:17:43.036Z [base] info: API Started!
+2022-08-12T04:17:49.078Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzc4NjksImV4cCI6MTY2MDI4MTQ2OX0.n1Z02p8aTKTYH96S995T2ST5Gt7wqu3WGTSOjjgDyd6KrQYist2oY0HE2mg6d6CFItJ3MoFMNDRBWGeM9u6Big"}
+2022-08-12T04:18:33.634Z [base] info: API Started!
+2022-08-12T04:19:34.490Z [base] info: API Started!
+2022-08-12T04:20:02.418Z [base] info: API Started!
+2022-08-12T04:20:06.834Z [base] info: API Started!
+2022-08-12T04:20:13.361Z [base] error: POST  - blackList.blacktokens.forEach is not a function
+2022-08-12T04:20:15.534Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzgwMTUsImV4cCI6MTY2MDI4MTYxNX0.biKVFYgZfaiHzXVsB_EPdCUPq-X2E6nI4b4Zb2_BIBK9D97Yw306Hv0q7pTfEZuWmBsqNz2wjaaGuavVSfoQXg"}
+2022-08-12T04:20:40.163Z [base] info: API Started!
+2022-08-12T04:20:43.313Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzgwNDMsImV4cCI6MTY2MDI4MTY0M30.JSjyzx5-XMrJqGq5NGorMc-2DC591OMaz9u6TaIuf3FnJzSwIR2_6z41rKkFTcwAYkLudd03xCslrOjHppFIpw"}
+2022-08-12T04:22:12.695Z [base] info: API Started!
+2022-08-12T04:22:57.844Z [base] info: API Started!
+2022-08-12T04:23:23.167Z [base] info: API Started!
+2022-08-12T04:23:23.906Z [base] info: GET /Email
+2022-08-12T04:23:29.914Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzgyMDksImV4cCI6MTY2MDI4MTgwOX0.gCYMQQVaXSrlPMmX670IZfsAhconSssPxTARDPfBtbyQKk8KdD6eY7Gvk9U4YXjGAaG2trpyK0onRmoPgdYbnQ"}
+2022-08-12T04:23:34.375Z [base] info: GET /Email
+2022-08-12T04:24:04.234Z [base] error: POST  - blackList.blacktokens.forEach is not a function
+2022-08-12T04:25:02.223Z [base] info: API Started!
+2022-08-12T04:25:07.126Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzgzMDcsImV4cCI6MTY2MDI4MTkwN30.RIX3NNNUvkVK47s8FERwpkSHXVWPJiJfdRsu2pBJDowqAf5oKdfsKClqjxDxfbtf4x8cVZ4h5ynQgbePwVh4_g"}
+2022-08-12T04:25:09.226Z [base] info: GET /Email
+2022-08-12T04:26:59.203Z [base] info: API Started!
+2022-08-12T04:27:06.056Z [base] info: API Started!
+2022-08-12T04:27:14.277Z [base] error: POST  - blackList.blacktokens.forEach is not a function
+2022-08-12T04:27:16.640Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzg0MzYsImV4cCI6MTY2MDI4MjAzNn0.bI5INJz19DeZ-jjI1tqXz0dsYlR90AsSU1tpgxEDShuH7J_NYqbtuUTm5PTKNFPSdbQ0wz6NU-Lx6RzaS_fJyQ"}
+2022-08-12T04:27:28.592Z [base] info: GET /Email
+2022-08-12T04:29:53.757Z [base] info: API Started!
+2022-08-12T04:30:07.023Z [base] info: GET /Products 
+2022-08-12T04:30:07.024Z [base] info: GET /Products 
+2022-08-12T04:30:54.918Z [base] info: API Started!
+2022-08-12T04:30:59.569Z [base] info: GET /Email
+2022-08-12T04:31:20.392Z [base] info: API Started!
+2022-08-12T04:31:23.678Z [base] info: GET /Products 
+2022-08-12T04:31:23.680Z [base] info: GET /Products 
+2022-08-12T04:32:01.379Z [base] info: API Started!
+2022-08-12T04:32:04.771Z [base] info: GET /Email
+2022-08-12T04:32:19.069Z [base] error: POST  - blackList.blacktokens.forEach is not a function
+2022-08-12T04:32:46.248Z [base] info: API Started!
+2022-08-12T04:33:04.409Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzg3ODQsImV4cCI6MTY2MDI4MjM4NH0.aNQkr-WptgLBoRqPWtTjkPfesyJoWDZ5Ili6baprnIMzFnGPJ_WKmRl3_CSABW8wXFDUbY3x8ezAFwfwa_8XNw"}
+2022-08-12T04:33:06.513Z [base] info: GET /Email
+2022-08-12T04:33:35.330Z [base] info: API Started!
+2022-08-12T04:33:35.777Z [base] error: GET  - jwt malformed
+2022-08-12T04:33:56.400Z [base] info:  Logout 
+2022-08-12T04:34:10.765Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzg4NTAsImV4cCI6MTY2MDI4MjQ1MH0.bStYrL6T-G5IulsIIYQhr4CJMwhEzLPCuP1wfk3w0Q5JBfOuaCU_9oQEnnP3htLtN1K4xyYYarRxvKdp0DyW9w"}
+2022-08-12T04:34:47.471Z [base] info: API Started!
+2022-08-12T04:35:13.608Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzg5MTMsImV4cCI6MTY2MDI4MjUxM30.ilxlo_7qBee0eyM9rTZJWxs5U31h2ooxKZ_OP2_GNXaTuahneGQVqFRIlmONEHAk8rEc8h7vmxwCohs9Q8WlIw"}
+2022-08-12T04:35:27.077Z [base] error: POST  - Cannot read property 'forEach' of undefined
+2022-08-12T04:35:37.386Z [base] info: API Started!
+2022-08-12T04:35:45.923Z [base] info: API Started!
+2022-08-12T04:35:48.454Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzg5NDgsImV4cCI6MTY2MDI4MjU0OH0.HgdtkUiaAHUziBeKlf1i6DxLTPCq_ciFRKfAkJCu4Y1VIqT4_RR2VrXHNAFKsfSqD9IVSy5e6ibNbamIQ4vFrw"}
+2022-08-12T04:35:50.439Z [base] error: GET  - jwt malformed
+2022-08-12T04:35:50.455Z [base] info: GET /Email
+2022-08-12T04:36:06.614Z [base] info:  Logout 
+2022-08-12T04:36:10.013Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzg5NzAsImV4cCI6MTY2MDI4MjU3MH0.mKefhpkmBlH4LlO17-yYkvBxbvBW3O6uWyhg1uSY4pzixS0Uot0XBMnn22tOH2RF_U4agCn7wn4DEvs9UxzHqw"}
+2022-08-12T04:36:12.266Z [base] error: GET  - jwt malformed
+2022-08-12T04:36:12.290Z [base] info: GET /Email
+2022-08-12T04:36:19.382Z [base] info: GET /Products 
+2022-08-12T04:36:19.398Z [base] info: GET /Products 
+2022-08-12T04:36:24.851Z [base] error: GET  - jwt malformed
+2022-08-12T04:36:24.870Z [base] info: GET /Email
+2022-08-12T04:36:37.000Z [base] info:  Logout 
+2022-08-12T04:37:48.188Z [base] info: API Started!
+2022-08-12T04:37:56.498Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzkwNzYsImV4cCI6MTY2MDI4MjY3Nn0.HVHThNTRO27RQE6sPk0w7yjUi7VhV_CT83y9eq_jRsSfUAJWz5ZfYCVyDTmq9Eaeh3-qHO5NY1X0L3_tQdz-Tg"}
+2022-08-12T04:37:58.764Z [base] error: GET  - jwt malformed
+2022-08-12T04:37:58.783Z [base] info: GET /Email
+2022-08-12T04:38:07.729Z [base] info: GET /Contact
+2022-08-12T04:38:07.743Z [base] info: GET /Contact
+2022-08-12T04:38:12.688Z [base] error: GET  - jwt malformed
+2022-08-12T04:38:12.704Z [base] info: GET /Email
+2022-08-12T04:38:21.260Z [base] info:  Logout 
+2022-08-12T04:40:35.118Z [base] info: API Started!
+2022-08-12T04:42:14.046Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzkzMzQsImV4cCI6MTY2MDI4MjkzNH0.bI7dkBXsLO5Bcakawgi9rSuro9N5kIL-MrCu6uo0RNeqeWN28OG7JoAPoa_luQM-oagkQdF3MfOk8DDKHtMUYA"}
+2022-08-12T04:42:15.592Z [base] info:  Logout 
+2022-08-12T04:42:24.789Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzkzNDQsImV4cCI6MTY2MDI4Mjk0NH0.gUlcbRkghb37kyJPKkmFwt8TDb7msM514JlcVsxz1pPkOEQbCf6k1OJ3_OuBNWCeaVlAGwwUwN6CfyFAk5tptg"}
+2022-08-12T04:42:55.885Z [base] info: API Started!
+2022-08-12T04:42:57.810Z [base] info:  Logout 
+2022-08-12T04:43:31.551Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzk0MTEsImV4cCI6MTY2MDI4MzAxMX0.dXtMN4fEd942fD1S2cEyK_T-o5cuhrCFECUQlhEpMPzrM9XSoVVVUQ5QMfarGOEUFvVBk_WoCmSEGpCqZAcWiQ"}
+2022-08-12T04:43:33.766Z [base] error: GET  - jwt malformed
+2022-08-12T04:43:33.782Z [base] info: GET /Email
+2022-08-12T04:43:38.180Z [base] error: POST  - Cannot read property 'toString' of undefined
+2022-08-12T04:45:43.914Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzk1NDMsImV4cCI6MTY2MDI4MzE0M30.c1ltabrwLBKtFUPoOjA5tHEZ-b-TcW9L30uqXQYfGDlRC0PF3eDiHx9nXohRDbH3EozHlaQcgiBBq-_S-B7vKg"}
+2022-08-12T04:45:47.139Z [base] error: GET  - jwt malformed
+2022-08-12T04:45:47.197Z [base] info: GET /Email
+2022-08-12T04:45:51.363Z [base] error: POST  - Cannot read property 'toString' of undefined
+2022-08-12T04:47:55.095Z [base] info: API Started!
+2022-08-12T04:48:01.461Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzk2ODEsImV4cCI6MTY2MDI4MzI4MX0.iK7ZEEwtwiYTzdXEnrtEtE5S-HhMWw-uwiOpy4Lu94HMBH-ehec2t5hZWAJYUZDyCukzbq4uY88hDmk1RjhYXA"}
+2022-08-12T04:48:04.055Z [base] error: GET  - jwt malformed
+2022-08-12T04:48:04.072Z [base] info: GET /Email
+2022-08-12T04:48:37.551Z [base] error: POST  - Cannot read property 'toString' of undefined
+2022-08-12T04:48:56.313Z [base] info: API Started!
+2022-08-12T04:49:10.768Z [base] info: API Started!
+2022-08-12T04:50:04.396Z [base] info: API Started!
+2022-08-12T04:50:07.147Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzk4MDcsImV4cCI6MTY2MDI4MzQwN30.RMjWpFRp_UG3uQZu9eKBCSvwIxLo3aWzBIW0CNlk6m44X36AJ0GNmIDdweYAaURcznWInLrXUOndsrvTT2mcpw"}
+2022-08-12T04:50:09.482Z [base] error: GET  - jwt malformed
+2022-08-12T04:50:09.504Z [base] info: GET /Email
+2022-08-12T04:50:28.418Z [base] error: POST  - Cannot read property 'toString' of undefined
+2022-08-12T04:51:56.605Z [base] info: API Started!
+2022-08-12T04:51:59.603Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyNzk5MTksImV4cCI6MTY2MDI4MzUxOX0.Pik_KhFKR1w_g1xkq5u5_99uMc9D19pBNMEB8nVfqsaVMo2XdqJREsxOJ1sE9EbL3qKMHvJgvitRtS7wa3OHaw"}
+2022-08-12T04:52:01.019Z [base] error: POST  - Cannot read property 'toString' of undefined
+2022-08-12T04:53:21.948Z [base] info: API Started!
+2022-08-12T04:53:39.395Z [base] info: API Started!
+2022-08-12T04:53:57.339Z [base] info: API Started!
+2022-08-12T04:54:00.688Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyODAwNDAsImV4cCI6MTY2MDI4MzY0MH0.dbNRzWAZEr1rQ_AKvAhMTxkoeKXtTUOdw7V4qFFkNzUayqu4TBTvFL6171gbKJuJKQLwOVTvNPtwmDcteEZSmA"}
+2022-08-12T04:54:02.187Z [base] info:  Logout 
+2022-08-12T04:54:29.946Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyODAwNjksImV4cCI6MTY2MDI4MzY2OX0.PU-S8Lk9Lx3GrTK0v6aAXnDkv5I4NbRJ2uRj-sI8pzdaaZc7QIXTdHzoaNoFD4sNMFJ3Mk-idTy9BOvMKj191w"}
+2022-08-12T04:54:32.886Z [base] error: GET  - jwt malformed
+2022-08-12T04:54:32.907Z [base] info: GET /Email
+2022-08-12T04:54:37.620Z [base] info:  Logout 
+2022-08-12T04:54:50.996Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyODAwOTAsImV4cCI6MTY2MDI4MzY5MH0.eNDF_a_ipa1-5CLYD-fX8EiKESE5soXyFDbH4C1MAtIM7oE7ZE7We5Sd_cXKYkA2bbcm00lgA2QuRWkY9YSiLw"}
+2022-08-12T04:54:52.398Z [base] info:  Logout 
+2022-08-12T04:55:24.688Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyODAxMjQsImV4cCI6MTY2MDI4MzcyNH0.DXpgDtUXMEvWAu_v8NubG9jUaAtiyJgJU9XCquS3OeUa_zoIOuTdTGYKEKsJx9Oe2s4szPopbYJh1djUZsYf9A"}
+2022-08-12T04:55:26.569Z [base] error: GET  - jwt malformed
+2022-08-12T04:55:26.585Z [base] info: GET /Email
+2022-08-12T04:55:45.028Z [base] info:  Logout 
+2022-08-12T04:56:15.241Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyODAxNzUsImV4cCI6MTY2MDI4Mzc3NX0.D-l8Nq3aGNX-6iq-ObhS9bbENMB-ACCFYEfOzn5cbfc-HHKtPmgS1MJ03vPhhQruJd-8BOWFIZ-_uwuhgwWc3g"}
+2022-08-12T04:56:16.568Z [base] info:  Logout 
+2022-08-12T04:56:50.023Z [base] info: API Started!
+2022-08-12T04:58:06.864Z [base] info: API Started!
+2022-08-12T05:01:15.692Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjAyODA0NzUsImV4cCI6MTY2MDI4NDA3NX0.bsPL2u_N4-egBhETq60mJFfll42iGmA5CBw0d7QGfbhnaluU8zh1jEzmi5dq1JeaX1M-7oz3ZsKLomvub2_1zQ"}
+2022-08-12T05:01:18.435Z [base] error: GET  - jwt malformed
+2022-08-12T05:01:18.469Z [base] info: GET /Email
+2022-08-12T05:02:04.779Z [base] info: GET /Products 
+2022-08-12T05:02:04.780Z [base] info: GET /Products 
+2022-08-12T05:02:06.686Z [base] error: GET  - jwt malformed
+2022-08-12T05:02:06.691Z [base] error: GET  - jwt malformed
+2022-08-12T05:02:06.767Z [base] info: GET /Email
+2022-08-12T05:02:06.917Z [base] info: GET /LastId 49
+2022-08-12T05:03:39.332Z [base] info: GET /Products 
+2022-08-12T05:03:39.339Z [base] info: GET /Products 
+2022-08-12T05:03:40.810Z [base] error: GET  - jwt malformed
+2022-08-12T05:03:40.823Z [base] error: GET  - jwt malformed
+2022-08-12T05:03:40.826Z [base] info: GET /Email
+2022-08-12T05:03:41.021Z [base] info: GET /LastId 49
+2022-08-12T05:03:41.429Z [base] info: GET /LastId 49
+2022-08-12T05:04:28.019Z [base] info: GET /Products 
+2022-08-12T05:04:28.021Z [base] info: GET /Products 
+2022-08-12T05:04:29.645Z [base] error: GET  - jwt malformed
+2022-08-12T05:04:29.667Z [base] error: GET  - jwt malformed
+2022-08-12T05:04:29.718Z [base] info: GET /Email
+2022-08-12T05:04:29.895Z [base] info: GET /LastId 49
+2022-08-12T05:04:30.309Z [base] info: GET /LastId 49
+2022-08-16T20:35:23.936Z [base] info: API Started!
+2022-08-16T20:36:11.882Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjA2ODIxNzEsImV4cCI6MTY2MDY4NTc3MX0.G42-cgSnpKgznMVIoI2-4O3YK-qQzjOa9P6OvMnZS-eCM4xGqDR2HCaQym2rMhqU-QbskSVat21Dhf_IHHlRPg"}
+2022-08-16T20:36:19.025Z [base] info:  Logout 
+2022-08-16T20:36:33.825Z [base] info: GET /About US
+2022-08-16T20:36:33.825Z [base] info: GET /About US
+2022-08-16T20:36:33.852Z [base] info: GET /About US
+2022-08-16T20:36:38.428Z [base] info: GET /Contact
+2022-08-16T20:36:38.429Z [base] info: GET /Contact
+2022-08-16T20:36:42.214Z [base] info: GET /Products 
+2022-08-16T20:36:42.215Z [base] info: GET /Products 
+2022-08-16T20:36:49.965Z [base] info: POST /login ADM - {"name":"admin","token":"eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NjA2ODIyMDksImV4cCI6MTY2MDY4NTgwOX0.CMPEDBPt2caTgVPN894FnCmuTJxYPnlNLA94hlM0vrTQJlCH-kCXyjt-LNpEOrV9243MxXUs_PoEt4TjSpLoMA"}
+2022-08-16T20:36:54.249Z [base] info: GET /About US
+2022-08-16T20:36:54.271Z [base] info: GET /About US
+2022-08-16T20:37:03.662Z [base] info: GET /Contact
+2022-08-16T20:37:03.663Z [base] info: GET /Contact
+2022-08-16T20:37:08.576Z [base] info: GET /Products 
+2022-08-16T20:37:08.577Z [base] info: GET /Products 
+2022-08-16T20:37:14.786Z [base] info: GET /Products 
+2022-08-16T20:37:15.829Z [base] info: GET /Products 
+2022-08-16T20:37:17.363Z [base] info: GET /Products 
+2022-08-16T20:37:17.364Z [base] info: GET /Products 
+2022-08-16T20:37:21.950Z [base] info: GET /Products 
+2022-08-16T20:37:21.951Z [base] info: GET /Products 
+2022-08-16T20:37:33.932Z [base] info: GET /Products 
+2022-08-16T20:37:33.933Z [base] info: GET /Products 
+2022-08-16T20:37:39.541Z [base] info: PUT /update Product - undefined
+2022-08-16T20:37:39.576Z [base] info: GET /Products 
+2022-08-16T20:37:39.578Z [base] info: GET /Products 
+2022-08-16T20:39:34.272Z [base] error: GET  - jwt malformed
+2022-08-16T20:39:34.289Z [base] error: GET  - jwt malformed
+2022-08-16T20:39:34.406Z [base] info: GET /Email
+2022-08-16T20:39:34.559Z [base] info: GET /LastId 49
+2022-08-16T20:39:40.495Z [base] info: GET /Email
+2022-08-16T20:39:40.740Z [base] info: GET /LastId 49
+2022-08-16T20:39:59.490Z [base] info: PATCH /update Email - {"emailId":11,"name":"11","email":"11@oisdas","active":false}
+2022-08-16T20:39:59.839Z [base] info: GET /Email
+2022-08-16T20:40:00.090Z [base] info: GET /LastId 49
+2022-08-16T20:40:00.493Z [base] info: PATCH /update Email - {"emailId":11,"name":"11","email":"11@oisdas","active":true}
+2022-08-16T20:40:00.823Z [base] info: GET /Email
+2022-08-16T20:40:01.083Z [base] info: GET /LastId 49
+2022-08-16T20:40:13.837Z [base] info: GET /Products 
+2022-08-16T20:40:13.838Z [base] info: GET /Products 
+2022-08-16T20:40:24.175Z [base] error: GET  - jwt malformed
+2022-08-16T20:40:24.198Z [base] error: GET  - jwt malformed
+2022-08-16T20:40:24.317Z [base] info: GET /Email
+2022-08-16T20:40:24.471Z [base] info: GET /LastId 49
+2022-08-16T20:40:34.181Z [base] info: GET /Products 
+2022-08-16T20:40:34.205Z [base] info: GET /Products 
+2022-08-16T20:40:41.168Z [base] info: GET /About US
+2022-08-16T20:40:41.172Z [base] info: GET /About US
