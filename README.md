@@ -22,7 +22,7 @@ Testes
 
 Com Docker - 
 
-- `docker-compose up --build`
+- `docker-compose up `
 
 Sem Docker -
 
