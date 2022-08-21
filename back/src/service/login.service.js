@@ -1,16 +1,14 @@
-import loginRepository from "../repository/login.repository.js"
-import jwt from 'jsonwebtoken'
-import bcrypt from 'bcrypt'
-import { promises } from "fs";
+import jwt from 'jsonwebtoken';
+import bcrypt from 'bcrypt';
+import { promises } from 'fs';
+import loginRepository from '../repository/login.repository.js';
 
 const { readFile, writeFile } = promises;
 
 async function findUser(name) {
-    let userdb = await loginRepository.printUser()
+    const userdb = await loginRepository.printUser();
 
-    return userdb.find(
-        (user) => user.dataValues.name === name
-    );
+    return userdb.find(user => user.dataValues.name === name);
 }
 
 // async function createUser(name, email, password) {
@@ -37,15 +35,13 @@ async function compareUser(user, password) {
 }
 
 async function createToken(user) {
+    const privateKey = await readFile('./private.key', 'utf-8');
 
-    const privateKey = await readFile('./private.key', 'utf-8')
-
-    const token = jwt.sign({ id: user._id, }, privateKey, {
+    const token = jwt.sign({ id: user._id }, privateKey, {
         expiresIn: 3600,
-        algorithm: 'RS256'
-
+        algorithm: 'RS256',
     });
-    return token
+    return token;
 }
 
 export default {
@@ -53,4 +49,4 @@ export default {
     // createUser,
     compareUser,
     createToken,
-}
+};

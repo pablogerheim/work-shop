@@ -1,29 +1,33 @@
-import connect from "../config/Postgreconnect.js";
-import sequelize from "sequelize";
+import sequelize from 'sequelize';
+import connect from '../config/Postgreconnect.js';
 
-const User = connect.define('users', {
-    user_id: {
-        type: sequelize.INTEGER,
-        autoIncrement: true,
-        allowNull: false,
-        primaryKey: true
+const User = connect.define(
+    'users',
+    {
+        user_id: {
+            type: sequelize.INTEGER,
+            autoIncrement: true,
+            allowNull: false,
+            primaryKey: true,
+        },
+        name: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        password: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        access: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        timestamp: {
+            type: sequelize.DATE,
+            allowNull: false,
+        },
     },
-    name: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    password: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    access: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    timestamp: {
-        type: sequelize.DATE,
-        allowNull: false
-    }
-}, { underscored: true })
+    { underscored: true },
+);
 
-export default User
+export default User;

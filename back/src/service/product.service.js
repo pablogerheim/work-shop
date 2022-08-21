@@ -1,9 +1,9 @@
-import baseRepository from "../repository/private.repository.js"
+import baseRepository from '../repository/private.repository.js';
 
 async function getProduct() {
-    return await baseRepository.readFileFunction()
+    return await baseRepository.readFileFunction();
 }
 
 export default {
     getProduct,
-}
+};

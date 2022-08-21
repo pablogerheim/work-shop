@@ -1,10 +1,10 @@
-import hostInfoServise from "../service/hostInfo.service.js";
+import hostInfoServise from '../service/hostInfo.service.js';
 
 async function getProduct(req, res, next) {
     try {
-        const data = await hostInfoServise.getProduct(req.params.id)
+        const data = await hostInfoServise.getProduct(req.params.id);
         res.status(200).send(data);
-        logger.info(`GET /Products `);
+        logger.info('GET /Products ');
     } catch (err) {
         next(err);
     }
@@ -12,9 +12,9 @@ async function getProduct(req, res, next) {
 
 async function getAbout(req, res, next) {
     try {
-        const data = await hostInfoServise.getAbout()
+        const data = await hostInfoServise.getAbout();
         res.status(200).send(data);
-        logger.info(`GET /About US`);
+        logger.info('GET /About US');
     } catch (err) {
         next(err);
     }
@@ -22,9 +22,9 @@ async function getAbout(req, res, next) {
 
 async function getContact(req, res, next) {
     try {
-        const data = await hostInfoServise.getContact()
+        const data = await hostInfoServise.getContact();
         res.status(200).send(data);
-        logger.info(`GET /Contact`);
+        logger.info('GET /Contact');
     } catch (err) {
         next(err);
     }
@@ -33,5 +33,5 @@ async function getContact(req, res, next) {
 export default {
     getProduct,
     getAbout,
-    getContact
-}
+    getContact,
+};

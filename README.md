@@ -133,4 +133,6 @@ Back
 
 Geral
 * [Docker](https://www.docker.com/) - Software 
-* [GitHub](https://github.com/) - software
+* [GitHub](https://github.com/) - Software
+* [Prettier](https://prettier.io/) - Formatador
+* [ESLint](https://eslint.org/) - Formatador

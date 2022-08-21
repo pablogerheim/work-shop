@@ -1,37 +1,41 @@
-import connect from "../config/Postgreconnect.js";
-import sequelize from "sequelize";
+import sequelize from 'sequelize';
+import connect from '../config/Postgreconnect.js';
 
-const Product = connect.define('products', {
-    productId: {
-        type: sequelize.INTEGER,
-        autoIncrement: true,
-        allowNull: false,
-        primaryKey: true
+const Product = connect.define(
+    'products',
+    {
+        productId: {
+            type: sequelize.INTEGER,
+            autoIncrement: true,
+            allowNull: false,
+            primaryKey: true,
+        },
+        name: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        image: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        description: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        url: {
+            type: sequelize.STRING,
+            allowNull: false,
+        },
+        active: {
+            type: sequelize.BOOLEAN,
+            allowNull: false,
+        },
+        autoexplan: {
+            type: sequelize.BOOLEAN,
+            allowNull: false,
+        },
     },
-    name: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    image: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    description: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    url: {
-        type: sequelize.STRING,
-        allowNull: false
-    },
-    active: {
-        type: sequelize.BOOLEAN,
-        allowNull: false
-    },
-    autoexplan: {
-        type: sequelize.BOOLEAN,
-        allowNull: false
-    }
-}, { underscored: true })
+    { underscored: true },
+);
 
-export default Product
+export default Product;
