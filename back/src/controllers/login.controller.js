@@ -1,4 +1,4 @@
-import loginService from "../service/login.service.js";
+import loginService from '../service/login.service.js';
 
 // async function register(req, res, next) {
 //     try {
@@ -24,20 +24,26 @@ async function login(req, res, next) {
     try {
         const { name, password } = req.body;
         if (!name || !password) {
-            return res.status(422).json({ msg: "O Email e Password são obrigatórios!" });
+            return res
+                .status(422)
+                .json({ msg: 'O Email e Password são obrigatórios!' });
         }
 
         const user = await loginService.findUser(name);
-        const id = user.id
-        if (!user) { return res.status(404).json({ msg: "Usuário não encontrado!" }) }
+        const { id } = user;
+        if (!user) {
+            return res.status(404).json({ msg: 'Usuário não encontrado!' });
+        }
 
-        const checkPassword = loginService.compareUser(user, password)
+        const checkPassword = loginService.compareUser(user, password);
 
-        if (!checkPassword) { return res.status(422).json({ msg: "password inválida" }) }
+        if (!checkPassword) {
+            return res.status(422).json({ msg: 'password inválida' });
+        }
 
-        const token = await loginService.createToken(user)
-        let account = { id, name, token }
-        res.status(200).send({ id, name, token })
+        const token = await loginService.createToken(user);
+        const account = { id, name, token };
+        res.status(200).send({ id, name, token });
 
         logger.info(`POST /login ADM - ${JSON.stringify(account)}`);
     } catch (err) {
@@ -48,4 +54,4 @@ async function login(req, res, next) {
 export default {
     // register,
     login,
-}
+};

@@ -1,40 +1,42 @@
-import * as React from 'react'
-import { createContext, useContext, useState, useEffect } from 'react'
+import * as React from 'react';
+import {
+  createContext, useContext, useState, useEffect,
+} from 'react';
 
-const StoreContext = createContext([{}, () => { }])
+const StoreContext = createContext([{}, () => { }]);
 
 export const useStore = () => {
-    const [state, setState] = useContext(StoreContext)
-    return [state, setState]
-}
+  const [state, setState] = useContext(StoreContext);
+  return [state, setState];
+};
 
-export const StoreProvider = ({ children }) => {
-    const [state, setState] = useState({
-        rehydrated: false,
-    })
+export function StoreProvider({ children }) {
+  const [state, setState] = useState({
+    rehydrated: false,
+  });
 
-    const rehydrate = async () => {
-        const data = localStorage.getItem("userToken")
-        if (data) {
-            setState(prev => ({
-                ...prev,
-                ...(data && JSON.parse(data)),
-                rehydrated: true,
-            }))
-        }
+  const rehydrate = async () => {
+    const data = localStorage.getItem('userToken');
+    if (data) {
+      setState((prev) => ({
+        ...prev,
+        ...(data && JSON.parse(data)),
+        rehydrated: true,
+      }));
     }
+  };
 
-    useEffect(() => {
-        rehydrate()
-    }, [])
+  useEffect(() => {
+    rehydrate();
+  }, []);
 
-    useEffect(() => {
-        localStorage.setItem("userToken", JSON.stringify(state))
-    }, [state])
+  useEffect(() => {
+    localStorage.setItem('userToken', JSON.stringify(state));
+  }, [state]);
 
-    return (
-        <StoreContext.Provider value={[state, setState]} >
-            {children}
-        </StoreContext.Provider>
-        )
+  return (
+    <StoreContext.Provider value={[state, setState]}>
+      {children}
+    </StoreContext.Provider>
+  );
 }
