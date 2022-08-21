@@ -136,3 +136,4 @@ Geral
 * [GitHub](https://github.com/) - Software
 * [Prettier](https://prettier.io/) - Formatador
 * [ESLint](https://eslint.org/) - Formatador
+
