@@ -42,6 +42,8 @@ Terminal 2:
 
 ### 📋 Pré-requisitos
 
+Alem das variável de ambiente em .env 
+
 No caso do Docker - https://www.docker.com/
 
 No caso de clonar do Github - Node.js - https://nodejs.org/en/
