@@ -12,6 +12,10 @@ Area ADM:
 - CRUD completo para interagir com os produtos oferecidos, podendo deixá-los inativos ou sinalizar que a imagem contém um texto auto explicativo 
 - Controle da evolução da captação de e-mails podendo excluir ou inativar os emails cadastrados, também oferece paginação e campo de busca para encontrar emails de uma forma mais fácil e pratica
 
+![Ilustrando](https://user-images.githubusercontent.com/90703690/200438066-9a21824f-f9c4-498e-ae92-4ccff46d6434.png) ![Ilustrando](https://user-images.githubusercontent.com/90703690/200438273-c478356b-5057-4fd0-abc0-51ee28ccdb66.png)
+
+
+
 ## 🚧 Em Desenvolvimento
 
 Criação automática do banco de dados
